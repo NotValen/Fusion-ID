@@ -47,7 +47,7 @@ Basic Troubleshooting:
 - Terjemahan ini hanya tersedia di PC.
 
 T: Bagaimana cara menjalankan gamenya?
-A: Klik dua kali `Luncurkan Game.bat`.
+A: Klik dua kali `PlantsVsZombiesRH.exe`.
 
 T: Saya mendapatkan Kesalahan 0xc00000005.
 J: Sistem Anda 32-bit. Game ini hanya akan berjalan pada sistem 64-bit. (Fully Download VCRedist, if still presist. IDK)
