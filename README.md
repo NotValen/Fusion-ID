@@ -1,4 +1,4 @@
-
+```
     ____  __            __                       
    / __ \/ /___ _____  / /______   _   __   _____
   / /_/ / / __ `/ __ \/ __/ ___/  | | / /  / ___/
@@ -11,7 +11,7 @@
   / /_| (_) | | | | | | |_) | |  __/\__ \
  /_____\___/|_| |_| |_|_.__/|_|\___||___/  Fusion
                                            Diterjemahkan oleh: Valen & Angga
-
+```
 
 Terjemahan: nama tanaman, dan nama zombie tidak resmi. Hal ini tidak didukung oleh tim pengembang resmi dengan cara atau apa pun. Semua yang disajikan di sini, selain tanaman dan zombie yang berasal dari game aslinya, adalah buatan penggemar.
 
