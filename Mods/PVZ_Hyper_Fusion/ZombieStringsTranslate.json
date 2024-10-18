@@ -1,0 +1,298 @@
+{
+    "zombies": 
+    [
+        {
+            "theZombieType": 0,
+            "name": "<size=30>Zombie",
+            "introduce": "<size=24><color=#3D1400>Zombie hates how his name makes him seem like an ordinary, well, zombie. He doesn't think of himself as some unnamed enemy or just another common corpse. He's an individual, damn it! And he's going to do something extraordinary, even if it kills you.</color>",
+            "info": "<size=24>Regular Garden-variety zombie.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 2,
+            "name": "<size=30>Conehead Zombie",
+            "introduce": "<size=24><color=#3D1400>The Conehead Zombie has no clue what a traffic cone is. To it, it looks like an ice cream cone, and when it finds out it can't eat it, it just sticks it on its head.</color>",
+            "info": "<size=24>His traffic cone headpiece makes him twice as tough as normal zombies.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+370</color>"
+        },
+        {
+            "theZombieType": 3,
+            "name": "<size=30>Pole Vaulting Zombie",
+            "introduce": "<size=24><color=#3D1400>Once the best high jumper in his town, Pole Vaulting Zombie's career took a turn the day he forgot to set up the cushions behind the high jump stand.</color>",
+            "info": "<size=24>Pole Vaulting Zombie vaults with a pole.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Jumps over the first plant he runs into.</color>"
+        },
+        {
+            "theZombieType": 4,
+            "name": "<size=30>Buckethead Zombie",
+            "introduce": "<size=24><color=#3D1400>Once upon a time, Buckethead Zombie, who was merely a painter, was hailed as a genius among zombies for his creative use of a bucket. Years have passed, and now the zombies wonder if he still has some secret killer tricks up his sleeve. Is he running out of ideas, or is he hiding something? Who knows?</color>",
+            "info": "<size=24>His bucket hat makes him extremely resistant to damage.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1100</color>"
+        },
+        {
+            "theZombieType": 5,
+            "name": "<size=30>Newspaper Zombie",
+            "introduce": "<size=24><color=#3D1400>\u0022You can't fault him for being frustrated; he was just about to finish the crossword puzzle (vertical word number 23 is 'Brains'), which explains why he was holding the paper upside down.\u0022</color>",
+            "info": "<size=24>His newspaper provides limited defense.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+200</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Travels normally at first, but speeds up after losing his newspaper.</color>"
+        },
+        {
+            "theZombieType": 6,
+            "name": "<size=30>Dancing Zombie",
+            "introduce": "<size=24><color=#3D1400>Dancing Zombie's athletic skills are average by zombie standards. On the advice of the Backup Dancers, he decided to pursue the idol path. Now, his pop song \u0022Just Brains,\u0022 a collaboration with Michael Jackson, is becoming a hit.</color>",
+            "info": "<size=24>After vaulting over, summons his backup dancers.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Summons 4 Backup Dancers.</color>"
+        },
+        {
+            "theZombieType": 7,
+            "name": "<size=30>Backup Dancer",
+            "introduce": "<size=24><color=#3D1400>The four brothers, once troubled orphans, developed twisted personalities and bullied others at the Zombie Academy. One day, they saw Dancing Zombie performing joyfully on stage, and it changed them. From that moment, they joined him in performing on stage together.</color>",
+            "info": "<size=24>Climb over a plant.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 8,
+            "name": "<size=30>Screen Door Zombie",
+            "introduce": "<size=24><color=#3D1400>Screen Door Zombie, once an FBI task force member with a bad temper but a righteous heart, never negotiated with robbers—he'd just break down doors to save hostages. After becoming a zombie, his kind heart stayed the same. When he saw zombies kidnapping a little ghost zombie, he tried to break in, but they coated the door with glue, trapping his hand.</color>",
+            "info": "<size=24>Can block bullets coming from the front.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1100</color>"
+        },         
+        {
+            "theZombieType": 9,
+            "name": "<size=30>Football Zombie",
+            "introduce": "<size=24><color=#3D1400>Football Zombie is a sports star among zombies, admired by many for his heroic presence on the field. Many companies want to hire him, but his salary demands are steep—an annual pay of 10,000 brains.</color>",
+            "info": "<size=24>Runs super fast.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1400</color>"
+        },
+        {
+            "theZombieType": 10,
+            "name": "<size=30>Michael Zombie",
+            "introduce": "<size=24><color=#3D1400>Black suit, black hat—he's not here for a funeral. He's just a dancer, and you can call him Michael Zombie.</color>",
+            "info": "<size=24>Leads the charge with his ultimate dance moves.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Summons 4 Dancing Zombies at a time.</color>"
+        },
+        {
+            "theZombieType": 11,
+            "name": "Duck Zombie NOT IN GAME",
+            "introduce": "<size=24><color=#3D1400>只有特定的僵尸才能成为鸭子救生圈僵尸，不是每只僵尸都能胜任。有些救生圈有点漏气，他们却处理不了，脱身后永远放弃了对脑子的渴求。</color>",
+            "info": "<size=24>可以在水里移动。\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 12,
+            "name": "Coneduck Zombie NOT IN GAME",
+            "introduce": "<size=24><color=#3D1400>都说差生文具多，但是路障鸭子并不这么认为，毕竟他不想承认他是个差生。</color>",
+            "info": "<size=24>可以在水里移动。\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 13,
+            "name": "Bucketduck Zombie NOT IN GAME",
+            "introduce": "<size=24><color=#3D1400>铁桶鸭子本不想带上那个漏气的游泳圈的，但是没办法，谁叫他戴着那个容易生锈的铁桶呢。</color>",
+            "info": "<size=24>可以在水里移动。\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 14,
+            "name": "<size=30>Zombarine",
+            "introduce": "<size=24><color=#3D1400>The formidable Zombarine, designed based on bionic principles, is both majestic and intimidating—a coveted war weapon for zombies. \u0022Now we just need to tackle the issue of seaweed getting tangled in the propeller,\u0022 said Dr. Edgar.</color>",
+            "info": "<size=24>The zombies' premier vehicle against water plants.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>1350</color>"
+        },
+        {
+            "theZombieType": 15,
+            "name": "<size=30>Scholar Zombie",
+            "introduce": "<size=24><color=#3D1400>As a leading authority in the academic realm, Scholar Zombie is frequently seen in the library. His passion for reading runs deep, and disturbing him while he reads can spark his fury. This old gentleman will make sure you understand the true meaning of \u0022knowledge is power.\u0022</color>",
+            "info": "<size=24>Deals huge damage alongside his sturdy books.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>400</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>720+1100</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Short-term invincibility and increased movement speed after the book is broken.</color>"
+        },
+        {
+            "theZombieType": 16,
+            "name": "<size=30>Zomboni",
+            "introduce": "<size=24><color=#3D1400>The zombie driving is an excellent driver, especially considering that few zombies can navigate from the ice rink to the grass field. Now, he must go pay the fine. The ice machine he operates isn't a Zamboni; it's a Zomboni produced by Company B.</color>",
+            "info": "<size=24>The Zomboni applies ice, steam and pressure to your plants.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>1350</color>"
+        },
+        {
+            "theZombieType": 17,
+            "name": "<size=30>Snorkel Zombie",
+            "introduce": "<size=24><color=#3D1400>Snorkel Zombie may have a broken mask, but that doesn't hinder his ability to dive and float in the water. His so-called \u0022sinking\u0022 isn't due to his diving skills; he simply doesn't require air to breathe.</color>",
+            "info": "<size=24>Snorkel Zombie can swim underwater.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Submerges to avoid projectile attacks.</color>"
+        },
+        {
+            "theZombieType": 18,
+            "name": "<size=30>Bobsled Zombie",
+            "introduce": "<size=24><color=#3D1400>This car, designed by ski enthusiasts, drives smoothly on snow and ice, even achieving higher speeds than on grass. Unfortunately, it has a flaw: it can only be started on icy surfaces.</color>",
+            "info": "<size=24>Only appears when there's ice on the field.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>2700</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Moves very fast when on top of ice.</color>"
+        },
+        {
+            "theZombieType": 19,
+            "name": "<size=30>Dolphin Rider Zombie",
+            "introduce": "<size=24><color=#3D1400>Dolphin Rider Zombie is a part-time performer and dolphin keeper at an aquarium. The dolphin he rides is a zombie, but unlike typical zombies, this \u0022zombie dolphin\u0022 has no desire for brains.</color>",
+            "info": "<size=24>Dolphin Rider Zombies use dolphins to bypass your defense.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Jumps over the first plant he runs into.</color>"
+        },
+        {
+            "theZombieType": 20,
+            "name": "<size=30>Trident Zombie",
+            "introduce": "<size=24><color=#3D1400>Trident Zombie was originally just a regular javelin thrower who became a fisherman after retiring. However, when he went to the river to fish, he sank because he couldn't swim. When he came ashore, he realized he had become what he is now.</color>",
+            "info": "<size=24>Throws a trident to attack your plants.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Throws a trident, causing damage to plants equal to 20% (minimum of 20) of their current toughness.</color>\n<color=#3D1400>Search Range: </color><color=#4B0082>3.5 Tiles in Front</color>"
+        },
+        {
+            "theZombieType": 21,
+            "name": "<size=30>Diamond-box Zombie",
+            "introduce": "<size=24><color=#3D1400>Tonight, Diamond-box Zombies will unveil their dazzling silver world. Their eyes shine like the brightest stars in the night sky, and the golden light appears to flow like a river through time, illuminating the uncertain path ahead. Each time the lid of the box is gently opened, it feels like unlocking a mysterious door to another realm.</color>",
+            "info": "<size=24>Is this.. a Conehead Zombie? \n\n<color=#3D1400>Toughness: </color><color=#4B0082>4400</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Turns into a Gold-box Zombie upon dying.</color>"
+        },
+        {
+            "theZombieType": 22,
+            "name": "<size=30>Gold-box Zombie",
+            "introduce": "<size=24><color=#3D1400>\u0022Underneath the golden box, other boxes in different colors await. Can you guess what the box inside is made from?\u0022</color>",
+            "info": "<size=24>Is this.. a Conehead Zombie? \n\n<color=#3D1400>Toughness: </color><color=#4B0082>2200</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Turns into a Silver-box Zombie upon dying.</color>"
+        },
+        {
+            "theZombieType": 23,
+            "name": "<size=30>Silver-box Zombie",
+            "introduce": "<size=24><color=#3D1400>Silver-box Zombie thinks of the box on his head as a pot, so it must be one. Given his mindset, why don't you grasp his perspective? And you do see the exclamation mark on his box, right?</color>",
+            "info": "<size=24>Is this.. a Conehead Zombie? \n\n<color=#3D1400>Toughness: </color><color=#4B0082>1100</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Turns into a Conehead Zombie upon dying.</color>"
+        },
+        {
+            "theZombieType": 24,
+            "name": "<size=26>Jack-in-the-Box Zombie",
+            "introduce": "<size=24><color=#3D1400>Although Jack-in-the-Box Zombie is a mental patient, the circus welcomed his application. Be wary of what's in his toy box; it's sure to scare you.</color>",
+            "info": "<size=24>This zombie carries an explosive surprise.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Will sometimes explode and insta-kill surrounding plants.</color>"
+        },
+        {
+            "theZombieType": 25,
+            "name": "<size=30>Balloon Zombie",
+            "introduce": "<size=24><color=#3D1400>Balloon Zombie, one of the Zomppelin creators, frequently gets asked why he's tied balloons to himself. His usual reply is, \u0022That was my concAyuon.\u0022 However, the truth is that the balloons simply got tangled by chance.</color>",
+            "info": "<size=24>Balloon Zombie floats above the fray, immune to most attacks.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+20</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Cannot be damaged by most plants while flying.</color>"
+        },
+        {
+            "theZombieType": 26,
+            "name": "<size=30>Zomppelin",
+            "introduce": "<size=24><color=#3D1400>The Zomppelin, Dr. Edgar's latest creation, is quickly becoming the zombies' trusted ally. Speculation abounds about who will pilot this powerful weapon—perhaps the imp or even the airship itself? \u0022It’s just a balloon,\u0022 Dr. Edgar remarked. \u0022Zombies need to keep up with the times. I’m even considering turning it into a drone to avoid embarrassment when defeated by plants.\u0022</color>",
+            "info": "<size=24>Will drop deadly bombs as it flies over your plants.\n\n<color=#3D1400>Bomb Kerusakan: </color><color=#4B0082>1000</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>1350</color>"
+        },
+        {
+            "theZombieType": 27,
+            "name": "<size=30>Whale Rider Yeti",
+            "introduce": "<size=24><color=#3D1400>The white whale that Yeti Zombie rides has impressive jumping skills. Dolphin Rider Zombie is quite envious and has always wanted to borrow it for a ride, but Yeti Zombie refuses each time. \u0022Yeti Zombie has no control over his white whale,\u0022 Dr. Edgar said. \u0022He always wants to hide behind me, but the white whale ends up going the other way.\u0022</color>",
+            "info": "<size=24>Jumps forward three tiles and turns back, attacking your plants from behind.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Cannot be blocked by Bapak Ikhsans.</color>"
+        },
+        {
+            "theZombieType": 28,
+            "name": "<size=30>Digger Zombie",
+            "introduce": "<size=24><color=#3D1400>A long time ago, Digger Zombies despised Fitris for constantly confiscating their tools. Now, they hate Bung Penambangs even more. \u0022My head keeps getting hit, which makes me feel even worse,\u0022 he laments.</color>",
+            "info": "<size=24>This zombie digs to bypass your defenses.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Tunnels underground and appears on the left side of the lawn. Vulnerable to Fitris.</color>"
+        },
+        {
+            "theZombieType": 29,
+            "name": "<size=28>Bucket-copter Zombie",
+            "introduce": "<size=24><color=#3D1400>\u0022Friends, did you know about the Berlin airship? It inspired my design…\u0022 All the zombies want to hide from Bucket-copter Zombie, not only because he talks too much about the airship, but also because the noise from his balloon's propeller is unbearable.</color>",
+            "info": "<size=24>Bucket-copter Zombie is not afraid of Tiara!\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+2200+500</color>\n<color=#3D1400>Traits: </color><color=#4B0082>The propeller on the top can offset Tiara's winds.</color>"
+        },
+        {
+            "theZombieType": 30,
+            "name": "<size=20>King Clown-in-the-Box Zombie",
+            "introduce": "<size=24><color=#3D1400>For every clown zombie, self-destruction is the highest form of art, and King Clown excels above all. \u0022King Clown will never take off his mask or let go of the gift box in his hand!\u0022</color>",
+            "info": "<size=24>King Clown may also explode after his death!\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720+370</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Becomes violent after exploding, doubling his speed. Also has a chance to self-destruct and transform into a Jack-in-the-Box Zombie. The faster it explodes, the higher chance it dies.</color>"
+        },
+        {
+            "theZombieType": 100,
+            "name": "<size=30>Kipli Zombie",
+            "introduce": "<size=24><color=#3D1400>The ability of Kipli Zombie to engage from a distance often frightens the plants. However, the real panic lies with the zombies, who fear that those fighting in front of him will be targeted from behind.</color>",
+            "info": "<size=24>Shoots peas to attack your plants.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>20</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 101,
+            "name": "<size=29>Kipli Ceri Zombie",
+            "introduce": "<size=24><color=#3D1400>Kipli Ceri Zombie is a 17-year-old high school student with a plant head growing from his neck. His favorite fruit is cherries, and due to his papal family background, the zombies affectionately refer to him as the \u0022Leaf King.\u0022</color>",
+            "info": "<size=24>Shoots cherry bullets to attack your plants.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>60</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>500</color>"
+        },
+        {
+            "theZombieType": 102,
+            "name": "<size=27>Kipli Meledak Zombie",
+            "introduce": "<size=24><color=#3D1400>Kipli Meledak Zombie loves listening to \u0022Bisma\u0022 by The Runaways, which might explain his fiery passion. However, no one knows how he learned to ignite fireworks with his mouth.</color>",
+            "info": "<size=24>Shoots explosive cherries to attack your plants.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>1000</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>500</color>"
+        },
+        {
+            "theZombieType": 103,
+            "name": "<size=30>Ikhsan Zombie",
+            "introduce": "<size=24><color=#3D1400>Following an assault by the plants, Ikhsan Zombie displayed bite marks on his head instead of bullet holes. When interviewed, he said, \u0022Perhaps my comrades were simply hungry.\u0022</color>",
+            "info": "<size=24>It's a moving nut.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1100</color>"
+        },
+        {
+            "theZombieType": 104,
+            "name": "<size=20>Kipli Ceri Newspaper Zombie",
+            "introduce": "<size=24><color=#3D1400>This zombie's favorite fruit is cherries, and even his newspaper is cherry-flavored. The newspaper he holds is the only thing that can temper his rage.</color>",
+            "info": "<size=24>Goes into an explosive cherry barrage when his newspaper is broken.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>1500+720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Becomes temporarily invincible after its newspaper's broken, then proceeds to shoot explosive cherries every 0.75 seconds after the newspaper's broken.</color>\n<color=#3D1400>Explosion Range: </color><color=#4B0082>Cross Splash, can be absorbed by nuts.</color>"
+        },
+        {
+            "theZombieType": 105,
+            "name": "<size=30>Mystery-box Zombie",
+            "introduce": "<size=24><color=#3D1400>？？？</color>",
+            "info": "<size=24>No one knows what's hiding inside the box.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+370</color>\n<color=#3D1400>Traits: </color><color=#4B0082>After the box falls off, spawns a random zombie with 20%/40%/60%/80%/100% of the original zombie's Toughness.</color>"
+        },
+        {
+            "theZombieType": 106,
+            "name": "<size=30>Bucket-nut Zombie",
+            "introduce": "<size=24><color=#3D1400>Why is Bucket-nut Zombie's head made of iron? It's because everyone said that eating walnuts nourishes the brain, but he didn't realize that the walnuts he consumed were packed with too much iron. However, it might not be so bad—at least now he has developed an iron head.</color>",
+            "info": "<size=24>It's a moving bucket-nut.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+2200</color>\n<color=#3D1400>Traits: </color><color=#4B0082>An Iron will drop when killed by bullets.</color>"
+        },
+        {
+            "theZombieType": 107,
+            "name": "<size=30>Ikhsan Ceri Zombie",
+            "introduce": "<size=24><color=#3D1400>Real men never turn around to watch explosions, and Ikhsan Ceri Zombie certainly fits the bill, as he often catches bombs with his face.</color>",
+            "info": "<size=24>Has a slight resistance against explosive bullets.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1100</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Takes 150 maximum damage from explosions.</color>"
+        },
+        {
+            "theZombieType": 108,
+            "name": "<size=30>Kipli Besi Zombie",
+            "introduce": "<size=24><color=#3D1400>Last year, Kipli Besi Zombie drew a tarot card that read \u0022The Emperor.\u0022 Since then, he has been able to shoot iron bullets at will.</color>",
+            "info": "<size=24>Fires high-damaging bullets.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>80</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1350</color>\n<color=#3D1400>Traits: </color><color=#4B0082>An Iron will drop when killed by bullets.</color>"
+        },
+        {
+            "theZombieType": 109,
+            "name": "<size=30>Ikhsan Futbol Zombie",
+            "introduce": "<size=24><color=#3D1400>Ikhsan Futbol Zombie was once just an ordinary Football Zombie, until one day he collided with a nut that was spreading fertilizer. \u0022I don't know how this guy ended up on my head; it's suffocating me!\u0022 lamented Ikhsan Futbol Zombie.</color>",
+            "info": "<size=24>High-armor zombie that can also run very fast.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+4400</color>\n<color=#3D1400>Traits: </color><color=#4B0082>A Rugby Helmet will drop when killed by bullets.</color>"
+        },
+        {
+            "theZombieType": 110,
+            "name": "<size=22>Golden Mystery-box Zombie",
+            "introduce": "<size=24><color=#3D1400>？？！</color>",
+            "info": "<size=24>A golden one!? I wonder what's inside this Mystery-box...\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>After the box falls off, spawns a random zombie with full Toughness.</color>"
+        },
+        {
+            "theZombieType": 111,
+            "name": "<size=30>Bapak Ikhsan Dingin Zombie",
+            "introduce": "<size=24><color=#3D1400>Bapak Ikhsan Dingin Zombie's head has sparked numerous opinions in the zombie world. Some say he aims to distance himself from the cold world, while others suspect it relates to Dr. Edgar's wild experiments. Yet, only he knows that this headgear appeared after he ate a specific blue mushroom.</color>",
+            "info": "<size=24>A sturdy zombie that can also nullify damage from ice projectiles.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+2200</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Immunity to frozen or ice projectiles.</color>"
+        },
+        {
+            "theZombieType": 200,
+            "name": "<size=30>Sharkmarine",
+            "introduce": "<size=24><color=#3D1400>\u0022An excellent diver should not only be able to dive but also drive a super submarine!\u0022 declared Sharkmarine Zombie as he increased the submarine's horsepower by one gear.</color>",
+            "info": "<size=24>I heard that this zombie is related to a certain robot fish.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>3000</color>"
+        },
+        {
+            "theZombieType": 201,
+            "name": "<size=30>Michael Zomboni",
+            "introduce": "<size=24><color=#3D1400>Michael Zomboni is not just one zombie; it's a team effort. Zomboni sets up the venue, Bobsled Zombie provides the visual effects, and Michael Zombie... was compelled to leave the car because it didn't have a driver's license to greet its passionate plant fans, but the peas seemed a little too excited.</color>",
+            "info": "<size=24>Extremely high defense and immunity to slow.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>3000</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Upon death, automatically spawns a Michael Zombie, Zomboni, and Bobsled Zombie. Also innately has a 75% fixed damage reduction.%</color>"
+        },
+        {
+            "theZombieType": 202,
+            "name": "<size=30>Giga-trident Zombie",
+            "introduce": "<size=24><color=#3D1400>\u0022Giga-trident Zombie is a skilled fisherman known for his exceptional accuracy with the four tridents he throws, earning him the title of the king of fishermen.\u0022 \u0022In fact, I used to be a part-time javelin thrower...\u0022 Giga-trident Zombie admitted.</color>",
+            "info": "<size=24>Throws a large number of tridents at your plants at once.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+7500</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Throws 4 tridents, each causing damage to plants equal to 20% (minimum of 20) of their current toughness.</color>"
+        },
+        {
+            "theZombieType": 203,
+            "name": "<size=20>Tentara Kipli Ceri Newspaper Zombie",
+            "introduce": "<size=24><color=#3D1400>\u0022I'm getting old...\u0022 Tentara Kipli Ceri Newspaper Zombie lamented while walking through the street. Despite containing his pressure, it was enough to keep both plants and zombies down. \u0022Only that guy can still inspire me to fight...\u0022 he muttered as he put away the newspaper and ambled on.</color>",
+            "info": "<size=24>Deals immense damage.\n\n<color=#3D1400>Kerusakan:</color><color=#4B0082>400 → 1000 (Enraged)</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>1500+1500</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Becomes temporarily invincible after its newspaper's broken, proceeding to shoot explosive cherries every 0.125 seconds.</color>"
+        },
+        {
+            "theZombieType": 204,
+            "name": "<size=28>GigaIkhsan Futbol Zombie",
+            "introduce": "<size=24><color=#3D1400>Stepping out of the shadows, the GigaIkhsan Futbol Zombie radiates power, coldness, and a sinister vibe. He adamantly keeps the secret of his strength to himself, asserting that only the darkest darkness can create a being as formidable as he. \u0022Where is my paint?\u0022 Dr. Edgar asked, looking perplexed in his laboratory.</color>",
+            "info": "<size=24>An old friend? Maybe, perhaps we have met him before.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>100</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>3000+12000</color>"
+        },
+        {
+            "theZombieType": 205,
+            "name": "<size=30>Kirov Zompplin",
+            "introduce": "<size=24><color=#3D1400>Was that a huge flying object? No, it was actually a gigantic airship, featuring a sturdy shell and the ability to release a squadron of fighters. Even when destroyed, the airship could still wreak havoc on surrounding creatures, causing other zombies to keep their distance, fearing that a crash might send them to their demise.</color>",
+            "info": "<size=24>Kirov Reporting!\n\n<color=#3D1400>Toughness: </color><color=#4B0082>3000</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Summons a mini Kirov into action every second. Crashlands upon death, dealing immense damage to plants on impact.</color>"
+        },
+        {
+            "theZombieType": 206,
+            "name": "<size=30>Kirov Drone",
+            "introduce": "<size=24><color=#3D1400>This is no ordinary aircraft; it is a special plane that has been compressed through water pressure. While the exact method of compression remains a mystery, its battlefield strength rivals that of conventional bombers.</color>",
+            "info": "<size=24>Kirov drones fly faster, releasing bombs over the plants they fly over.\n\n<color=#3D1400>Bomb Kerusakan: </color><color=#4B0082>1000</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>200</color>"
+        }
+]}      
