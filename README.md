@@ -37,6 +37,10 @@ NaKune → Membuat plugin yang memungkinkan terjemahan. MAKASIH BANG ARIF!
 
 Lokasi Save an | C:\Users\[Your Username]\AppData\LocalLow\LanPiaoPiao\PlantsVsZombiesRH
 
+Cara Instalasi :
+
+- Taruh semua file di atas ke Folder Game Kamu
+
 Basic Troubleshooting:
 
 - Game ini tidak akan berjalan pada sistem 32-bit.
