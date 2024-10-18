@@ -1,4 +1,4 @@
-﻿# XUnity Auto Translator
+# XUnity Auto Translator
 
 ## Index
  * [Introduction](#introduction)
