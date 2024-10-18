@@ -8,3 +8,4 @@ dobby.dll
 compile_time.txt
 baselib.dll
 PlantsVsZombiesRH_Data/*
+*.log
