@@ -1,0 +1,1111 @@
+{
+  "plants": [
+    {
+      "seedType": 0,
+      "name": "Kipli",
+      "introduce": "<size=24><color=#3D1400>一Bagaimana sebuah tanaman dapat tumbuh dan mengeluarkan begitu banyak kacang dengan cepat? Kipli berkata, \u0022Kerja keras, komitmen, dan sarapan sehat yang seimbang dari sinar matahari dan karbon dioksida berserat tinggi membuat semua ini mungkin.\u0022</color></size>",
+      "info": "<size=24>Kiplis adalah garis pertahanan pertama Anda. Mereka menembakkan kacang ke zombie yang menyerang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
+      "cost": "<size=24>Harga: <color=red>100</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 1,
+      "name": "Dewi",
+      "introduce": "<size=24><color=#3D1400>Dewi tidak bisa menahan diri untuk melompat mengikuti irama. Irama apa itu? Tentu saja, irama jazzy yang memberikan kehidupan dari Bumi itu sendiri, berdetak pada frekuensi yang hanya bisa didengar oleh Dewi.</color></size>",
+      "info": "<size=24>Dewis sangat penting bagi Anda untuk menghasilkan sinar matahari tambahan. Cobalah untuk menanam sebanyak mungkin!\n\n<color=#3D1400>Produksi Sinar Matahari: </color><color=red>25/25 Detik</color></size>",
+      "cost": "<size=24>Harga: <color=red>50</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 2,
+      "name": "Bisma",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku ingin meledak,\u0022 kata Cherry #1. \u0022Tidak, mari kita detonasikan saja!\u0022 kata saudaranya, Cherry #2. Setelah konsultasi intens, mereka sepakat untuk meledonasikan.</color></size>",
+      "info": "<size=24>Bismas dapat meledakkan semua zombie di area. Mereka memiliki sumbu yang pendek, jadi tanam mereka dekat zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color></size>",
+      "cost": "<size=24>Harga: <color=red>150</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+        "seedType": 3,
+        "name": "Ikhsan",
+        "introduce": "<size=24><color=#3D1400>\u0022Orang-orang bertanya-tanya bagaimana perasaanku tentang terus menerus dikunyah oleh zombie,\u0022 kata Ikhsan. \u0022Apa yang mereka tidak sadari adalah bahwa dengan indra yang terbatas, yang bisa aku rasakan hanyalah semacam kesemutan, seperti pijatan punggung yang menenangkan.\u0022</color></size>",
+        "info": "<size=24>Ikhsans memiliki cangkang keras yang dapat kamu gunakan untuk melindungi tanamanmu yang lain.\n\n<color=#3D1400>Kekuatan: </color><color=red>4000</color></size>",
+        "cost": "<size=24>Harga: <color=red>50</color>\nIsi Ulang: <color=red>30 Detik</color></size>"
+      },
+      {
+        "seedType": 4,
+        "name": "Riski",
+        "introduce": "<size=24><color=#3D1400>Beberapa orang mengatakan Riski malas, bahwa dia meninggalkan segalanya sampai menit terakhir. Riski tidak berkata apa-apa. Dia terlalu sibuk memikirkan strategi investasinya.</color></size>",
+        "info": "<size=24>Riskis memiliki kekuatan serangan yang besar, tetapi mereka membutuhkan waktu untuk mempersiapkan diri. Sebaiknya tanam mereka sebelum zombie datang. Mereka akan meledak saat bersentuhan.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color></size>",
+        "cost": "<size=24>Harga: <color=red>25</color>\nIsi Ulang: <color=red>30 Detik</color></size>"
+      },
+      {
+        "seedType": 5,
+        "name": "Dimas",
+        "introduce": "<size=24><color=#3D1400>Dimas hampir mendapatkan pekerjaan melakukan aksi untuk The Little Shop of Horrors, tetapi itu gagal karena agennya meminta terlalu banyak di muka. Dimas tidak merasa kecewa, meskipun. Dia bilang itu hanya bagian dari bisnis.</color></size>",
+        "info": "<size=24>Dimass dapat melahap zombie secara utuh, tetapi mereka rentan saat mengunyah.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuhan Instan</color></size>",
+        "cost": "<size=24>Harga: <color=red>150</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+      },
+      {
+        "seedType": 6,
+        "name": "Ucup",
+        "introduce": "<size=24><color=#3D1400>\u0022Aku baru-baru ini menyadari adanya zombie,\u0022 kata Ucup. \u0022Seperti banyak jamur, aku hanya menganggap mereka adalah dongeng atau monster film. Seluruh pengalaman ini telah menjadi pencerahan besar bagiku.\u0022</color></size>",
+        "info": "<size=24>Ucups murah, tetapi hanya bisa menembak jarak pendek.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat ditumpuk hingga tiga kali.</color></size>",
+        "cost": "<size=24>Harga: <color=red>0</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+      },
+    {
+      "seedType": 7,
+      "name": "Yusuf",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku terjebak dalam pekerjaan yang tidak ada harapan memproduksi spora ragi untuk sebuah toko roti,\u0022 kata Yusuf. \u0022Kemudian Ucup, semoga dia diberkati, memberitahuku tentang kesempatan hebat meledakkan zombie. Sekarang aku benar-benar merasa membuat perbedaan.\u0022</color></size>",
+      "info": "<size=24>Yusufs menembakkan asap yang dapat melewati pintu layar.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat menembus.</color></size>",
+      "cost": "<size=24>Harga: <color=red>75</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+        },
+    {
+      "seedType": 8,
+      "name": "Hani",
+      "introduce": "<size=24><color=#3D1400>\u0022Zombie adalah teman kita,\u0022 tegas Hani. \u0022Mereka adalah makhluk yang sangat disalahpahami dan memainkan peran berharga dalam ekologi kita. Kita bisa dan seharusnya melakukan lebih banyak untuk membawa mereka ke cara berpikir kita.\u0022</color></size>",
+      "info": "<size=24>Ketika dimakan, Hanis akan membuat zombie berbalik dan bertarung untukmu.\n\n<color=#3D1400>Khusus: </color><color=red>Membuat satu zombie bertarung untukmu.</color></size>",
+      "cost": "<size=24>Harga: <color=red>75</color>\nIsi Ulang: <color=red>30 Detik</color></size>"
+        },
+    {
+      "seedType": 9,
+      "name": "Saripudin",
+      "introduce": "<size=24><color=#3D1400>\u0022Siapa di sana?\u0022 bisik Saripudin, suaranya hampir tidak terdengar. \u0022Pergi saja. Aku tidak ingin melihat siapa pun. Kecuali itu orang dari sirkus.\u0022</color></size>",
+      "info": "<size=24>Saripudins adalah penembak jarak jauh yang bersembunyi saat musuh mendekat.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
+      "cost": "<size=24>Harga: <color=red>25</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+        },
+    {
+      "seedType": 10,
+      "name": "Isda",
+      "introduce": "<size=24><color=#3D1400>Isda cemberut, bukan karena dia tidak bahagia atau tidak setuju, tetapi karena cedera masa kecil yang membuat saraf wajahnya lumpuh.</color></size>",
+      "info": "<size=24>Isdas sementara akan melumpuhkan semua zombie di layar.\n\n<color=#3D1400>Kerusakan: </color><color=red>20</color>\n<color=#3D1400>Khusus: </color><color=red>Membekukan semua zombie di tempat.</color></size>",
+      "cost": "<size=24>Harga: <color=red>75</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
+        },
+    {
+      "seedType": 11,
+      "name": "Dedi",
+      "introduce": "<size=24><color=#3D1400>\u0022Kau beruntung aku ada di pihakmu,\u0022 kata Dedi. \u0022Aku bisa menghancurkan segalanya yang kau cintai. Itu tidak akan sulit.\u0022</color></size>",
+      "info": "<size=24>Dedis menghancurkan segalanya di area besar dan meninggalkan kawah yang tidak dapat ditanami.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color>\n<color=#3D1400>Khusus: </color><color=red>Meninggalkan kawah.</color></size>",
+      "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>50 Detik</color></size>"    },
+    {
+      "seedType": 12,
+      "name": "Ayu",
+      "introduce": "<size=24><color=#3D1400>Ayu tidak pernah mengeluh. Ayu tidak ingin tahu apa yang sedang terjadi. Taruh tanaman di atas Ayu, dia tidak akan berkata apa-apa. Apakah dia memiliki pendapat yang mengejutkan atau rahasia yang mengejutkan? Tidak ada yang tahu. Ayu menyimpan semuanya di dalam.</color></size>",
+      "info": "<size=24>Ayus membiarkanmu menanam tanaman non-aquatik di atasnya.\n\n<color=#3D1400>Khusus: </color><color=red>Tanaman non-aquatik dapat ditanam di atasnya. Mengubah penampilan, tetapi tidak memberikan atribut tambahan.</color></size>",
+      "cost": "<size=24>Harga: <color=red>25</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+  },
+  {
+      "seedType": 13,
+      "name": "Fajar",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku siap!\u0022 teriak Fajar. \u0022Ayo lakukan! Masukkan aku! Tidak ada yang lebih baik! Aku orangmu! Ayo! Apa yang kau tunggu? Aku butuh ini!\u0022</color></size>",
+      "info": "<size=24>Fajar Dapat Membunuh Kumis Dengan Cepat.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color></size>",
+      "cost": "<size=24>Harga: <color=red>50</color>\nIsi Ulang: <color=red>30 Detik</color></size>"
+  },
+  {
+      "seedType": 14,
+      "name": "Kipli Bersaudara",
+      "introduce": "<size=24><color=#3D1400>Kipli Bersaudara suka membaca, bermain backgammon, dan berlama-lama tidak bergerak di taman. Kipli Bersaudara menikmati pergi ke pertunjukan, terutama jazz modern. \u0022Aku hanya mencari seseorang yang istimewa,\u0022 katanya. Nomor favorit Kipli Bersaudara adalah 5.</color></size>",
+      "info": "<size=24>Kipli Bersaudaras menembakkan kacang di tiga jalur.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Detik</color></size>",
+      "cost": "<size=24>Harga: <color=red>275</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+  },
+  {
+      "seedType": 15,
+      "name": "Tarno",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku benar-benar tidak terlihat,\u0022 pikir Tarno dalam hati. \u0022Aku akan bersembunyi di sini tepat di bawah permukaan, dan tidak ada yang akan melihatku.\u0022 Teman-temannya memberitahunya bahwa mereka bisa melihatnya dengan jelas, tetapi dia tidak akan pernah berubah.</color></size>",
+      "info": "<size=24>Tarno adalah tanaman akuatik yang menarik zombie pertama yang mendekat ke bawah air.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuhan Instan</color></size>",
+      "cost": "<size=24>Harga: <color=red>25</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 16,
+      "name": "Sugeng",
+      "introduce": "<size=24><color=#3D1400>\u0022NNNNNGGGGG....\u0022 kata Sugeng. Dia tidak akan meledak, tidak kali ini. Tapi segera. Oh, sangat segera. Itu dekat. Dia tahu itu; dia bisa merasakannya; seluruh hidupnya telah mengarah pada momen ini.</color></size>",
+      "info": "<size=24>Sugengs menghancurkan seluruh baris zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color></size>",
+      "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
+    },
+    {
+      "seedType": 17,
+      "name": "Agus",
+      "introduce": "<size=24><color=#3D1400>Hockey is Agus's obsession. He's got box seat season tickets. He keeps close track of his favorite players. And he consistently cleans up in the office hockey pool. Just one problem: he's terrified of pucks.</color></size>",
+      "info": "<size=24>Aguss pop tires and hurt any zombies that step on them\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1 Detik</color>\n<color=#3D1400>Special: </color><color=red>Instakill Vehicle Zombies</color></size>",
+      "cost": "<size=24>Harga: <color=red>100</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 18,
+      "name": "Jarwo",
+      "introduce": "<size=24><color=#3D1400>Semua orang suka dan menghormati Jarwo. Mereka menyukainya karena integritasnya, persahabatannya yang setia, dan kemampuannya untuk sangat memaksimalkan kerusakan kacang. Tapi Jarwo punya rahasia: Dia tidak bisa membaca.</color></size>",
+      "info": "<size=24>Jarwos mengubah kacang yang melewatinya menjadi bola api yang memberikan kerusakan dua kali lipat.\n\n<color=#3D1400>Khusus: </color><color=red>Menyulut kacang yang melewatinya, meningkatkan kerusakan mereka.</color></size>",
+      "cost": "<size=24>Harga: <color=red>175</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+  },
+  {
+      "seedType": 19,
+      "name": "Denis",
+      "introduce": "<size=24><color=#3D1400>Denis belum pernah melihat laut. Namanya memang berhubungan dengan laut, dia sering mendengarnya, tetapi dia belum pernah menemukan waktunya. Suatu hari, pasti akan terjadi.</color></size>",
+      "info": "<size=24>Deniss adalah tanaman air yang menembakkan spora jarak pendek.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
+      "cost": "<size=24>Harga: <color=red>0</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+  },
+  {
+      "seedType": 20,
+      "name": "Purwono",
+      "introduce": "<size=24><color=#3D1400>Purwono menentang sains. Dia benar-benar begitu. Tanaman lain memakan cahaya dan mengeluarkan oksigen; Purwono memakan kegelapan dan mengeluarkan cahaya. Purwono tidak mau menjelaskan caranya. \u0022Aku tidak akan mengatakan 'ilmu hitam', aku juga tidak akan menggunakan istilah 'kekuatan gelap', aku hanya... sepertinya aku sudah bicara terlalu banyak.\u0022</color></size>",
+      "info": "<size=24>Purwonos menerangi area untuk membantumu melihat melalui kabut, dan memberikan tingkat cahaya kepada tanaman.\n\n<color=#3D1400>Khusus: </color><color=red>Mengusir kabut dengan cahaya.</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Menyediakan 1 Tingkat Lumos dalam Grid 3x3, yang dapat ditumpuk untuk memberikan kekuatan pada tanaman cahaya lainnya. Lihat fusi untuk daftar tanaman yang terpengaruh.</color></size>",
+      "cost": "<size=24>Harga: <color=red>25</color>\nIsi Ulang: <color=red>15 Detik</color></size>"
+  },
+  {
+      "seedType": 21,
+      "name": "Dominic",
+      "introduce": "<size=24><color=#3D1400>Dia berduri, tentu saja, tetapi duri Dominic menyembunyikan hati yang lembut, penuh cinta dan niat baik. Dia hanya ingin memeluk dan dipeluk. Kebanyakan orang tidak bisa menerimanya, tetapi Dominic tidak keberatan. Dia telah berkencan dengan armadillo selama beberapa waktu dan hubungan mereka tampaknya berjalan baik.</color></size>",
+      "info": "<size=24>Dominices menembakkan duri yang dapat menghantam target darat dan udara.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat menyerang zombie terbang.</color></size>",
+      "cost": "<size=24>Harga: <color=red>100</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+  },
+  {
+      "seedType": 22,
+      "name": "Tiara",
+      "introduce": "<size=24><color=#3D1400>Saat Tiara berusia lima tahun, dia mendapatkan kue ulang tahun baru yang mengkilap. Tiara membuat keinginannya, meniup lilin, tetapi hanya berhasil memadamkan 60% lilin. Alih-alih menyerah, dia menggunakan kekalahan awal itu sebagai katalis untuk mendorong dirinya lebih keras sejak saat itu.</color></size>",
+      "info": "<size=24>Tiaras meniupkan semua zombie balon dan kabut, kecuali Zombie Bucket-copter dan Zomppelins.\n\n<color=#3D1400>Khusus: </color><color=red>Meniup kabut dan Zombie Balon. Mendorong mundur Zomppelin sedikit.</color></size>",
+      "cost": "<size=24>Harga: <color=red>100</color>\nIsi Ulang: <color=red>15 Detik</color></size>"
+  },
+  {
+      "seedType": 23,
+      "name": "Zainal",
+      "introduce": "<size=24><color=#3D1400>\u0022Aw, man,\u0022 kata Zainal. \u0022Aku pergi ke dokter gigi kemarin, dan dia bilang aku punya empat lubang gigi. Aku punya—coba hitung—SATU gigi! Empat lubang di satu gigi? Bagaimana ini bisa terjadi?\u0022</color></size>",
+      "info": "<size=24>Zainals menembakkan bintang ke 5 arah.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5/1.5 Detik</color></size>",
+      "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+  },
+  {
+      "seedType": 24,
+      "name": "Bung Lasmana",
+      "introduce": "<size=24><color=#3D1400>Bung Lasmana baru saja menyelesaikan pekerjaannya paruh waktu. \u0022Sejujurnya, itu pengalaman yang cukup menyenangkan,\u0022 dia tertawa. \u0022Tapi bisakah seseorang menjelaskan mengapa mereka terus memasukkan permen dan lilin ke dalam diriku?\u0022</color></size>",
+      "info": "<size=24>Bung Lasmanas melindungi tanaman yang berada di dalam cangkangnya.\n\n<color=#3D1400>Kekerasan: </color><color=red>4000</color>\n<color=#3D1400>Prioritas Fusi: </color><color=red>Paling Rendah</color></size>",
+      "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>30 Detik</color></size>"
+  },
+  {
+      "seedType": 25,
+      "name": "Fitri",
+      "introduce": "<size=24><color=#3D1400>Semua orang bertanya-tanya mengapa Fitri selalu memerlukan waktu lama untuk \u0022mencerna\u0022 besi yang diserapnya, bahkan setelah itu sudah diambil untuk fusi. Frustrasi, dia berkata, \u0022Aku tidak malas! Aku hanya tersungkur karena besi terbang!\u0022</color></size>",
+      "info": "<size=24>Fitris dapat menyerap benda logam.\n\n<color=#3D1400>Khusus: </color><color=red>Dapat menarik benda logam.</color>\nJika ada tanaman magnet di area 8 arah dari tanaman magnet lain, mereka akan terhubung melalui Sistem Magnetik. Sistem Magnetik tidak memiliki batasan jumlah koneksi, dan akan meningkatkan kekuatan beberapa tanaman magnetik berdasarkan jumlah koneksi. Lihat fusi untuk daftar tanaman yang terpengaruh.</size>",
+      "cost": "<size=24>Harga: <color=red>100</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
+    },
+    {
+      "seedType": 249,
+      "name": "<size=24>Zainal Ahli Pedang</size>",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku telah bertempur melintasi 3.000 mil medan perang, pedangku menghentikan jutaan dalam langkah mereka.\u0022 Zainal Ahli Pedang, seorang pecinta minuman mewah dan puisi, sangat bangga dengan keterampilan cosplay-nya yang sempurna. Dengan senyum licik, dia menambahkan, \u0022Pedangku tidak pernah berdarah, karena itu hanya hiasan.\u0022</color></size>",
+      "info": "<size=24>Seorang tamu dari jauh, aku pikir kau akan ingin menjadi teman.\n\n<color=#3D1400>Kerusakan: </color><color=red>200*5+30*20/6 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Setiap serangan melepaskan 5 pedang yang menusuk tanpa batas, memberikan 200 kerusakan masing-masing. Selain itu, menyebabkan 600 kerusakan pada semua zombie di sekitar grid, mengulangi ini 20 kali.</color></size>",
+      "cost": "<size=24>Harga: <color=red>325</color>\nIsi Ulang: <color=red>30 Detik</color></size>"
+  },
+  {
+      "seedType": 250,
+      "name": "Kotak Zombie",
+      "introduce": "<size=24><color=#3D1400>Memperkenalkan Kotak Zombie—titik masuk zombie ke dunia keuangan. Sebagai produk keuangan berisiko tinggi, kotak ini dilengkapi dengan pengingat: \u0022Investasi membawa risiko yang melekat; berhati-hatilah. Disponsori oleh Dr. Yan Wang.\u0022 Informasi penting ini diselipkan dengan cerdik di dalam tutup kotak.</color></size>",
+      "info": "<size=24>Mendapatkan 100 Matahari, tetapi memunculkan Zombie Kotak Emas.\n\n<color=#3D1400>Khusus: </color><color=red>Memunculkan Zombie Kotak Emas.</color></size>",
+      "cost": "<size=24>Harga: <color=red>-100</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
+  },
+  {
+      "seedType": 251,
+      "name": "WHAT IS THIS 3",
+      "introduce": "<size=24><color=#3D1400>阳光父子坚果说付我500阳光，让我帮他个忙，所以我来了。能难到哪里去呢？总不可能是冲进僵尸堆里吧？</color></size>",
+      "info": "<size=24>碾压僵尸。\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color></size>",
+      "cost": ""
+  },
+  {
+      "seedType": 252,
+      "name": "Zahra-chan",
+      "introduce": "<size=24><color=#3D1400>\u0022Kucing biasanya takut air, tetapi aku gadis kucing ajaib, jadi aku tidak takut,\u0022 katanya dengan penuh semangat, dan kucing-kucing lainnya memandangnya dengan kagum. Sebenarnya, dia sangat menyukai air, dan dia mengatakan ini untuk membuat dirinya menonjol.</color></size>",
+      "info": "<size=24>Zahra-chan secara otomatis menyerang semua zombie yang muncul di peta.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*2/1.5 Detik</color></size>",
+      "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
+  },
+  {
+      "seedType": 253,
+      "name": "Arif",
+      "introduce": "<size=24><color=#3D1400>Arif menyebut dirinya seorang generalis, tetapi tanaman lain menganggapnya hanya sebagai pemain tambahan—\u0022Bagaimanapun, tanaman lain selalu melakukan pekerjaan, bukan?\u0022</color></size>",
+      "info": "<size=24>Arif dapat berubah menjadi tanaman dasar, fusi, atau tanaman pamungkas.\n\n<color=#3D1400>Khusus: </color><color=red>Berubah menjadi tanaman acak setiap 30 Detik.</color></size>",
+      "cost": "<size=24>Harga: <color=red>50</color>\nIsi Ulang: <color=red>30 Detik</color></size>"
+  },
+  {
+      "seedType": 254,
+      "name": "Agung",
+      "introduce": "<size=24><color=#3D1400>Dikatakan bahwa bunga kecil seperti dirinya tidak akan pernah bermimpi menghasilkan Matahari—Agung awalnya akan mendaftar untuk posisi Dewi, tetapi dia menyadari bahwa cahayanya hanya akan bersinar ketika dia dihancurkan. Semua orang mengatakan bahwa api di atas kepalanya adalah yang paling terang, tetapi dia tahu bahwa mata api tekadnya adalah sumber kekuatannya.</color></size>",
+      "info": "<size=24>Agung dapat menyerap peluru dan menghasilkan Matahari.\n\n<color=#3D1400>Khusus: </color><color=red>Setiap peluru dapat mengurangi ketahanan sebesar 50 dan menghasilkan 25 Matahari. Menghasilkan Pupuk saat mati.</color></size>",
+      "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
+  },
+  {
+      "seedType": 255,
+      "name": "Ikhsan Gede",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku tak terkalahkan di medan perang, dan rekan-rekanku tidak bisa melepaskan pandangan dari sosok megahku!\u0022 Ikhsan Gede menyombongkan diri. \u0022Setahun setelah dikeluarkan dari Klub Ikhsan Tumbler, akhirnya aku menemukan pekerjaan yang benar-benar cocok untukku.\u0022</color></size>",
+      "info": "<size=24>Ikhsan Gede akan berguling ke depan dan menghancurkan zombie mana pun yang ditemuinya.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color></size>",
+      "cost": ""
+  },
+  {
+      "seedType": 256,
+      "name": "Kotak Kehidupan",
+      "introduce": "<size=24><color=#3D1400>Tidak ada yang benar-benar memahami mengapa Kotak Kehidupan berjuang bersama tanaman melawan zombie. Dia sama sekali tidak terlihat seperti tanaman, tetapi dia tampaknya tahu kemampuan setiap tanaman dengan sangat baik. \u0022Sebenarnya, aku hanya seorang mahasiswa yang menyukai video game,\u0022 dia mengakui dengan senyum lebar. \u0022Profesor menyebutkan kredit tambahan, jadi inilah aku.\u0022</color></size>",
+      "info": "<size=24>Kotak Kehidupan dapat ditanam untuk menghasilkan tanaman atau fusi acak.\n\n<color=#3D1400>Khusus: </color><color=red>Saat ditempatkan di tanah atau di atas Ayu, menghasilkan tanaman acak. Menempatkannya di atas tanaman yang memenuhi syarat dapat menghasilkan fusi acak.</color></size>",
+      "cost": "<size=24>Harga: <color=red>100</color>\nIsi Ulang: <color=red>15 Detik</color></size>"
+  },
+  {
+      "seedType": 900,
+      "name": "Ratu Hani",
+      "introduce": "<size=24><color=#3D1400>Ratu Hani memiliki kasih sayang yang besar terhadap bawahan zombienya. \u0022Mereka memberikan kontribusi besar bagi kebangkitanku sebagai Permaisuri,\u0022 katanya. Sayangnya, zombie-zombie yang kuat ini menimbulkan ketakutan di antara tanaman lainnya, sesuatu yang tidak disadari oleh Ratu Hani.</color></size>",
+      "info": "<size=24>Memanggil zombie yang akan bertarung untukmu\n\n<color=#3D1400>Khusus: </color><color=red>Secara acak memilih 1 dari zombie berikut untuk dipanggil:\nIkhsan Futbol Zombie | Kipli Ceri Newspaper Zombie | Zomboni | Scholar Zombie</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Hani + Hani</color></size>",
+      "cost": "<size=24><color=purple>Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 901,
+      "name": "<size=29>King Tentara Kipli</size>",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku tidak yakin mengapa Tentara Kipli memiliki begitu banyak penggemar. Saudara laki-lakiku dan aku juga bisa menembakkan empat peluru,\u0022 ujar King Tentara Kipli dengan rasa iri. Namun, kenyataannya adalah bahwa semua orang menghargai Tentara Kipli karena kebaikannya dan bakat kulinernya yang luar biasa.</color></size>",
+      "info": "<size=24>King Tentara Kipli adalah penyerang darat terkuat.\n\n<color=#3D1400>Kerusakan: </color><color=red>300*4/1.5 Detik</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Tentara Kipli Ceri + Kipli Meledak</color></size>",
+      "cost": "<size=24><color=purple>Penggunaan: Mode Perjalanan</color></size>"
+  },
+  {
+      "seedType": 902,
+      "name": "<size=24>Jarwo Fajar Merah Menyala</size>",
+      "introduce": "<size=24><color=#3D1400>Jarwo Fajar Merah Menyala memiliki pendapat tinggi tentang dirinya sendiri, tetapi tanaman lain memandangnya dengan penghinaan, terutama mereka yang berasal dari keluarga kacang polong. \u0022Dia terlalu pilih-pilih! Dia memiliki kekuatan yang begitu kuat, tetapi hanya bermanfaat bagi ceri,\u0022 kata mereka. Ini membuat Jarwo Fajar Merah Menyala sangat marah. \u0022Aku hanya alergi terhadap kacang polong…\u0022</color></size>",
+      "info": "<size=24>Munculkan Fajar Pedas untuk setiap 20 ceri yang melewatinya.\n\n<color=#3D1400>Khusus: </color><color=red>Peluru Bisma yang melewatinya menjadi Fajar Pedas\n<color=#3D1400>Formula Fusi: </color><color=red>Jarwo Api Neraka + Fajar Pedas</color></size>",
+      "cost": "<size=24><color=purple>Penggunaan: Mode Perjalanan</color></size>"
+  },
+  {
+      "seedType": 903,
+      "name": "<size=24>King Bisma Birjon</size>",
+      "introduce": "<size=24><color=#3D1400>King Bisma Birjon dengan bangga berkata, \u0022Banyak yang iri dengan gaya rambutku yang mirip dengan dinosaurus. \u0022Meludah ceri dan memakan zombie itu menjijikkan, tetapi itu tugasku.\u0022</color></size>",
+      "info": "<size=24>King Bisma Birjon adalah tanaman bertahan terkuat di darat.\n\n<color=#3D1400>Kekerasan: </color><color=red>8000</color>\n<color=#3D1400>Khusus: </color><color=red>Memakan zombie mengembalikan 1000 Ketahanan, memberikan 1000 kerusakan, dan meludahkan ceri yang meledak. Zombie dengan HP < 2000langsung mati dan memulihkan Ketahanan penuh untuk King Bisma Birjon. Menangkis kendaraan, menerima paling banyak 1/3 dari Ketahanan maksimalnya.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Dimas Zilla Birjon + Dimas Ceri</color></size>",
+      "cost": "<size=24><color=purple>Penggunaan: Mode Perjalanan</color></size>"
+  },
+  {
+      "seedType": 904,
+      "name": "<size=30>Yusuf Panas Dingin",
+      "introduce": "<size=24><color=#3D1400>Apakah Kematian menggunakan konsultan mode? King-shroom tidak tahu, tetapi setelah menyadari bahwa dia tidak bisa secara konsisten menakut-nakuti zombie, dia beralih ke Hani untuk serangkaian desain busana khusus. Meskipun orang-orang mungkin tidak menyukai Kematian, bagaimana reaksi mereka jika dia memakai sayap es ungu yang berkilauan?</color></size>",
+      "info": "<size=24>Yusuf Panas Dingin memberikan kerusakan besar, sambil secara bersamaan mempesona dan memperlambat zombie.\n\n<color=#3D1400>Khusus: </color><color=red>Ada peluang untuk mempesona zombie dengan HP < 50%, menciptakan ledakan di grid tempat zombie yang terpesona berada dengan 500 kerusakan.</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Yusuf Dingin Kehancuran + Saripudin Cinta</color></size>",
+      "cost": "\n<size=24><color=purple>Penggunaan: Mode Perjalanan</color></size>"
+  },
+  {
+      "seedType": 905,
+      "name": "Manyala Ikhsan Ku",
+      "introduce": "<size=24><color=#3D1400>Manyala Ikhsan Ku, seorang master fotosintesis, meminimalkan kehilangan energi melalui daur ulang. Dia dengan rendah hati memberikan penghargaan kepada para pionir seperti Dewi, Surya, dan Agung:</color></size>",
+      "info": "<size=24>Manyala Ikhsan Ku menghasilkan Matahari setiap kali diserang.\n\n<color=#3D1400>Kekerasan: </color><color=red>4000</color>\n<color=#3D1400>Khusus: </color><color=red>Terlepas dari jenis kerusakan yang diterima, setiap serangan hanya akan mengurangi 50 Ketahanan. Menghasilkan 15 Matahari setelah setiap serangan. Klik kiri pada tanaman ini akan mengonsumsi 500 Matahari dan menyebabkan kacang raksasa bergulir, juga mengembalikan Ketahanan ke penuh dalam prosesnya.</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>(Dewi + Ikhsan) + Ikhsan</color></size>",
+      "cost": "\n<size=24><color=purple>Penggunaan: Mode Perjalanan</color></size>"
+  },
+  {
+      "seedType": 906,
+      "name": "Agus Panas Dingin",
+      "introduce": "<size=24><color=#3D1400>Setelah dibaptis oleh api dan es, Agus Panas Dingin menjadi sekeras baja, tetapi temperamennya juga menjadi tidak menentu. Perubahan ini kemungkinan disebabkan oleh baja yang terkondensasi di mulutnya, membuatnya enggan berbicara.</color></size>",
+      "info": "<size=24>Agus Panas Dingin dapat memberikan kerusakan besar sambil menahan beberapa serangan.\n\n<color=#3D1400>Kekerasan: </color><color=red>6000</color>\n<color=#3D1400>Kerusakan: </color><color=red>100*2/1 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Asep Dingin + Asep Panas</color></size>",
+      "cost": "<size=24><color=purple>Penggunaan: Mode Perjalanan</color></size>"
+    },
+    {
+      "seedType": 907,
+      "name": "<size=24>Tentara Kipli Kehancuran",
+      "introduce": "<size=24><color=#3D1400>\u0022Tentara Kipli Kehancuran is dangerous and should not be approached. It is a forbidden force in the world.\u0022 Despite the frightening tales circulating among the plants, Tentara Kipli Kehancuran is not as it seems. In fact, it is one of the friendliest plants. However, the zombies turned to ashes would disagree.</color></size>",
+      "info": "<size=24>Destruction incarnate. Fires rounds of destruction unlucky enough to face its wrath.\n\n<color=#3D1400>Kerusakan: </color><color=red>300*4/1.5 Detik</color>\n<color=#3D1400>Special: </color><color=red>Fires a bullet of doom that deals 1800 damage once every 4 round of bullets. Each bullet will splash damage over a large area.</color>\n<color=#3D1400>Fusion Formula: </color><color=red>Tentara Kipli + Dedi</color></size>",
+      "cost": "<size=24><color=purple>Usage Condition: Travel Mode</color></size>"
+    },
+  {
+      "seedType": 908,
+      "name": "<size=24>Tentara Ucup Dingin",
+      "introduce": "<size=24><color=#3D1400>Para Ucup kecil yang dulu berteriak, \u0022Kami akan bergabung dengan tentara!\u0022 kini telah menjadi veteran dengan mata yang mantap. Di mana pun dan kapan pun, Kompi Tentara Ucup Dingin berkomitmen untuk memastikan misi selesai.</color></size>",
+      "info": "<size=24>Dapat ditumpuk hingga tiga kali untuk menembakkan 12 balok es sekaligus!\n\n<color=#3D1400>Kerusakan: </color><color=red>20*4*3/1.5 Detik</color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Setiap pukulan menambahkan 5 Poin Cryo. Peluru memberikan 4 kali lebih banyak kerusakan pada musuh yang beku. Setiap peluru dapat menembus 3 kali.</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Ucup + Tentara Kipli Es (Secara Berurutan)</color></size>",
+      "cost": "<size=24><color=purple>Penggunaan: Mode Perjalanan</color></size>"
+  },
+  {
+      "seedType": 909,
+      "name": "<size=24>King Zainal AutoAim</size>",
+      "introduce": "<size=24><color=#3D1400>Tidak ada yang tahu dari mana asal King Zainal AutoAim, tetapi satu hal yang pasti: Dia tidak bertanggung jawab atas kepunahan dinosaurus. Sama sekali tidak!</color></size>",
+      "info": "<size=24><color=#3D1400>Kerusakan: </color><color=red>20*5/1.5 Detik</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Setiap level Lumos akan meningkatkan kerusakan peluru sebesar 20.</color>\n<color=#3D1400>Sistem Magnetik: </color><color=red>Setiap tanaman yang terhubung ke Sistem Magnetik akan meningkatkan kerusakan peluru sebesar 5%.\n<color=purple>Kedua sistem dapat meningkatkan kerusakan peluru hingga 120, maksimal.</color>\n<color=#3D1400>Khusus: </color><color=red>Memanggil meteor setiap 20 Detik, memberikan 1800 kerusakan saat mengenai. Pecah menjadi beberapa peluru yang mencari zombie dan memberikan 100 kerusakan masing-masing.</color></color>\n<color=#3D1400>Formula Fusi: </color><color=red>Zainal Angkasa + Dominic Magnet</color></size>",
+      "cost": "\n<size=24><color=purple>Penggunaan: Mode Perjalanan</color></size>"
+  },
+  {
+      "seedType": 910,
+      "name": "King Abdul",
+      "introduce": "<size=24><color=#3D1400>\u0022Penangkal nuklir itu menguntungkan. Suatu hari, zombie akan menghentikan serangan mereka karena takut akan diriku yang mampu meledakkan diri,\u0022 kata King Abdul dengan percaya diri. Namun, jelas bahwa King Abdul tidak menyadari bahwa zombie tidak akan memulai Perang Dingin hanya karena mereka diserang dengan udara dingin.</color></size>",
+      "info": "<size=24>Menyemprotkan gas mematikan ke segala arah, membawa kehancuran mutlak. Hati-hati!\n\n<color=#3D1400>Kerusakan: </color><color=red>(100+100*8)*4/1.9 Detik</color>\n<color=#3D1400>Jangkauan Kerusakan: </color><color=red>5*5</color>\n<color=#3D1400>Jangkauan Pencarian：</color><color=red>5*3</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Yusuf Dingin Kehancuran + Abdul Dingin</color></size>",
+      "cost": "<size=24><color=purple>Penggunaan: Mode Perjalanan</color></size>"
+  },
+  {
+      "seedType": 911,
+      "name": "Lasmana Biled",
+      "introduce": "<size=24><color=#3D1400>\u0022Kekuatan Fitri tetap berlebihan. Bagaimanapun, armor komposit, ketapel elektromagnetik, dan senapan plasma adalah inovasi yang dikembangkan hampir satu abad setelah kapal induk pertama kali diperkenalkan,\u0022 kata Lasmana Biled. Tanaman lain iri dengan perlengkapan sci-fi Lasmana Biled, tetapi hanya Fitri yang tahu bahwa dia hanya terkena meteor dari King Zainal AutoAim.</color></size>",
+      "info": "<size=24>Munculkan drone laser yang mencari musuh.\n\n<color=#3D1400>Kekerasan: </color><color=red>8000</color>\n<color=#3D1400>Khusus: </color><color=red>Selalu memiliki drone Laser sebagai sayap ketika muncul. Menghasilkan drone Laser di atas grid 3x3 secara teratur.</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>TiaraDuriLasmana + Tiara Magnet</color></size>",
+      "cost": "\n<size=24><color=purple>Penggunaan: Mode Perjalanan</color></size>"
+  },
+  {
+      "seedType": 912,
+      "name": "WHERE IS THIS",
+      "introduce": "<size=24><color=#3D1400>感谢究极杨桃，现在我们有一整套新装备了！看看这些新奇玩意，复合装甲，电磁高速螺旋桨，还有等离子机炮......等等！不！我最喜欢的花瓶！</color></size>",
+      "info": "<size=24>激光无人机可以发射激光穿透攻击。\n\n<color=#3D1400>Kerusakan: </color><color=red>200/1.5 Detik（sebagai tanaman）200/1 Detik(sebagai pendamping)</color></size>",
+      "cost": ""   
+     },
+    {
+      "seedType": 913,
+      "name": "<size=20>Bapak Ikhsan Panas Dingin",
+      "introduce": "<size=24><color=#3D1400>Rather than seeking protection from his best friend, this plant would rather be the one to protect him. His hard, gem-like, and luminous body, along with his unwavering eyes, are formed by the Bapak Ikhsan Panas Dingin's soul after enduring the trials of ice and fire etched into his very bones. Even if his body and mind become worn down one day, he is committed to doing whatever it takes to keep other plants safe.</color></size></size>",
+      "info": "<size=24>The Bapak Ikhsan Panas Dingin has four times the defense of a normal Bapak Ikhsan.\n\n<color=#3D1400>Toughness: </color><color=red>32000</color>\n<color=#3D1400>Special: </color><color=red>1500 HP every 15 Detik. Resists being run over by a car, taking a maximum of 200 damage each time.</color>\n<color=#3D1400>Fusion Formula: </color><color=red>Bapak Ikhsan Dingin + Bapak Ikhsan Panas</color></size>",
+      "cost": "\n<size=24><color=purple>Usage Condition: Travel Mode</color></size>"
+    },
+    {
+      "seedType": 1000,
+      "name": "Dewi Polong",
+      "introduce": "<size=24><color=#3D1400>\"Sebenarnya, Dewi di belakangku adalah adikku,\" jelas Dewi Polong kepada semua orang. \"Kami telah tak terpisahkan sejak lahir. Dia suka menghasilkan Matahari, dan aku menghancurkan zombie atas nama dia.\" Tapi semua orang tahu kebenarannya: saudara Pea yang ceria adalah seorang siscon total. Bagaimanapun, setiap zombie yang mendekati adiknya secara misterius akan berakhir dengan menguap oleh sinar matahari.</color></size>",
+      "info": "<size=24>Dewi Polong dapat menembakkan Peluru Matahari yang menghasilkan Matahari.\n\n<color=#3D1400>Kerusakan: </color><color=red>100/5 Detik</color>\n<color=#3D1400>Spesial: </color>\n<color=red>Peluru menjatuhkan 5 Matahari saat mengenai zombie.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli + Dewi</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1001,
+      "name": "Kipli Ceri",
+      "introduce": "<size=24><color=#3D1400>\"Marah-marah yang panas? Aku? Bah! Kamu merah dan panas! Seluruh keluargamu merah!\" Cherry Shooter tidak menyukai dihina tentang warna kepalanya. Tapi lelucon itu tidak bertahan lama—setelah makan ceri khusus, Pea Shooter benar-benar menjadi merah dan hangat, dan ya, dia bisa menembakkan peluru ceri.</color></size>",
+      "info": "<size=24>Kipli Ceri menembakkan peluru ceri yang kuat.\n\n<color=#3D1400>Kerusakan: </color><color=red>60/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli + Bisma</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1002,
+      "name": "Bom Dewi",
+      "introduce": "<size=24><color=#3D1400>\"Jadi... jelas... kita adalah Pretty Cure, bukan?\" Kedua saudari Dewi mencoba menahan kegembiraan mereka. \"Dunia membutuhkan kita untuk menyelamatkannya!\" Gairah mereka meluap saat mereka berteriak bersama, \"Cahaya! Terangi negeri ini!\u0022</color></size>",
+      "info": "<size=24>Bom Dewi dapat menghasilkan Matahari setelah membunuh zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Ashes)</color>\n<color=#3D1400>Spesial: </color><color=red>Menghasilkan 25 Matahari untuk setiap zombie yang terbunuh dalam ledakan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Dewi + Bisma</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1003,
+      "name": "Ikhsan Ceri",
+      "introduce": "<size=24><color=#3D1400>\"Aku mendengar beberapa zombie mengeluh tentang ketidakmampuan mereka untuk memakan ceri. Nah, di sini aku!\u0022 Cherry Nut yang ceria menggoyangkan daun di atas kepalanya, membual tentang rasa ceri murni-nya. \"Tapi pertama, kamu harus berjanji sesuatu padaku: ketika kamu memiliki ceri, bagikan sedikit dengan aku. Bahkan, berikan saja semua yang kamu punya! Aku terlahir untuk ini!\u0022</color></size>",
+      "info": "<size=24>Ikhsan Ceri dapat menyerap kerusakan ledakan dan mengembalikan ketangguhan.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Menyerap kerusakan ledakan Ceri untuk mengembalikan ketangguhan. (Dari Sekutu: 25, Dari Musuh: 200)</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Bisma + Ikhsan</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1004,
+      "name": "Ikhsan Polong",
+      "introduce": "<size=24><color=#3D1400>\"Tidak... jangan panggil aku jelek, atau kalau tidak... tunggu... aku akan menyemprotmu.\" Ikhsan Polong selalu berjuang dengan penampilannya yang \"unik\". Tapi dia percaya bahwa apa yang ada di dalam tanaman lebih penting daripada penampilannya. Mencari bimbingan, dia dengan rendah hati meminta nasihat senior Bowling Nut dan akhirnya menguasai teknik menggelindingkan kacang seperti bola bowling.</color></size>",
+      "info": "<size=24>Ikhsan Polong menembakkan peluru kacang mini yang dapat menembus zombie.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik（Tembus）</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli + Ikhsan</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1005,
+      "name": "Kipli Meledak",
+      "introduce": "<size=24><color=#3D1400>Temui Kipli Meledak, si pembunuh tanaman pamungkas. Dia lebih mudah marah daripada sebelumnya—siapa sangka Kipli Ceri yang hangat dan ramah akan menelan ceri khusus lainnya? Jangan coba-coba menantangnya. Ceri yang terjebak di tenggorokannya mungkin saja menjadi tembakan berikutnya—wajahnya sudah mulai memerah!</color></size>",
+      "info": "<size=24>Peluru yang ditembakkan oleh Kipli Meledak akan menyebabkan kerusakan ledakan area.\n\n<color=#3D1400>Kerusakan: </color><color=red>300/3 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli + Bisma +\nBisma</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1006,
+      "name": "Ikhsan Solar",
+      "introduce": "<size=24><color=#3D1400>Ikhsan Solar selalu melihat dirinya sebagai seorang malaikat, dengan polos tidak menyadari bahwa tanaman lain sering membicarakannya di belakang. \"Jika dia menambahkan beberapa garis hitam, dia akan terlihat persis seperti lebah.\u0022</color></size>",
+      "info": "<size=24>Ikhsan Solar menghasilkan Matahari sambil melindungi tanamanmu.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Output Matahari: </color><color=red>25/15 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Dewi + Ikhsan</color></size>",
+      "cost": ""
+    },
+        {
+          "seedType": 1007,
+          "name": "Riski Polong",
+          "introduce": "<size=24><color=#3D1400>Riski Polong mungkin tidak memiliki mata, tetapi dia memiliki cara khusus untuk merasakan zombie. \"Aku merasakannya...\" dia bergumam, \"Zombie semakin dekat... semakin dekat... semakin dekat...\" Detak jantung Riski Polong semakin cepat, begitu pula kecepatan tembaknya. Lebih cepat, lebih cepat... sampai, dengan \"ledakan,\u0022 Riski Polong meledak menjadi semburan kembang api beraroma kentang.</color></size>",
+          "info": "<size=24>Riski Polong dapat menyerang sebelum muncul dari tanah.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Saat meledak, mengeluarkan 36 peluru ke segala arah.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli + Riski</color></size>",
+          "cost": ""
+        },
+        {
+          "seedType": 1008,
+          "name": "Rahma Ceri",
+          "introduce": "<size=24><color=#3D1400>Rahma Ceri hidup dengan motto \"hal-hal baik datang berpasangan.\" Baik itu melawan zombie atau membagikan hadiah, dia melakukan semuanya berpasangan. \"Tapi ayolah,\u0022 Rahma menggoda, \"ceri-ceri kamu bahkan belum matang.\" </color></size>",
+          "info": "<size=24>Rahma Ceri dapat menembakkan dua ceri sekaligus.\n\n<color=#3D1400>Kerusakan: </color><color=red>60*2/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Rahma + Bisma</color></size>",
+          "cost": ""
+        },
+        {
+          "seedType": 1009,
+          "name": "Riski Solar",
+          "introduce": "<size=24><color=#3D1400>\"Berhentilah di lampu merah, melambatlah di lampu kuning, dan patuhi aturan lalu lintas!\" Sun Mine sering memperingatkan zombie. Tapi bagi zombie, yang mereka lihat hanyalah warna hijau yang menjijikkan di depan mereka. Dia menggenggam daun hijau dan cemberut, berharap untuk lebih banyak sinar matahari. \"Bagaimanapun, sinar mataharilah yang menghidupi kita semua!\u0022</color></size>",
+          "info": "<size=24>Sun Mine menghasilkan Matahari hingga dan setelah meledak.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color>\n<color=#3D1400>Output Matahari: </color><color=red>25/15 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Dewi + Riski</color></size>",
+          "cost": ""
+        },
+        {
+          "seedType": 1010,
+          "name": "Riski Kacang",
+          "introduce": "<size=24><color=#3D1400>Pernah dianggap kecil dan lemah, Riski Kacang kini berdiri tegak dan kuat, membanggakan sepasang mata besar dan daging yang kokoh. Namun di balik penampilan yang kuat itu, dia merasa rapuh dan takut menyusut kembali ke ukuran sebelumnya. Zombie-zombie itu mengejek, \"Jika kamu makan satu gigitan lagi, kamu akan meledak!\u0022</color></size>",
+          "info": "<size=24>Riski Kacang dapat meledak saat dimakan dan sekali saat rusak.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Kerusakan: </color><color=red>500 / Ledakan, 1800 / Kematian</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Ikhsan + Riski</color></size>",
+          "cost": ""
+        },
+        {
+          "seedType": 1011,
+          "name": "Penembak Dimas",
+          "introduce": "<size=24><color=#3D1400>Dimas selalu iri dengan kemampuan Penembak Dimas untuk mengeluarkan sisa-sisa zombie, dan dia telah mencoba mempelajari trik itu lebih dari sekali. Sedikit yang dia tahu, meskipun, bahwa rahasianya bukan keterampilan khusus—itu hanya karena mulut Penembak Dimas sedikit cacat, menyebabkan potongan-potongan zombie keluar saat mengunyah.</color></size>",
+          "info": "<size=24>Penembak Dimas dapat menembakkan peluru setelah menggigit.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuh Instan</color>\n<color=#3D1400>Spesial: </color><color=red>Memuntahkan peluru tembus yang memberikan 80 kerusakan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli + Dimas</color></size>",
+          "cost": ""
+        },
+        {
+          "seedType": 1012,
+          "name": "Dimas Kacang",
+          "introduce": "<size=24><color=#3D1400>Sebagai tanaman muda, Dimas Kacang terkenal pilih-pilih makanan, tidak pernah menelan zombie dalam satu gigitan, yang membuat orang tuanya frustrasi. Setelah banyak bujukan, Dimas Kacang akhirnya belajar untuk menelan zombie secara utuh, seperti pendahulunya. \"Aku tidak pilih-pilih! Aku hanya ingin meniru cara zombie makan. Aku harus mencoba sesuatu yang baru, kan? Bukan karena leherku tidak ada, sehingga tidak nyaman untuk menelan dalam satu gigitan,\u0022 kata Dimas Kacang sambil mengunyah zombie.</color></size>",
+          "info": "<size=24>Dimas Kacang dapat mengembalikan ketangguhan setelah memakan zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuh Instan</color>\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Ikhsan + Dimas</color></size>",
+          "cost": ""
+        },
+      {
+        "seedType": 1013,
+        "name": "Dimas Zilla Birjon",
+        "introduce": "<size=24><color=#3D1400>Dimas Zilla Birjon menikmati setiap makanan, meskipun mulutnya kecil. \"Mulut besar itu ceroboh dan tidak pergi ke gym; mereka akan hancur di garis depan,\u0022 dia mengejek. \"Aku hanya makan esens daging zombie dan meludahkan sisanya,\u0022 dia menyeringai, meskipun halaman belakangnya penuh dengan sisa makanan.</color></size>",
+        "info": "<size=24>Dimas Zilla Birjon dapat menjadi benteng pertahanan dan penyerang yang ganas.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Memakan zombie mengembalikan 100 Ketangguhan dan memberikan 200 Kerusakan sambil meludahkan peluru bergulir yang menimbulkan 80 Kerusakan dan menembus tanpa batas. Zombie dengan HP < 500 dan tanpa armor akan terbunuh secara instan, mengembalikan 200 Ketangguhan dan menumbuhkan peluru yang memberikan 20 Kerusakan, menembus 5 kali, dan mendorong zombie ke belakang.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli + Ikhsan + Dimas</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1014,
+        "name": "Dimas Solar",
+        "introduce": "<size=24><color=#3D1400>Semua orang penasaran bagaimana Dimas Solar mengubah zombie yang dia telan menjadi sinar matahari, tetapi dia selalu ragu untuk berbagi rahasianya. Suatu hari, Dewi menemukan bahwa kandungan klorofilnya telah berkurang secara signifikan, mengungkapkan kebenarannya: itu sebenarnya tidak mengubah zombie menjadi sinar matahari.</color></size>",
+        "info": "<size=24>Dimas Solar dapat menghasilkan Matahari setelah menelan zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuh Instan</color>\n<color=#3D1400>Spesial: </color>\n<color=red>Menghasilkan 100 Matahari setelah menelan zombie.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Dewi + Dimas</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1015,
+        "name": "Dimas Kentang",
+        "introduce": "<size=24><color=#3D1400>Lezat dan menggoda, Riski memiliki rasa seperti kentang tumbuk yang dipanaskan sendiri, mendapatkan ulasan rave dari zombie. Di antara mereka, kentang goreng menempati posisi teratas dalam popularitas. Ketika zombie berduyun-duyun menuju aroma kentang goreng yang menggoda, mereka tidak tahu bahwa mereka juga menikmati keripik kentang yang lezat. \"Tunggu dan lihat,\u0022 kata Dimas Kentang dengan mulut penuh, \"Nutrisi mereka akan segera menjadi tambang baru.\u0022</color></size>",
+        "info": "<size=24>Setelah menelan zombie, Dimas Kentang akan menumbuhkan Riski di depannya.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuh Instan</color>\n<color=#3D1400>Spesial: </color><color=red>Menanam Riski di depannya saat menelan zombie.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Riski + Dimas</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1016,
+        "name": "Dimas Ceri",
+        "introduce": "<size=24><color=#3D1400>Sejak minum dengan Bisma, Dimas telah terus-menerus \"berdengung.\" \"Coba ini!\" menjadi mantranya yang baru sebelum setiap makan. Suara mengunyah berubah menjadi bunyi ledakan yang meledak-ledak saat piring dan mangkuk terbang ke mana-mana, membuat semua orang tidak mau makan bersamanya. Setelah pertunjukan tangan, Dimas Ceri akhirnya makan di halaman. Sekarang, dia menemukan hiburan pada zombie, berteriak \"Coba ini!\"—setidaknya dia tidak perlu lagi membeli peralatan makan baru.</color></size>",
+        "info": "<size=24>Meledakkan Bisma saat memakan zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuh Instan</color>\n<color=#3D1400>Spesial: </color><color=red>Menciptakan ledakan Ceri di depan saat menggigit, membunuh zombie dalam grid 3x3.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Bisma + Dimas</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1017,
+        "name": "Tentara Kipli Ceri",
+        "introduce": "<size=24><color=#3D1400>Laras Tentara Kipli Ceri selalu merah panas. Dia meyakinkan semua orang bahwa itu dipanaskan sebelumnya untuk memastikan peluru ditembakkan lebih cepat. Semua orang percaya cerita itu—sampai mereka menangkapnya makan ceri khusus tanpa melepas larasnya.</color></size>",
+        "info": "<size=24>Bentuk akhir Kipli Ceri!\n\n<color=#3D1400>Kerusakan: </color><color=red>60*4/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Tentara Kipli + Bisma</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1018,
+        "name": "Ucup Polong",
+        "introduce": "<size=24><color=#3D1400>\"Jangan biarkan ukuran saya mengecoh Anda; bahkan tubuh kecil dapat mengandung banyak energi,\u0022 Ucup Polong memperingatkan mereka yang meremehkannya. \"Kita semua dimulai sebagai jamur kecil, membuat kemajuan sedikit demi sedikit. Dengan dedikasi pada sarapan yang cerah, Anda bisa menjadi seperti saya.\u0022</color></size>",
+        "info": "<size=24>Ucup Polong menembak lebih jauh dari Ucup.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color>\n<color=red>Ucup + Kipli (Urutan)</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1019,
+        "name": "<size=24>Ucup Terpolong Polong</size>",
+        "introduce": "<size=24><color=#3D1400>\"Siapa aku? Tembakan ganda memegang jawabannya!\u0022 seru Ucup kecil, dengan bangga memamerkan daun ganda di atas kepalanya. Dengan peluru ganda dan semangat ganda, makhluk-makhluk yang bersemangat ini berkembang dalam kelompok, dengan bersemangat menuangkan kekuatan tembak mereka ke medan perang, menunjukkan bahwa ukuran tidak menentukan kekuatan mereka.</color></size>",
+        "info": "<size=24>Ucup Terpolong Polong dapat menembakkan dua kacang kecil sekaligus.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Ucup + Rahma (Urutan)</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1020,
+        "name": "Kipli Besi",
+        "introduce": "<size=24><color=#3D1400>\"Aku mewujudkan semangat leluhurku; aku tidak akan jatuh di sini!\u0022 Ironshooter menegaskan dengan percaya diri kepada siapa pun yang menghalangi jalannya. Ketika dikatakan bahwa helmnya menyerupai helm yang dicuri dari Zombie Ember Besi, dia menjawab, \"Maka mari kita gunakan kehendak mereka dan naik angin dan ombak sekali lagi!\u0022</color></size>",
+        "info": "<size=24>Ironshooter dapat memecahkan armor.\n\n<color=#3D1400>Ketangguhan: </color><color=red>2000</color>\n<color=#3D1400>Kerusakan: </color><color=red>80/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Mendorong ke belakang saat kontak. Memberikan kerusakan besar pada Zombie Besi, dan memecahkan pintu besi.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli + Besi</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1021,
+        "name": "Ikhsan Jamur",
+        "introduce": "<size=24><color=#3D1400>Jamur atau kacang? Kenapa khawatir tentang label? Ikhsan Jamur tidak akan memberitahu Anda bahwa dia sebenarnya adalah matsutake yang menyamar.</color></size>",
+        "info": "<size=24>Ikhsan Jamur dapat menjadi pelindung setia Anda meskipun ukurannya kecil.\n\n<color=#3D1400>Ketangguhan: </color><color=red>2000</color>\n<color=#3D1400>Formula Fusi: </color>\n<color=red>Ucup + Ikhsan (Urutan)</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1022,
+        "name": "Hani Kecik",
+        "introduce": "<size=24><color=#3D1400>\"Saat kecil, aku percaya zombie tidak lebih dari monster dongeng,\u0022 kata Hani Kecik lembut. \"Sekarang, jangan salah paham—aku hanya mengembalikan mereka ke bentuk dongeng yang seharusnya mereka miliki.\u0022</color></size>",
+        "info": "<size=24>Mengecilkan zombie dan membuatnya bertarung untukmu!\n\n<color=#3D1400>Spesial: </color><color=red>Membuat zombie menjadi lebih kecil (mengurangi Kesehatan menjadi setengah) dan bertarung untukmu.</color>\n<color=#3D1400>Formula Fusi: </color>\n<color=red>Ucup + Hani (Urutan)</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1023,
+        "name": "<size=30>Yusuf Hipnotis</size>",
+        "introduce": "<size=24><color=#3D1400>Yusuf Hipnotis yang berwarna-warni melakukan debut besar! Dengan semburan spora, ia dapat mengubah zombie dalam sekejap. Beberapa mengklaim itu adalah teknik rahasia yang diwariskan oleh keluarga jamur, sementara yang lain percaya itu adalah senjata militer canggih. Yusuf Hipnotis hanya tersenyum dan berkata, \"Ini semua berkat Hani yang membantuku berkumur setiap hari.\u0022</color></size>",
+        "info": "<size=24>Yusuf Hipnotis menyemprotkan asap yang dapat memikat zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik (Tembus) </color>\n<color=#3D1400>Spesial: </color><color=red>\nKesempatan untuk memikat zombie dengan Kesehatan <50%.\nMembius zombie yang memakannya.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>\nYusuf + Hani</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1024,
+        "name": "<size=28>Saripudin Hipnotis</size>",
+        "introduce": "<size=24><color=#3D1400>Saripudin selalu takut pada zombie. Untuk mengurangi ketakutannya, Hani menceritakan kisah tidur setiap hari: \"Sebenarnya, ada orang baik di antara zombie.\u0022 Seiring waktu, Saripudin akhirnya dicuci otak. Sekarang dia dapat menggunakan spora untuk mencuci otak zombie. Tentu saja, dia masih sangat takut.</color></size>",
+        "info": "<size=24>Saripudin Hipnotis dapat menembakkan peluru dalam 7 warna.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>\nSecara acak menembakkan 1 dari 7 jenis peluru. Ketika zombie terkena semua 7 jenis peluru, itu akan terpesona. Setiap kali terkena jenis peluru, kemungkinan pesona Saripudin Hipnotis akan meningkat.</color>\n<color=#3D1400>Formula Fusi: </color>\n<color=red>Hani + Saripudin</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1025,
+        "name": "Saripudin Berani",
+        "introduce": "<size=24><color=#3D1400>\"Keberanian mengisi diriku, tidak ada rasa takut yang tersisa~ Apakah musim semi, gugur, musim dingin, atau musim panas~\u0022 Saripudin Berani tidak lagi menyusut dalam menghadapi zombie. \"Dulu aku gemetar, tetapi Senior Yusuf berkata padaku, 'Jika ada zombie mendekat, semprotkan spora-spora kamu. Bersembunyi tidak akan menyelesaikan apa pun.'\u0022</color></size>",
+        "info": "<size=24>Saripudin Berani siap menghadapi zombie, dekat atau jauh!\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Ketika zombie mendekat dalam jarak 3 kotak, dia akan menyemprotkan asap tembus.</color>\n<color=#3D1400>Formula Fusi: </color>\n<color=red>Yusuf + Saripudin</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1026,
+        "name": "Saripudin Cinta",
+        "introduce": "<size=24><color=#3D1400>Saripudin Cinta berbicara dengan senyum lembut, \"Setiap spora membawa cintaku, dan ketika mereka mekar, itu seperti angin musim semi yang membelai udara.\" Dia bahkan memutar kepalanya menjadi bentuk hati untuk mengekspresikan perasaannya. Matanya bersinar dengan ketulusan, berharap agar mungkin, hanya mungkin, zombie akan mengerti cintanya.</color></size>",
+        "info": "<size=24>Saripudin Cinta dapat menembakkan spora Pesona yang meledak.\n\n<color=#3D1400>Kerusakan: </color><color=red>80 / 1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>40 kerusakan percikan dalam grid 1x1.5. Memiliki kesempatan untuk memikat zombie dengan HP < 50%.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Yusuf + Saripudin + Hani</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1027,
+        "name": "Bapak Ikhsan",
+        "introduce": "<size=24><color=#3D1400>\"Semakin tinggi kamu, semakin kuat kamu.\" Bapak Ikhsan percaya pada hal ini, itulah sebabnya dia selalu berada di garis depan. Tanaman lain akan mendesaknya untuk beristirahat, tetapi dia hanya akan tersenyum dan berkata, \"Tidak apa-apa, aku tinggi. Selama kamu bertarung dengan cepat, zombie tidak akan punya waktu untuk memakan semuanya.\u0022</color></size>",
+        "info": "<size=24>Bapak Ikhsan adalah tanaman dinding yang kuat yang tidak dapat dilewati atau dilewati.\n\n<color=#3D1400>Ketangguhan: </color><color=red>8000</color></size>",
+        "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
+      },
+      {
+        "seedType": 1028,
+        "name": "Ikhsan Futbol",
+        "introduce": "<size=24><color=#3D1400>Ikhsan Futbol terlihat garang, membuat beberapa tanaman kecil yang tidak tahu kebenarannya merasa takut dengan penampilannya. Namun, tanaman-tanaman yang memahami Ikhsan Futbol tahu bahwa di balik penampilannya yang serius terdapat tekad yang kuat untuk melindungi teman-temannya. Helm yang dicuri itu pasti meningkatkan kepercayaan dirinya.</color></size>",
+        "info": "<size=24>Ikhsan Futbol mampu menahan sejumlah besar kerusakan.\n\n<color=#3D1400>Ketangguhan: </color><color=red>16000</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Bapak Ikhsan + Helm Rugby</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1029,
+        "name": "Ikhsan Besi",
+        "introduce": "<size=24><color=#3D1400>Tanaman memiliki perasaan yang bertentangan tentang Ikhsan Besi. Sebagai seorang prajurit teladan, dia menjalankan perintah dengan presisi yang tak tergoyahkan, namun sikap dinginnya meninggalkan banyak hal yang diinginkan. Karat di sudut mulutnya mengisyaratkan masa lalu yang bersejarah. Namun, dalam momen-momen sunyi, Ikhsan Besi bergumul dengan kekhawatiran yang tak terucapkan: \"Bagaimana aku mencegah karat dalam taman yang lembab?\u0022</color></size>",
+        "info": "<size=24>Memblokir kemajuan zombie dengan tembok besi.\n\n<color=#3D1400>Ketangguhan: </color><color=red>8000</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Ikhsan + Besi</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1030,
+        "name": "Rahma",
+        "introduce": "<size=24><color=#3D1400>Berbeda dengan saudaranya yang ceria, Rahma menjalani kehidupan yang bebas—sampai saatnya untuk bertarung. Dia diam-diam menguasai seni menembak ganda tetapi menyembunyikannya dari Kipli. \"Aku hanya ingin dia hidup bahagia, tanpa pernah perlu mempelajari keterampilan bertarung ini.\u0022</color></size>",
+        "info": "<size=24>Rahma menembakkan dua kacang polong sekaligus.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli + Kipli</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1031,
+        "name": "Surya",
+        "introduce": "<size=24><color=#3D1400>Surya membenci matahari. Dia sangat membencinya sehingga ketika matahari menumpuk dalam sistemnya, dia memuntahkannya secepat mungkin. Dia tidak akan menerimanya. Baginya, matahari itu kasar.</color></size>",
+        "info": "<size=24>Surya memberikan sinar matahari kecil pada awalnya dan sinar matahari normal kemudian.\n\n<color=#3D1400>Output Matahari: </color><color=red>15（25）/ 25 Detik</color>\n<color=#3D1400>Waktu Pertumbuhan: </color><color=red>120 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Ucup + Dewi</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1032,
+        "name": "Tentara Kipli",
+        "introduce": "<size=24><color=#3D1400>Tentara Kipli, kakak tertua keluarga Pea, berdiri tegak dengan larasnya, fondasi keselamatan semua orang. Punggungnya seperti monumen di medan perang, dikagumi oleh semua orang. Namun, dia tersenyum dengan rendah hati, mengetahui bahwa kehidupan sehari-harinya sebenarnya dikelola oleh adiknya, Kipli. \"Aku tidak bisa hidup tanpanya,\u0022 akunya dengan tenang.</color></size>",
+        "info": "<size=24>Tentara Kipli menembakkan empat kacang polong sekaligus.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*4/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Rahli + Kipli</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1033,
+        "name": "Dewi Kembar",
+        "introduce": "<size=24><color=#3D1400>Dewi Kembar dikenal sebagai saudara perempuan, selalu bekerja di belakang layar daripada di garis depan medan perang. Peran mereka adalah mendukung semua orang dari belakang, tetapi jangan salah—kamu harus melindungi mereka. Jika mereka terluka, banyak tanaman akan diam-diam meneteskan air mata.</color></size>",
+        "info": "<size=24>Dewi Kembar memberikan dua kali lipat matahari seperti Dewi biasa.\n\n<color=#3D1400>Output Matahari: </color><color=red>25*2/20 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Dewi + Dewi</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1034,
+        "name": "Kipli Dingin",
+        "introduce": "<size=24><color=#3D1400>Kipli Dingin berdarah dingin jarang menunjukkan emosinya kepada tanaman lain. Beberapa mengatakan hatinya bahkan lebih dingin dari kacang polong beku yang dia tembakkan. Kipli Dingin tidak ingin terlihat begitu, tetapi setiap kali dia membuka mulutnya, peluru yang dia luncurkan membuat atmosfer di sekitarnya menjadi dingin beku.</color></size>",
+        "info": "<size=24>Kipli Dingin menembakkan kacang polong beku yang merusak dan memperlambat musuh.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Sistem Cryo:</color>\n<color=red>Setiap peluru akan menambahkan 10 Poin Cryo.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli + Isda</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1035,
+        "name": "Ucup Dingin",
+        "introduce": "<size=24><color=#3D1400>Ucup Dingin tidak sengaja menguasai teknologi pendinginan. Selama perjalanan hiking, mereka lupa selimut mereka dan menghabiskan seluruh malam membeku di puncak gunung, kepala mereka tertutup es. Kemudian, Kipli Dingin, terpesona oleh penampilan beku mereka, memberi mereka beberapa peluru es untuk melengkapi penampilan baru mereka.</color></size>",
+        "info": "<size=24>Ucup Dingin menembakkan es yang memperlambat musuh.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Menambahkan 5 Poin Cryo untuk setiap tetesan es yang mengenai. Menembus 3 kali. Setiap tetesan es akan memberikan 4 kali lebih banyak kerusakan pada zombie yang beku.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Ucup + Kipli Dingin (Urutan)</color></size>",
+        "cost": ""
+      },    
+    {
+      "seedType": 1036,
+      "name": "Isda Kecil",
+      "introduce": "<size=24><color=#3D1400>\u0022Smaller in size, same big abilities!\u0022 Isda Kecil's signature poker face never cracks as he delivers his jokes, and that might just be why zombies freeze on the spot.</color></size>",
+      "info": "<size=24>Isda Kecil can temporarily freeze zombies they come into contact with.\n\n<color=#3D1400>Special: </color><color=red>Freezes zombies that eat it in place.</color>\n<color=#3D1400>Fusion Formula: </color>\n<color=red>Ucup + Isda (In Order)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1037,
+      "name": "Yusuf DIngin",
+      "introduce": "<size=24><color=#3D1400>Yusuf DIngin stands out among the Yusufs. His study abroad in the freezing Alaskan wilderness made him even cooler—literally. Though he only studied hair design for a few years, he's pretty proud of it.</color></size>",
+      "info": "<size=24>Yusuf DIngin's fumes can pass through and freeze zombies.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik (Piercing) </color>\n<color=#3D1400>Cryo System: </color><color=red> Will add 5 Cryo Points after each attack.</color>\n<color=#3D1400>Fusion Formula: </color><color=red>Yusuf + Isda</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1038,
+      "name": "<size=30>Saripudin Dingin",
+      "introduce": "<size=24><color=#3D1400>Saripudin Dingin believes he stands apart from other Saripudins. Unlike them, he never shrinks in fear and joins in all activities without hesitation. However, that's only because when he gets scared, the air around him plummets in temperature, leaving everyone too afraid to startle him.</color></size>",
+      "info": "<size=24>Saripudin Dingin can fire ice spores that slow down zombies and freeze nearby zombies when scared.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Cryo System: </color><color=red>10 Cryo Points per attack.</color>\n<color=#3D1400>Special: </color>\n<color=red>Freeze nearby zombies when they get near.</color>\n<color=#3D1400>Fusion Formula: </color><color=red>Saripudin + Isda</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1039,
+      "name": "<size=24>Bapak Ikhsan Dingin",
+      "introduce": "<size=24><color=#3D1400>Bapak Ikhsan Dingin raised its icy spikes high, ready to confront the zombies. Others remarked on how \u0022cold\u0022 and \u0022silent\u0022 he seemed. Yet, his expression remained unchanged, resolute in his defense against the undead. The truth was his face had simply frozen in place.</color></size>",
+      "info": "<size=24>Bapak Ikhsan Dingin are heavy barrier plants. They slow down zombies that bite them.\n\n<color=#3D1400>Toughness: </color><color=red>8000</color>\n<color=#3D1400>Cryo System: </color><color=red>Zombies that bite it are slowed down and accumulate 10 Cryo Points.</color>\n<color=#3D1400>Fusion Formula: </color><color=red>Isda + Bapak Ikhsan</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1040,
+      "name": "Isda Kehancuran",
+      "introduce": "<size=24><color=#3D1400>\u0022I will freeze the world, and silence will reign. The extreme cold will disrupt your body's temperature system, so it won't be very painful,\u0022 Isda Kehancuran proclaims. He seldom appears in battle, but when he does, a blizzard follows in his wake. With a flash of white light, even time seems to freeze.</color></size>",
+      "info": "<size=24>Isda Kehancuran can destroy zombies in the entire screen and freeze time.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Ashes)</color>\n<color=#3D1400>Special: </color><color=red> Freezes the level – no new zombies will appear within 10 Detik.</color>\n<color=#3D1400>Fusion Formula: </color><color=red>Isda + Dedi</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1041,
+      "name": "Hano Dingin",
+      "introduce": "<size=24><color=#3D1400>Frost Beauty? High Mountain Flower? Hano Dingin. She didn't care. She quietly took care of the frost headdress on her head and was ready to hand her high nut headgear to the zombies at any time. \u0022They will like the cool style.\u0022</color></size>",
+      "info": "<size=24>When a zombie eats an Hano Dingin, it will transform into an Ice Bapak Ikhsan Zombie that will fight for you.\n\n<color=#3D1400>Special: </color><color=red>Upon contact turns a zombie into an Ice Bapak Ikhsan Zombie that will fight for you. Also freezes the full field.</color>\n<color=#3D1400>Fusion Formula: </color><color=red>Hani + Isda</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1042,
+      "name": "<size=28>Saripudin Kehancuran",
+      "introduce": "<size=24><color=#3D1400>While some plants instinctively bury their heads when nervous, Saripudin Kehancuran thrives on excitement. His adrenaline spikes, causing his bullets to fire at an increasing rate. It's wise to avoid provoking him again, or he might explode from all that pent-up energy.</color></size>",
+      "info": "<size=24>Saripudin Kehancuran's attack speed increases as it attacks.\n\n<color=#3D1400>Kerusakan: </color><color=red>20 / 1.5 Detik (0.5 Detik Peak)</color>\n<color=#3D1400>Special: </color><color=red>Each attack will shorten the attack interval by 0.1 Detik, max 0.5 Detik.\nResets when zombies get near.\nWill explode when zombies get near while peak attack speed is reached.</color>\n<color=#3D1400>Fusion Formula: </color>\n<color=red>Saripudin + Dedi</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1043,
+      "name": "<size=32>Yusuf Kehancuran</size>",
+      "introduce": "<size=24><color=#3D1400>Yusuf Kehancuran, the misanthropic workaholic, can't stand the sight of zombies—too much of a distraction. He's got a small stash of bullets, but they're more than lethal enough. \u0022Don't bother me unless it's urgent. If you want them dead, just shoot them yourself.\u0022 Still, his sharp efficiency keeps everyone looking up to him.</color></size>",
+      "info": "<size=24>Yusuf Kehancuran can destroy most zombies in front of it.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800/60 Detik</color>\n<color=#3D1400>Special: </color><color=red>Manually click to attack all zombies in a row.</color>\n<color=#3D1400>Fusion Formula: </color><color=red>Yusuf + Dedi</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1044,
+      "name": "Dedi Kecil",
+      "introduce": "<size=24><color=#3D1400>Dedi Kecil may be small, but his temper is explosive. Disagree with him, and he might blow up—no eye contact needed. It's best to admire him from afar—just don't get too close, or things might get messy.</color></size>",
+      "info": "<size=24>Dedi Kecil will explode when it comes into contact with a zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Ashes)</color>\n<color=#3D1400>Special: </color><color=red>Will explode when zombies get close.</color>\n<color=#3D1400>Fusion Formula: </color>\n<color=red>Ucup + Dedi (In Order)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1045,
+      "name": "<size=32>Hani Kehancuran",
+      "introduce": "<size=24><color=#3D1400>The plants have been wondering why the zombies who have died once cannot be killed. Until the nearest Hani Kehancuran discovered the problem. \u0022In fact, I didn't do anything. I just enthusiastically helped the zombies activate the backup hidden energy. Don't the red zombies look very dangerous? I have already warned them.\u0022</color></size>",
+      "info": "<size=24>Zombies that eat the Hani Kehancuran will get hypnotized, and explode after death.\n\n<color=#3D1400>Special: </color><color=red>Zombies that eat the Hani Kehancuran will be charmed to fight for you. It will explode upon death, dealing massive damage.</color>\n<color=#3D1400>Fusion Formula: </color>\n<color=red>Hani + Dedi</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1046,
+      "name": "<size=24>Yusuf Dingin Kehancuran",
+      "introduce": "<size=24><color=#3D1400>Frost has wrapped around his body, stripping away the innocence of his youth. His eyes, colder and deadlier than any gun's barrel, now only show disdain for his enemies. He's become the reaper, the end of the line. Anyone caught in his frosty sights would do well to leave one less meal prepared at home.</color></size>",
+      "info": "<size=24>Yusuf Dingin Kehancuran can fire explosive ice cones.\n\n<color=#3D1400>Kerusakan: </color><color=red>30*4/3 Detik</color>\n<color=#3D1400>Special: </color><color=red>Pierces 3 enemies. Splashes 10 damage within range of enemy contact.\n<color=#3D1400>Fusion Formula: </color><color=red>Yusuf + Isda + Dedi</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1047,
+      "name": "<size=24>Fajar Polong Bersaudara</size>",
+      "introduce": "<size=24><color=#3D1400>\"Dia memiliki tiga kepala, dan dasarnya bukan daun! Dia tidak terlihat seperti kacang polong biasa!\u0022 Banyak tanaman yang takut melihat penampilan aneh Fajar Polong Bersaudara. Namun, Fajar Polong Bersaudara tetap tidak terpengaruh. Dia hidup dengan penuh semangat, melawan zombie, membaca dengan rakus, bermain catur, dan memenangkan setiap kontes lompat kolam.</color></size>",
+      "info": "<size=24>Fajar Polong Bersaudara dapat menembakkan Fajar kecil yang memantul.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*3/3 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Setiap kali peluru Fajar mengenai tanah, ia menimbulkan 40 poin kerusakan pada zombie di sekitarnya.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Fajar + Kipli Bersaudara</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1049,
+      "name": "Tarno Pedas",
+      "introduce": "<size=24><color=#3D1400>\"Gairah seperti api,\u0022 dan Tarno Pedas tahu betul pepatah ini. Tidak ada jumlah air yang dapat memadamkan api yang bergelora! Sayangnya, zombie di dekatnya hanya bisa merasakan panas dari \"pemanggangan\u0022. Lihatlah mereka, mereka sudah berubah menjadi abu dalam api yang tak henti-hentinya ini!</color></size>",
+      "info": "<size=24>Tarno Pedas akan membakar seluruh baris zombie saat bersentuhan.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuh Instan + 1800 (Abu)</color>\n<color=#3D1400>Formula Fusi: </color>\n<color=red>Tarno + Sugeng (Urutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1050,
+      "name": "Fajar Rawa",
+      "introduce": "<size=24><color=#3D1400>Fajar Rawa menonjol sebagai filsuf sejati di antara tanaman. Dia sering menggumam, \"Apakah aku Fajar atau aku rumput laut?\" atau merenungkan pertanyaan mendalam seperti, \"Dari mana rumput berasal, dan ke mana perginya?\" Namun, ketidakpeduliannya terhadap kebersihan diri dan rambut yang tidak rapi membuat tanaman lain menghindar, lebih memilih menjaga jarak.</color></size>",
+      "info": "<size=24>Fajar Rawa dapat menyeret tiga zombie ke dalam air.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuh Instan*3</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Fajar + Tarno</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1051,
+      "name": "<size=24>Tarno Polong Bersaudara</size>",
+      "introduce": "<size=24><color=#3D1400>Tarno Polong Bersaudara berjemur di bawah sinar matahari, matanya memindai cakrawala. \"Banyak tanaman takut pada tatapanku,\u0022 dia terkekeh. \"Tapi mereka akan mengerti jika mereka harus memakai tiga pasang kacamata hitam untuk perlindungan seperti yang kulakukan!\u0022</color></size>",
+      "info": "<size=24>Dapat menembakkan peluru rumput laut yang memperlambat zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Melambatkan + Dapat Ditumpuk dengan Beku</color>\n<color=#3D1400>Tangle Debuff: </color><color=red>Setiap peluru akan menyebabkan kerusakan persentase tambahan berdasarkan Nilai Tangle zombie. Zombie akan terbunuh secara instan ketika Nilai Tangle penuh.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli Bersaudara + Tarno</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1052,
+      "name": "<size=24>Jarwo Api Neraka</size>",
+      "introduce": "<size=24><color=#3D1400>\"Sangat panas di sini!\u0022 Jarwo Api Neraka kesal. Yakin bahwa cuaca yang intens adalah penyebab kulitnya, dia memperhatikan bagaimana api di kepalanya juga berubah menjadi merah yang cerah. Mungkin inilah waktu yang tepat untuk memulai petualangan musim panas yang disebut \"Tour Luncuran.\u0022</color></size>",
+      "info": "<size=24>Jarwo Api Neraka dapat memberikan dorongan kerusakan yang lebih kuat pada peluru!\n\n<color=#3D1400>Spesial: </color><color=red>Meningkatkan kerusakan tergantung pada jenis peluru. Meledak saat mati.\nKacang Polong: 80 | Ceri: 120 | Kacang Polong Besi: 320 | Sinar Matahari: 400 | Kacang Polong Tiga Arah: 60</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Jarwo + Sugeng + Sugeng</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1053,
+      "name": "<size=24>Jarwo Merah Menyala</size>",
+      "introduce": "<size=24><color=#3D1400>Suhu tinggi dan rasa pedas selalu berjalan beriringan. Jarwo Merah Menyala mungkin tidak memahami konsep ini, tetapi tahun-tahun bekerja di warung barbekyu pasti telah menanamkan panas yang khas padanya.</color></size>",
+      "info": "<size=24>Peluru yang dinyalakan oleh Jarwo Merah Menyala memiliki kekuatan yang sangat meningkat.\n\n<color=#3D1400>Spesial: </color><color=red>Meningkatkan kerusakan tergantung pada jenis peluru. Meledak saat mati.\nKacang Polong: 60, Ceri: 120, Kacang Polong Besi: 320, Sinar Matahari: 400, Kacang Polong Tiga Arah: 45</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Sugeng + Jarwo</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1054,
+      "name": "Fajar Pedas",
+      "introduce": "<size=24><color=#3D1400>\"Aku tidak seimpulsif saudaraku,\u0022 kata Fajar Pedas dengan tenang. \"Dia terburu-buru dalam melakukan semuanya, tetapi aku telah belajar bahwa kesuksesan sejati datang dari kesabaran dan pengamatan yang cermat. Kadang-kadang, yang terbaik adalah menunggu dan membiarkan api menyala.\u0022</color></size>",
+      "info": "<size=24>Fajar Pedas dapat membakar seluruh baris zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red> 1800 (Satu Kotak) + 1800 (Jalur)</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Fajar + Sugeng</color></size>",
+      "cost": ""
+    },  
+        {
+          "seedType": 1055,
+          "name": "Jarwo Bersaudara",
+          "introduce": "<size=24><color=#3D1400>\"Mengapa Jarwo Bersaudara begitu kaya?\" tanaman sering bertanya-tanya. \"Oh, itu tidak masalah,\u0022 dia mengangkat bahu. Threeway Jarwo kemudian mengeluarkan tiga kacang polong dari rambutnya dan menambahkan, \"Aku dulu bekerja sebagai pesulap di sirkus.\u0022</color></size>",
+          "info": "<size=24>Dapat mengubah satu kacang polong menjadi tiga kacang polong yang menyala.\n\n<color=#3D1400>Spesial: </color><color=red>Memisahkan kacang polong yang melewatinya menjadi 3 kacang polong kecil yang menyala yang memberikan 30 kerusakan percikan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli Bersaudara + Jarwo</color></size>",
+          "cost": ""
+        },
+        {
+          "seedType": 1056,
+          "name": "Tarno Api",
+          "introduce": "<size=24><color=#3D1400>\"Api berjuang untuk bertahan di bawah air, yang berarti aku tidak dapat menggunakan apiku untuk menerangi jalan,\u0022 kata Tarno Api. \"Tapi begitu berada di atas permukaan, apiku bisa bersinar sekali lagi.\u0022</color></size>",
+          "info": "<size=24>Menyalakan peluru rumput laut atau menyeret zombie ke dalam air.\n\n<color=#3D1400>Spesial: </color><color=red>Menyalakan kacang polong dan peluru rumput laut. Peluru rumput laut yang menyala dapat menambahkan 1 Nilai Tangle ke semua zombie dalam jangkauan percikan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Tarno + Jarwo</color></size>",
+          "cost": ""
+        },
+        {
+          "seedType": 1057,
+          "name": "WHERE IS THIS 2",
+          "introduce": "<size=24><color=#3D1400>火焰窝瓜总是一个接一个从窝炬里跳出来。\u0022炼瓜炉里太热了，把我身体都要烤化了！\u0022几个金色的火焰窝瓜一起喊道。</color></size>",
+          "info": "<size=24>他只是一个金色的窝瓜。\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color></size>",
+          "cost": ""
+        },
+        {
+          "seedType": 1058,
+          "name": "<size=24>Kipli Bersaudara Kepedasan</size>",
+          "introduce": "<size=24><color=#3D1400>\"Mengapa Sugeng selalu mendapatkan semua pujian?\u0022 Kipli Bersaudara Kepedasan berseru, asap keluar dari mulutnya. \"Jika mereka hanya menyadari bahwa berfusi dengan Sugeng membakar kacang polongmu.\u0022 Dia menatap Jarwo dengan serius. \"Percayalah, kamu tidak akan ingin mengunyah kacang polong yang hangus!\u0022</color></size>",
+          "info": "<size=24>Kipli Bersaudara yang tidak dapat berfusi karena dia hangus.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Menghasilkan garis api yang memberikan 1800 kerusakan (Abu) dalam tiga jalur saat ditanam atau disatukan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli Bersaudara + Sugeng</color></size>",
+          "cost": ""
+        },
+        {
+          "seedType": 1059,
+          "name": "<size=28>Fajar Jarwo</size>",
+          "introduce": "<size=24><color=#3D1400>\"Terlalu panas! Terlalu panas!\u0022 Fajar berteriak, terperangkap dalam api Jarwo. \"Siapa yang menempatkanku di sini? Aku seharusnya Fajaring zombie, bukan menjadi punchline di pesta barbekyu!\u0022 Panasnya luar biasa, dan saat dia mencapai titik puncaknya, dia menyala, meledak keluar dari obor untuk bergabung kembali dalam pertempuran melawan zombie.</color></size>",
+          "info": "<size=24>Menghasilkan Fajar di depan untuk setiap 60 kacang polong yang melewatinya.\n\n<color=#3D1400>Spesial: </color><color=red>Setiap kali 60 kacang polong menyala, Fajar akan ditanam di depan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Fajar + Jarwo</color></size>",
+          "cost": ""
+        },
+        {
+          "seedType": 1060,
+          "name": "Asep Batu",
+          "introduce": "<size=24><color=#3D1400>Asep Batu baru saja kembali dari perjalanan ke Eropa. Dia bersenang-senang, bertemu beberapa orang yang luar biasa, benar-benar memperluas wawasannya. Dia tidak pernah tahu bahwa mereka membuat museum begitu besar, atau menempatkan begitu banyak lukisan di dalamnya. Itu adalah kejutan besar baginya.</color></size>",
+          "info": "<size=24>Asep Batus meletuskan beberapa ban dan menyakiti zombie apa pun yang menginjaknya.\n\n<color=#3D1400>Ketangguhan: </color><color=red>450</color>\n<color=#3D1400>Spesial: </color><color=red>Dapat menembus ban, tetapi mengurangi 50 Ketangguhan.</color></size>",
+          "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
+        },
+        {
+          "seedType": 1061,
+          "name": "Asep Api",
+          "introduce": "<size=24><color=#3D1400>\"Aku Asep Api, koki barbekyu yang bersemangat bagi zombie! Nyalakan kacang polong kecil itu, dan aku akan mengadakan pesta barbekyu yang tak terlupakan. Yakinlah, aku seorang profesional—aku menjamin akan renyah di luar dan lembut di dalam!\u0022</color></size>",
+          "info": "<size=24>Asep Api dapat menyalakan kacang polong kecil dan menembus kendaraan.\n\n<color=#3D1400>Spesial: </color><color=red>Menyalakan kacang polong kecil untuk meningkatkan kerusakan dan percikan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Agus + Jarwo</color></size>",
+          "cost": ""
+        },
+
+              {
+                "seedType": 1062,
+                "name": "Asep Pedas",
+                "introduce": "<size=24><color=#3D1400>\"Studi mengungkapkan bahwa kepedasan sebenarnya adalah jenis rasa sakit,\u0022 kata Asep Pedas, menggetarkan duri merah di kepalanya. \"Aku berniat membiarkan zombie yang tidak percaya merasakan kenyataan ini untuk diri mereka sendiri.\u0022</color></size>",
+                "info": "<size=24>Asep Pedas meletuskan ban dan membakar zombie yang menginjaknya.\n\n<color=#3D1400>Kerusakan: </color><color=red>20</color>\n<color=#3D1400>Enflamed Debuff: </color><color=red> Kerusakan apa pun yang diterima akan meningkat sebesar 50%.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Sugeng + Agus</color></size>",
+                "cost": ""
+              },
+              {
+                "seedType": 1063,
+                "name": "Fajar Berduri",
+                "introduce": "<size=24><color=#3D1400>\"Huh? Ya.\u0022 Frasa ini milik Fajar Berduri, yang jarang berbicara dan sering membuat orang lain merasa tidak pasti. Setelah makan malam, topik duri selalu menjadi favorit di kalangan tanaman. Dikatakan bahwa pada suatu sore biasa, saat Fajar bersiap untuk menghancurkan zombie terdekat, dia mengabaikan duri yang mengintai di bawah kakinya.</color></size>",
+                "info": "<size=24>Zombie akan terdorong ke belakang setiap kali menyerang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Setiap serangan akan mendorong zombie ke belakang dan menembakkan 1 peluru Fajar yang memantul.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Fajar + Agus</color></size>",
+                "cost": ""
+              },
+              {
+                "seedType": 1064,
+                "name": "<size=30>Asep Bersaudara</size>",
+                "introduce": "<size=24><color=#3D1400>\"Itu hanyalah ketombe yang aku buang,\u0022 kata Agus dengan santai. Asep Bersaudara mengangkat alis, tidak yakin. \"Pembicaraan cemburu, jika menurutmu,\u0022 dia menjawab. \"Kamu tidak bisa menipuku dengan alasan itu.\u0022</color></size>",
+                "info": "<size=24>Menembakkan 3 gulma yang memberikan kerusakan meningkat pada kendaraan.\n\n<color=#3D1400>Kerusakan: </color><color=red>5*3/1.5 Detik (Tembus)</color>\n<color=#3D1400>Spesial: </color><color=red>Peluru memberikan 30% kerusakan maksimal pada kendaraan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Kipli Bersaudara + Agus</color></size>",
+                "cost": ""
+              },
+              {
+                "seedType": 1065,
+                "name": "<size=34><size=24>Tentara Ucup Polong</size>",
+                "introduce": "<size=24><color=#3D1400>\"Kami akan bergabung dengan tentara!\u0022 ketiga jamur kecil berteriak dengan gembira. Meskipun tinggi badan mereka tidak memenuhi syarat dan menemukan helm kecil adalah perjuangan, tantangan ini tidak dapat menahan Tentara Ucup Polongs. Bersatu sebagai satu, mereka menetapkan pandangan mereka untuk menjadi trio teratas di tentara.</color></size>",
+                "info": "<size=24>Dapat ditumpuk tiga kali untuk menembakkan 12 kacang polong kecil sekaligus!\n\n<color=#3D1400>Kerusakan: </color><color=red>20*4/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Ucup + Tentara Kipli (Urutan)</color></size>",
+                "cost": ""
+              },
+              {
+                "seedType": 1066,
+                "name": "<size=20>Fajar Tarno Polong Bersaudara</size>",
+                "introduce": "<size=24><color=#3D1400>Fajar Tarno Polong Bersaudara memiliki hati yang kontemplatif, memeluk dunia filsafat. Jika Anda memberikannya segelas bir akar, bersiaplah untuk berdiskusi tentang Nietzsche's Thus Spoke Zarathustra atau Kant's Critique of Pure Reason. Meskipun renungannya mungkin terdengar mendalam, ada saat-saat ketika dia merindukan percakapan yang ringan, seperti membahas suhu kedalaman air.</color></size>",
+                "info": "<size=24>Menembakkan rumput laut yang memantul saat bersentuhan dan memperlambat zombie air.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*3/3 Detik</color>\n<color=#3D1400>Tangle Debuff: </color><color=red>Rumput laut memantul saat bersentuhan, memberikan 40 Kerusakan pada zombie di dekatnya saat mendarat. Memperlambat musuh air. Menambahkan 1 Nilai Tangle saat kontak.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Tarno + Kipli Bersaudara + Fajar</color></size>",
+                "cost": ""
+              },
+              {
+                "seedType": 1067,
+                "name": "Zahra",
+                "introduce": "<size=24><color=#3D1400>\"Woof!\u0022 kata Zahra. \"Woof woof woof! Apakah ini membingungkanmu? Apakah kamu mengharapkan saya mengatakan 'Meow' seperti kucing karena kata 'kucing' ada dalam nama saya dan saya juga terlihat seperti kucing? Itu bukan cara kerjanya di sini. Saya menolak dikategorikan.\u0022</color></size>",
+                "info": "<size=24>Zahra dapat menyerang jalur apa pun dan menembak jatuh zombie balon.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1.5 Detik</color></size>",
+                "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
+              },
+              {
+                "seedType": 1068,
+                "name": "Zahra Dingin",
+                "introduce": "<size=24><color=#3D1400>\"Aku bukan hanya kucing... aku... aku kucing biru super!\u0022 kata Zahra Dingin. \"Apakah kamu punya es kucing?\u0022 Kecintaannya pada catnip bersinar, dan dia memiliki daya tarik yang tak terbantahkan terhadap semua hal yang dingin.</color></size>",
+                "info": "<size=24>Zahra Dingin dapat menyerang zombie apa pun di jalur dan memperlambatnya.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1.5 Detik (Tembus) </color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Setiap serangan pada zombie menambahkan 5 Poin Cryo. Selain itu, memfokuskan serangannya pada zombie yang terkena.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Isda + Zahra</color></size>",
+                "cost": ""
+              },
+
+     {
+       "seedType": 1069,
+       "name": "Zahra Panas",
+       "introduce": "<size=24><color=#3D1400>\"Ketika aku masih kecil, aku pikir aku akan menjadi Zahra biasa,\u0022 kata Zahra Panas, menghangatkan ekornya dengan bangga. \"Ternyata, aku adalah lautan api yang luar biasa!\u0022 Zahra Dingin menghela napas dari sudut ruangan, menggumam, \"Pamer.\u0022</color></size>",
+       "info": "<size=24>Zahra Panas dapat menyerang zombie di jalur apa pun dan memberikan kerusakan tinggi.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*2/1.5 Detik</color>\n<color=#3D1400>Enflamed Debuff: </color><color=red>Memberikan kerusakan dua kali lebih besar pada zombie yang Berapi-api.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Sugeng + Zahra</color></size>",
+       "cost": ""
+     },
+     {
+       "seedType": 1070,
+       "name": "Abdul",
+       "introduce": "<size=24><color=#3D1400>\"Aku selalu menikmati melepaskan asap tebal,\u0022 kata Gloom Shroom. \"Aku tahu banyak orang tidak suka dengan itu. Mereka mengatakan itu kasar atau berbau tidak sedap. Yang bisa kukatakan adalah, apakah kamu lebih suka otakmu dimakan zombie?\u0022</color></size>",
+       "info": "<size=24>Abdul menembakkan asap tebal di area sekitarnya.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*4/1.9 Detik</color></size>",
+       "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
+     },
+     {
+       "seedType": 1071,
+       "name": "<size=32>Abdul Pedas</size>",
+       "introduce": "<size=24><color=#3D1400>Kemampuan Abdul Pedas untuk mengeluarkan uap panas telah membuatnya menjadi pembuat kue pastry yang terkenal. Kue pedas khasnya adalah favorit banyak orang, disukai karena rasanya yang khas.</color></size>",
+       "info": "<size=24>Membuang asap berapi-api yang merusak tinggi di sekitarnya.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*4/1.9 Detik</color>\n<color=#3D1400>Enflamed Debuff: </color><color=red>Menyebabkan debuff Berapi-api saat menyerang zombie.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Sugeng + Abdul</color></size>",
+       "cost": ""
+     },
+     {
+       "seedType": 1072,
+       "name": "Abdul Dingin",
+       "introduce": "<size=24><color=#3D1400>Bermimpi menjadi seorang fisikawan, Abdul Dingin mendedikasikan hari-harinya untuk mengungkap kerumitan dunia, menghindari kontak dengan tanaman lain. \"Mengapa saya memiliki beberapa untaian es loli yang tumbuh dari kepala saya?\" dia merenung, pertanyaan terakhir yang menghantui pikirannya. Dia anehnya berkeras menyebutnya \"untaian.\u0022</color></size>",
+       "info": "<size=24>Membuang asap dingin di sekitar yang dapat membekukan zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*4/1.9 Detik (Tembus) </color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Setiap serangan menambahkan 5 Poin Cryo.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Isda + Abdul</color></size>",
+       "cost": ""
+     },
+     {
+       "seedType": 1073,
+       "name": "<size=24>Bapak Ikhsan Panas</size>",
+       "introduce": "<size=24><color=#3D1400>Bapak Ikhsan Panas adalah penggemar berat Olimpiade dan dengan penuh semangat bersikeras bahwa Jarwo dipilih sebagai obor Olimpiade. Peringatan berhati-hati bagi yang tidak tahu: jangan mencoba memakannya. Anda mungkin akan terbakar karena panasnya yang pedas.</color></size>",
+       "info": "<size=24>Zombie akan menjadi berapi-api saat digigit.\n\n<color=#3D1400>Ketangguhan: </color><color=red>8000</color>\n<color=#3D1400>Enflamed Debuff: </color><color=red>Zombie yang Berapi-api akan 50% lebih rentan terhadap semua serangan.</color>\n<color=#3D1400>Spesial: </color><color=red>Saat terkena Sugeng, menyembuhkan 1000 Ketangguhan. Zombie yang menyerang juga kehilangan 20 Kesehatan per serangan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Sugeng + Bapak Ikhsan</color></size>",
+       "cost": ""
+     },
+     {
+       "seedType": 1074,
+       "name": "Asep Dingin",
+       "introduce": "<size=24><color=#3D1400>Setelah kembalinya dari Alaska, Asep Dingin tidak dapat menahan kegembiraannya. Tidak sabar untuk membekukan zombie menjadi padat, dia menikmati pemikiran \"es\" yang meledak di bawah kaki mereka. Dia membuat suatu titik bahwa semua orang menggunakan istilah \"es.\" Kulitnya masih membawa hawa dingin dari petualangan Arktiknya, dan matanya berkilau dengan kilauan salju yang tidak meleleh.</color></size>",
+       "info": "<size=24>Dapat menembus ban dan membekukan zombie.\n\n<color=#3D1400>Ketangguhan: </color><color=red>450</color>\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1 Detik (Tembus) </color>\n<color=#3D1400>Sistem Cryo: </color><color=red>Menambahkan 5 Poin Cryo per serangan.</color>\n<color=#3D1400>Spesial: </color><color=red>Dapat menembus ban, membunuh kendaraan secara instan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Isda + Asep Batu</color></size>",
+       "cost": ""
+     },
+      {
+        "seedType": 1075,
+        "name": "Asep Panas",
+        "introduce": "<size=24><color=#3D1400>Tidak lama lalu, Asep Panas melakukan perjalanan ke Meksiko dan terbawa oleh antusiasme penduduk setempat yang bersemangat, dengan cepat jatuh cinta dengan taco. Sekarang, dia mencurahkan semua energinya untuk museum taco bersama Asep Dingin, meskipun Asep Dingin tampaknya tidak berbagi antusiasmenya.</color></size>",
+        "info": "<size=24>Membakar zombie yang menginjaknya dan juga menembus kendaraan.\n\n<color=#3D1400>Ketangguhan: </color><color=red>450</color>\n<color=#3D1400>Kerusakan: </color><color=red>40*2/1 Detik</color>\n<color=#3D1400>Enflamed Debuff: </color><color=red>Menerapkan debuff Berapi-api saat menyerang zombie.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Sugeng + Asep Batu</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1076,
+        "name": "Denis Kaktus",
+        "introduce": "<size=24><color=#3D1400>\"Orang sering bertanya tentang penampilan saya, jadi izinkan saya menjelaskan: saya berasal dari Gurun Namib,\u0022 kata Denis Kaktus kepada siapa pun yang bertanya. \"Jika Anda mengenal geografi, Anda akan tahu bahwa gurun dapat ditemukan tepat di sebelah laut!\u0022</color></size>",
+        "info": "<size=24>Menyerang zombie terbang dan pesawat udara, tumbuh dalam ukuran setelah beberapa saat.\n\n<color=#3D1400>Kerusakan: </color><color=red>20 → 20*4 / 1.5 Detik</color>\n<color=#3D1400>Waktu Pertumbuhan: </color><color=red>120 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Denis + Dominic</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1077,
+        "name": "Surya Air",
+        "introduce": "<size=24><color=#3D1400>\"Sayangnya, aku adalah jamur, bukan bunga, jadi aku tidak bisa disebut bunga laut atau yang serupa,\u0022 kata Surya Air. \"Kadang-kadang, ini membuatku sedih, tetapi jangan biarkan itu mengganggu kamu. Aku mungkin bukan Dewi, namun aku masih dapat menggunakan reaksi fisik dan kimia yang berbeda di dalam air untuk membawakanmu sinar matahari!\u0022</color></size>",
+        "info": "<size=24>Menghasilkan Matahari dalam jumlah yang meningkat saat tumbuh.\n\n<color=#3D1400>Output Matahari: </color><color=red>15 → 25 → 50 / 15 Detik</color>\n<color=#3D1400>Waktu Pertumbuhan: </color><color=red>20 Detik → 40 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Denis + Dewi</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1078,
+        "name": "Denis Manyala",
+        "introduce": "<size=24><color=#3D1400>\"Aku pernah menjadi sistem lampu di pesta kolam renang bajak laut, bekerja untuk perusahaan penyelamatan air dalam Amazon selama tiga bulan, dan bahkan menjabat sebagai umpan pancing malam saat aku tidur!\u0022 Denis Manyala berbagi, campuran kemarahan dan kebanggaan terlihat jelas dalam suaranya. \"Sekarang, aku mencari pekerjaan yang stabil. Paman Dave menyebutkan bahwa kolam renang di halaman belakang membutuhkan pencahayaan, tetapi dia lupa menyebutkan bahwa itu dipenuhi dengan zombie!\u0022</color></size>",
+        "info": "<size=24>Mengusir kabut dan memberikan cahaya, tumbuh dalam ukuran setelah beberapa saat.\n\n<color=#3D1400>Waktu Pertumbuhan: </color><color=red>60 Detik</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Memberikan 1 Level Lumos dalam Grid 3x3, 5x5 setelah pertumbuhan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Denis + Purwono</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1079,
+        "name": "Dominic Cahaya",
+        "introduce": "<size=24><color=#3D1400>\"Petualangan saya di gurun telah membuat saya sangat brilian,\u0022 kata Dominic Cahaya dengan bangga, tetapi dia tidak pernah lupa untuk mengisi minyak lampu setiap hari untuk memastikan dia terus bersinar.</color></size>",
+        "info": "<size=24>Menembakkan paku dan laser yang menembus, tergantung pada level Lumos.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik, 20*2/1.5 Detik (Udara)</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Mendapatkan buff berikut tergantung pada Level Lumos:\nLevel 1 = Tembus 3 Kali\nLevel 2 = Tembus Tanpa Batas\nLevel 3 = Kerusakan Udara Laser → 60</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Purwono + Dominic</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1080,
+        "name": "Tiara Manyala",
+        "introduce": "<size=24><color=#3D1400>\"Lilin perak menerangi kanvas musim gugur yang dingin, sementara kipas sutra ringan menari dengan kunang-kunang.\u0022 Ini adalah puisi favorit Tiara Manyara. Ketertarikannya pada kunang-kunang dimulai sejak kecil, dan dia sering menikmati angin sejuk di tepi air pada malam hari, mengagumi bagaimana fluoresensi mereka naik perlahan dari angin, berkilau sebelum jatuh kembali ke rumput gelap. Hanya zombie yang akan mengabaikan keindahan yang luar biasa ini.</color></size>",
+        "info": "<size=24>Mengusir kabut dan meningkatkan level Lumos dari tanaman Lumos yang ada.\n\n<color=#3D1400>Sistem Lumos: </color><color=red>Memberikan 1 Level Lumos untuk tanaman Lumos di seluruh lapangan selama 30 Detik.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Purwono + Tiara</color></size>",
+        "cost": ""
+      },
+    {
+      "seedType": 1081,
+      "name": "<size=30>Zainal Bersinar</size>",
+      "introduce": "<size=24><color=#3D1400>Bintang-bintang menari di atas air saat lampu pancing bersiap naik ke langit. Gelombang membawa bulan pergi sementara pasang membawa bintang-bintang. Sebagai seorang anak, Zainal Bersinar bermimpi memetik bintang, sering menatap kilauan mereka di atas air. Bertemu Purwono mengajarkannya bahwa seseorang tidak perlu iri pada bintang-bintang yang gemilang di atas; bahkan cahaya yang paling redup, seperti kunang-kunang, memiliki kehangatan dan keindahannya sendiri.</color></size>",
+      "info": "<size=24>Menembakkan bintang yang dapat melacak zombie jika ada cahaya.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*5/3 Detik</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Mendapatkan buff berikut: \nLevel 1 = Peluru sekarang dapat melacak zombie di baris yang sama dengan mereka.\nLevel 2 = Peluru ditembakkan terus menerus terlepas dari apakah ada zombie.\nLevel 3 = Peluru melacak zombie di mana saja.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Purwono + Zainal</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1082,
+      "name": "<size=30>Dominic Kecil</size>",
+      "introduce": "<size=24><color=#3D1400>Dominic Kecils selalu bergerak dalam kelompok, berkicau dengan angkuh dan memandang rendah orang lain. Tanaman lain penasaran apa yang mungkin bisa dilakukan makhluk kecil seperti itu, tetapi Dominic Kecils tetap tidak terpengaruh: \"Jika kupu-kupu dapat mengaduk badai, tentu saja kami jauh lebih kuat.\u0022</color></size>",
+      "info": "<size=24>Memuntahkan duri untuk menyerang zombie di langit. Tidak menempati kotak mana pun.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2 / 1.5 Detik (Tanaman), 20*2 / 1 Second (Wingman)</color>\n<color=#3D1400>Spesial: </color><color=red>Dapat ditanam di atas tanaman lain.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Dominic + Tiara</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1083,
+      "name": "Zainal Air",
+      "introduce": "<size=24><color=#3D1400>\"Meskipun namaku mirip dengan nama hewan, itu hanya nama panggung,\u0022 kata Zainal Air. \"Aku adalah seorang pesulap yang dapat mengeluarkan spora dengan berbagai bentuk.\u0022 Dia menyimpan kebencian yang mendalam terhadap zombie penyelam, khawatir mereka akan mengungkap kebenaran: dia hanyalah seorang Denis dengan pistol air berbentuk bintang yang bertengger di kepalanya.</color></size>",
+      "info": "<size=24>Menyerang dua kali saat tumbuh sepenuhnya.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5 → 20*5*2 / 1.5 Detik</color>\n<color=#3D1400>Waktu Pertumbuhan: </color><color=red>60 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Denis + Zainal</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1084,
+      "name": "Tiara Bintang",
+      "introduce": "<size=24><color=#3D1400>\"Kumpulkan bintang-bintang di sekitar saya dan berikan kepada mereka yang berharap pada bintang jatuh,\u0022 kata Tiara Bintang dengan bangga, percaya bahwa itu adalah misi yang mulia. Namun, tidak semua orang menghargainya—terutama ketika hujan bintang datang langsung ke arah mereka.</color></size>",
+      "info": "<size=24>Menarik bintang untuk berputar di sekitarnya dan meluncurkannya keluar.\n\n<color=#3D1400>Spesial: </color><color=red>Menarik peluru bintang terdekat. Setelah 6 Detik, menembakkannya sebagai peluru pelacak dengan kecepatan dan kerusakan dua kali lipat. Menarik hingga 20 peluru maksimal.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Tiara + Zainal</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1085,
+      "name": "Zainal Kaktus",
+      "introduce": "<size=24><color=#3D1400>Zainal Kaktus selalu menjadi sedikit aneh. Tanaman bercanda, \"Dia selalu ada di tanah tetapi hanya melawan zombie terbang. Mengapa dia tidak mengejar yang di tanah?\u0022 Zainal Kaktus, selalu sabar, tidak mengatakan apa-apa, diam-diam melindungi rahasianya: penglihatannya yang buruk hanya memungkinkan dia melihat langit saat dia berbaring.</color></size>",
+      "info": "<size=24>Hanya dapat menyerang zombie di langit.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Peluru melacak zombie terbang di seluruh papan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Dominic + Zainal</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1086,
+      "name": "Denis Kipas",
+      "introduce": "<size=24><color=#3D1400>Denis Kipas memiliki aspirasi yang setinggi naga. Menguasai seni kuno \"Feng Shui\" dari Timur, dia sangat sadar akan posisi keberuntungan dan ketidakberuntungan. Memahami bahwa angin dan air saling melengkapi, dia berharap untuk menjauhkan nasib buruk, baik saat terbang di langit atau meluncur melalui air.</color></size>",
+      "info": "<size=24>Mengusir kabut dan mendorong zombie kembali ke dalam air.\n\n<color=#3D1400>Spesial: </color><color=red>Mengusir kabut dan mengusir zombie air.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Denis + Tiara</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1087,
+      "name": "Bung Manyala",
+      "introduce": "<size=24><color=#3D1400>Bung Manyala bersikeras bahwa dia sering bertemu hantu, tetapi apakah mereka benar-benar ada? Siapa yang bisa memastikan? Mungkin dia hanya terseret ke dalam babak lain dari perayaan Halloween oleh seseorang yang menginginkan ketakutan yang baik.</color></size>",
+      "info": "<size=24>Di area kecil, mengusir kabut dan meningkatkan Level Lumos untuk tanaman Lumos di dalamnya.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Memberikan 1 Level Lumos dalam Grid 3x3. Memulihkan 150 Ketangguhan per Level Lumos setiap 15 Detik.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Purwono + Bung Lasmana</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1088,
+      "name": "Bung Dominic",
+      "introduce": "<size=24><color=#3D1400>Bung Dominic mungkin terlihat seperti kerabat jauh Bung Lasmana, tetapi bentuknya saat ini berasal dari petualangan gurun dengan Tiara. Anehnya, ia tampaknya tidak memiliki duri yang terlihat, namun tanaman yang mencoba melompat ke dalamnya selalu tertusuk, membuat mereka mempertanyakan bagaimana hal itu terjadi.</color></size>",
+      "info": "<size=24>Menyerang balik zombie yang menggigitnya.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Merusak musuh yang menyerang.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Dominic + Pumpki</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1089,
+      "name": "<size=30>Lasmana Bintang</size>",
+      "introduce": "<size=24><color=#3D1400>Orang-orang sering bertanya-tanya berapa banyak bahasa yang harus diketahui Lasmana Bintang untuk berkomunikasi dengan mudah dengan semua tanaman. Lasmana Bintang tersenyum dan berkata, \"Sebenarnya, aku hanya berbicara bahasa Zainal, karena dia satu-satunya yang bekerja sama denganku.\u0022</color></size>",
+      "info": "<size=24>Membantu Tiara Bintang mempertahankan lebih banyak bintang.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Meningkatkan batas penyimpanan Tiara Bintang menjadi 60.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Zainal + Bung Lasmana</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1090,
+      "name": "Rahli",
+      "introduce": "<size=24><color=#3D1400>Saudara Rahli selalu berdebat tentang arah terbaik untuk menembak—ke depan atau ke belakang. Tetapi sekarang mereka telah menemukan solusi yang cerdas: biarkan saja peluru memantul. Masalah terpecahkan!</color></size>",
+      "info": "<size=24>Rahli menembakkan kacang polong ke depan dan ke belakang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Kacang polong yang ditembakkan ke belakang akan memantul dan bergerak ke depan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Rahma + Kipli</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1091,
+      "name": "Bung Angin",
+      "introduce": "<size=24><color=#3D1400>Bagi Bung Angin, tampil baik adalah prioritas utama. Dia tidak pernah meninggalkan rumah tanpa terlebih dahulu menghabiskan waktu setengah jam menyempurnakan daun di kepalanya, memastikan gaya rambutnya sempurna.</color></size>",
+      "info": "<size=24>Setiap beberapa saat Tiara akan muncul untuk mengusir kabut.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Menghasilkan Tiara setiap 30 Detik.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Tiara + Bung Lasmana</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1092,
+      "name": "Lasmana Magnet",
+      "introduce": "<size=24><color=#3D1400>Makan di luar mengirimkan getaran ke tulang belakang Lasmana Magnet. Dia selalu takut bahwa peralatan makan besi akan secara ajaib menempel di wajahnya, mengubah makanan yang menyenangkan menjadi pengalaman yang canggung.</color></size>",
+      "info": "<size=24>Dapat menyatu dengan bahan besi dari zombie untuk menyerap sifatnya.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Sistem Magnet: </color><color=red>Tanaman ini akan memberikan:\n(20 * Jumlah Tanaman Magnetik dalam Sistem * Kecepatan Zombie) kepada zombie tertentu setiap 6 Detik. Hanya Zombie dengan bahan magnetik ATAU kendaraan mekanik yang dapat dirusak dengan cara ini. Selain itu, mereka tidak boleh berada di langit atau bawah tanah.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Bung Lasmana + Fitri</color></size>",
+      "cost": ""
+ },
+    {
+      "seedType": 1093,
+      "name": "Zainal Magnet",
+      "introduce": "<size=24><color=#3D1400>Zainal Magnet menyimpan mimpi seumur hidup: untuk menyedot bintang-bintang dari langit. Dia menghabiskan setiap malam menatap langit berbintang, membayangkan hari ketika mimpinya menjadi kenyataan.</color></size>",
+      "info": "<size=24>Dapat menyatu dengan bahan besi dari zombie untuk menyerap sifatnya.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Memberikan kerusakan dua kali lipat pada zombie besi.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Zainal + Fitri</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1094,
+      "name": "Zainal Badut",
+      "introduce": "<size=24><color=#3D1400>Zainal Badut sering menanggung beban dilihat sebagai badut sirkus, yang membuatnya merasa tidak puas. \"Aku mungkin terlihat lucu, tetapi sebenarnya aku adalah seorang superhero,\u0022 katanya. \"Aku mengambil alih Jack-in-the-Box zombie dan mengenakan setelan pahlawan di dalamnya!\u0022 Mungkin Fitri yang membantunya dalam perampokan tidak pernah menyebutkan dari mana kotak itu berasal.</color></size>",
+      "info": "<size=24>Menembakkan peluru bintang yang meledak saat bersentuhan.\n\n<color=#3D1400>Kerusakan: </color><color=red>40*5/3 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Peluru meledak untuk memberikan kerusakan percikan kecil saat bersentuhan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>(Zainal + Fitri) + Jack-in-the-Box (Urutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1095,
+      "name": "<size=30>Zainal Penambang</size>",
+      "introduce": "<size=24><color=#3D1400>\"Sangat mirip dengan kapak,\u0022 komentar Zainal Penambang, sedikit geli. \"Aku bisa merasakan sebagian diriku bersarang di tanah, dan itu cukup menyenangkan—kecuali jika kamu terganggu oleh serangga seperti kelabang.\u0022 Dengan senyum nakal, dia menantang, \"Mengapa tidak melepas topi saya? Kamu akan menemukan bahwa saya bahkan lebih mirip kapak daripada kamu!\u0022</color></size>",
+      "info": "<size=24>Pickfruit bersembunyi di bawah tanah: zombie tidak akan menyerang tanaman ini.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Tidak dapat diserang.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>(Zainal + Fitri) + Pickaxe</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1096,
+      "name": "Zainal Besi",
+      "introduce": "<size=24><color=#3D1400>Orang-orang sering menggunakan headshot Zainal Besi dan Zainal Magnet untuk menggembar-gemborkan hubungan mereka, yang sangat mengganggu mereka berdua. Faktanya, Zainal Besi hanya ingin menjadi dirinya sendiri - bintang dengan hati batu yang sulit berkarat.</color></size>",
+      "info": "<size=24>Menembakkan peluru bintang yang dilapisi bahan logam.\n\n<color=#3D1400>Ketangguhan: </color><color=red>2000</color>\n<color=#3D1400>Kerusakan: </color><color=red>40*5/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Menyebabkan dorongan ke belakang saat bersentuhan. Memberikan kerusakan besar pada Zombie Besi, dan memecahkan pintu besi.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>(Zainal + Fitri) + Besi (Urutan)</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1097,
+      "name": "Bung Besi",
+      "introduce": "<size=24><color=#3D1400>\"Aku berharap aku lebih kuat,\u0022 gumam Bung Besi. \"Mungkin jika aku terbuat dari berlian...\u0022 Steelfruit menyeringai dan menjawab, \"Bahkan itu tidak akan cukup! Kamu harus menjadi netherite!\u0022 Dalam percakapan mereka yang penuh semangat, mereka lupa satu kebenaran penting: mereka dapat meningkatkan kekuatan mereka sendiri.</color></size>",
+      "info": "<size=24>Melindungi tanaman Anda dengan besi yang kokoh.\n\n<color=#3D1400>Ketangguhan: </color><color=red>8000</color>\n<color=#3D1400>Formula Fusi: </color><color=red>(Bung Lasmana + Fitri) + Besi</color></size>",
+      "cost": ""
+    },
+    {
+      "seedType": 1098,
+      "name": "Lasmana Badut",
+      "introduce": "<size=24><color=#3D1400>\"Setiap kali aku muncul, itu menandakan kedatangan badut. Semua orang bertanya-tanya apa yang ada di dalam kotaknya, tetapi hasilnya tetap menjadi misteri. Aku melihat sekilas sekali, dan momen itu mengubah segalanya bagiku.\u0022</color></size>",
+      "info": "<size=24>Dapat menghentikan ledakan yang disebabkan oleh zombie Jack-in-the-Box\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Meniadakan kerusakan ledakan dari Jack-in-the-Box, melindungi tanaman di dalamnya.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>(Bung Lasmana + Fitri) + Jack-in-the-Box</color></size>",
+      "cost": ""
+ },
+      {
+        "seedType": 1099,
+        "name": "Bung Penambang",
+        "introduce": "<size=24><color=#3D1400>Bung Lasmana sering digunakan untuk melindungi tanaman di belakang dari serangan penambang. Penasaran untuk menghentikan penambang menggali tanah, dia mengambil kapak mereka dan mempelajarinya. Akhirnya, dia mengembangkan teknologi baru yang memaksa penambang untuk menggali jalan keluar dari tanah terlebih dahulu.</color></size>",
+        "info": "<size=24>Dapat menghentikan upaya penambangan oleh Zombie Penambang.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Memaksa Zombie Penambang untuk menggali lebih awal.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>(Bung Lasmana + Fitri) + Pickaxe</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1100,
+        "name": "Fitri Menyala",
+        "introduce": "<size=24><color=#3D1400>\"Sejujurnya, aku berharap aku bisa menjadi Fitri yang sederhana,\u0022 aku Fitri Menyala mengaku. \"Dengan begitu, aku tidak perlu selalu menjadi pusat perhatian atau merasakan tekanan menggunakan satu magnet untuk melakukan pekerjaan dua orang.\u0022</color></size>",
+        "info": "<size=24>Jarak tarik dan waktu cooldown meningkat tergantung pada Level Lumos.\n\n<color=#3D1400>Interval Magnet: </color><color=red>15 Detik (LL0) → 11 Detik → 7.5 Detik → 5 Detik (LL3)</color>\n<color=#3D1400>Jarak Tarik: </color><color=red>+1 (LL1) → +2 → +3</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Level Lumos yang lebih tinggi akan secara signifikan mempersingkat interval tarikan dan meningkatkan jarak tarikan. Ketika berada di Level Lumos 2, tarikan akan menyebabkan 200 kerusakan pada zombie di dekat target tarikan.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Purwono + Fitri</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1101,
+        "name": "Denis Magnet",
+        "introduce": "<size=24><color=#3D1400>Denis lainnya tidak dapat memahami mengapa Denis Magnet dapat menyerap besi untuk menjadi lebih besar dan lebih tinggi. \"Ini sederhana: E=mc²,\" dia menjelaskan, meskipun sebagian besar energi hilang di udara dan tidak digunakan sama sekali.</color></size>",
+        "info": "<size=24>Itu aneh... Mengapa alat besi juga bertambah besar saat dia tumbuh?\n\n<color=#3D1400>Interval Magnet: </color><color=red>15 Detik → 10 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Tumbuh setelah menarik 3 kali.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Denis + Fitri</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1102,
+        "name": "Tiara Magnet",
+        "introduce": "<size=24><color=#3D1400>Tanaman sering menyebut Tiara Magnet \"Magneto.\" Dia dengan percaya diri mengucapkan mantra favoritnya, \"Penyatuan senjata!\u0022 pada zombie, meskipun dia tidak tahu bagaimana konversi energi angin menjadi energi magnetik bekerja di balik layar.</color></size>",
+        "info": "<size=24>Menghisap semua benda besi yang ada.\n\n<color=#3D1400>Spesial: </color><color=red>Menarik hingga 10 benda besi.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Tiara + Fitri</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1103,
+        "name": "Dominic Magnet",
+        "introduce": "<size=24><color=#3D1400>Dominic Magnet menghabiskan beberapa waktu mempelajari gangguan komunikasi di Akademi Angkatan Udara, sering kali membual kepada teman-temannya tentang nilai akademisnya yang luar biasa. Yang tidak dia sadari adalah kesuksesannya sebagian besar berkat ayahnya, seorang komandan Angkatan Udara berpangkat tinggi yang menarik tali di belakang layar.</color></size>",
+        "info": "<size=24>Dapat menyebabkan kerusakan tinggi pada objek terbang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Memberikan kerusakan dua kali lipat pada baju besi logam. Memberikan kerusakan sebesar 1000 pada zombie di dekat lokasi kecelakaan pesawat.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Dominic + Fitri</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1104,
+        "name": "Zainal Angkasa",
+        "introduce": "<size=24><color=#3D1400></color></size>",
+        "info": "<size=24>Memanggil meteor yang memberikan kerusakan besar pada zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>60*5/3 Detik</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Level Lumos 1 hingga 3 memiliki efek yang sama dengan Zainal Bersinar. Saat mencapai Level Lumos 4, memanggil jenis meteor lain yang memiliki cooldown terpisah dari meteor asli.</color>\n<color=#3D1400>Sistem Magnet: </color><color=red>Setiap tanaman yang terhubung dengan Sistem Magnet akan meningkatkan kerusakan peluru sebesar 5%.\n<color=purple>Kedua sistem dapat meningkatkan kerusakan peluru hingga 120, maksimal.\n<color=#3D1400>Spesial: </color><color=red>Memanggil meteor yang menghantam tanah dan meledak menjadi bintang setiap 60 Detik. Cooldown dapat dikurangi dengan menghubungkan Zainal Angkasa lainnya, hingga 13 untuk cooldown yang lebih baik sebesar 25 Detik.</color>\n<color=#3D1400>Formula Fusi:\n</color><color=red>Purwono + Fitri + Zainal</color></size>",
+        "cost": ""
+      },
+          {
+        "seedType": 1105,
+        "name": "Rahma Es",
+        "introduce": "<size=24><color=#3D1400>\"Apa yang terjadi padamu?\" tanya tanaman yang penasaran kepada Rahma Es. Dia terkekeh pelan dan berkata, \"Aku masih Rahma dalam hati. Aku hanya lupa berpelukan di bawah selimut pada malam musim dingin.\u0022</color></size>",
+        "info": "<size=24>Menembakkan dua kacang polong beku secara berurutan.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*2/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Rahma + Isda</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1106,
+        "name": "<size=24>Tentara Kipli Es</size>",
+        "introduce": "<size=24><color=#3D1400>\"Tangannya dingin, wajahnya dingin, hatinya dingin, dan bahkan darahnya dingin… Apakah dia beku?\" seseorang bertanya-tanya dengan lantang. Tentara Kipli Es menggigil, menenangkan tanaman yang khawatir, \"Aku tidak beku! Laras senjataku masih panas!\u0022</color></size>",
+        "info": "<size=24>Tentara Kipli Es menembakkan empat kacang polong beku sekaligus.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*4/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Tentara Kipli + Isda</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1107,
+        "name": "Rahli Es",
+        "introduce": "<size=24><color=#3D1400>\"Jangan biarkan fasad esnya mengelabui Anda; mungkin ada kehangatan yang tersembunyi,\u0022 saran seseorang. Tetapi Miner Zombie mencemooh, \"Jangan membuat asumsi yang bodoh. Orang ini tidak memiliki sisi lain selain dingin!\u0022</color></size>",
+        "info": "<size=24>Menembakkan kacang polong beku ke depan dan ke belakang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Rahli + Isda</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1108,
+        "name": "Rahli Ceri",
+        "introduce": "<size=24><color=#3D1400>Kipli Ceri merangkak keluar dari parit, bingung. \"Siapa yang melempar bom itu?\" dia menuntut. \"Maaf, saudara,\u0022 jawab Rahli Ceri dengan malu-malu, \"Aku melihatmu mengarahkan senjatamu ke arah kami dan mengira kamu adalah zombie.\u0022</color></size>",
+        "info": "<size=24>Rahli Ceri menembakkan ceri ke depan dan ke belakang.\n\n<color=#3D1400>Kerusakan: </color><color=red>60*3/1.5 Detik</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Rahli + Bisma</color></size>",
+        "cost": ""
+      },
+      {
+        "seedType": 1109,
+        "name": "<size=24>Kipli 360 With Scope</size>",
+        "introduce": "<size=24><color=#3D1400>Dikagumi karena penglihatannya yang tajam dan kekuatannya yang kuat, Kipli 360 With Scope disayangi oleh rekan-rekan Pea-nya. Namun, selama pawai formasi mereka, laras senjatanya sering kali masuk ke belakang kepala mereka, membuat beberapa momen tegang di sepanjang jalan.</color></size>",
+        "info": "<size=24>Menembak zombie di seluruh peta untuk memberikan kerusakan besar.\n\n<color=#3D1400>Kerusakan: </color><color=red>500/3 Detik</color>\n<color=#3D1400>Spesial: </color><color=red>Headshot sekali setiap 6 serangan, membunuh zombie secara instan.</color></size>",
+        "cost": "<size=24><color=purple>Kondisi Penggunaan: Mode Tower Defense Peta Besar</color></size>"
+      },
+      {
+        "seedType": 1110,
+        "name": "<size=30>TiaraDuriLasmana</size>",
+        "introduce": "<size=24><color=#3D1400>TiaraDuriLasmana selalu menyimpan tiga buku di raknya, judulnya disembunyikan dari mata penasaran tanaman lain. Suatu hari, rasa ingin tahu Dominic Kecil membawanya ke ruang belajar, di mana ia menemukan judul-judul: \"Panduan untuk Budidaya Tanaman Sukulen,\u0022 \"Perawatan Pascapersalinan untuk Bung Lasmana,\u0022 dan \"Tutorial Penerbangan Cepat Dominic 30 Detik.\u0022 Dominic Kecil terkekeh mendengar koleksi yang tidak terduga itu.</color></size>",
+        "info": "<size=24>Menghasilkan Dominic Kecil yang bergerak mengelilingi lapangan untuk menyerang zombie terbang.\n\n<color=#3D1400>Ketangguhan: </color><color=red>4000</color>\n<color=#3D1400>Spesial: </color><color=red>Selalu memiliki wingman Dominic Kecil bersamanya saat dia muncul. Menghasilkan Dominic Kecil di atas grid 3x3 secara teratur.</color>\n<color=#3D1400>Formula Fusi: </color><color=red>Bung Lasmana + Dominic + Tiara</color></size>",
+        "cost": ""
+      } 
+     ]
+}

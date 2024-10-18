@@ -1,0 +1,255 @@
+﻿[02:06:26.195] ------------------------------
+[02:06:26.231] MelonLoader v0.6.5 Open-Beta
+[02:06:26.234] OS: Windows 10
+[02:06:26.234] Hash Code: ECEE59E98250B37FBAD36ACD622C0C177FB65E478F6B3EE58F58366B6557DF70
+[02:06:26.234] ------------------------------
+[02:06:26.235] Game Type: Il2cpp
+[02:06:26.235] Game Arch: x64
+[02:06:26.235] ------------------------------
+[02:06:26.235] Command-Line: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\PlantsVsZombiesRH.exe
+[02:06:26.235] ------------------------------
+[02:06:26.236] Core::BasePath = D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3
+[02:06:26.236] Game::BasePath = D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3
+[02:06:26.236] Game::DataPath = D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\PlantsVsZombiesRH_Data
+[02:06:26.237] Game::ApplicationPath = D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\PlantsVsZombiesRH.exe
+[02:06:26.237] Runtime Type: net6
+[02:06:26.403] ------------------------------
+[02:06:26.404] Game Name: PlantsVsZombiesRH
+[02:06:26.404] Game Developer: LanPiaoPiao
+[02:06:26.406] Unity Version: 2022.3.20f1c1
+[02:06:26.406] Game Version: 2.1.3
+[02:06:26.406] ------------------------------
+
+[02:06:28.300] Preferences Loaded!
+
+[02:06:28.385] Loading UserLibs from 'D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\UserLibs'...
+[02:06:28.386] ------------------------------
+[02:06:28.396] Melon Assembly loaded: '.\UserLibs\ExIni.dll'
+[02:06:28.396] SHA256 Hash: 'C073DB2220667E6BBBFFF64E13ED4F7E744AF4B554C408F13EA80BFDFFD859D0'
+[02:06:28.411] Melon Assembly loaded: '.\UserLibs\XUnity.AutoTranslator.Plugin.Core.dll'
+[02:06:28.411] SHA256 Hash: '068A7021F48B97087F4AD3E201C18BEB5F4F1BCFF363655D57A8FE2E2D2CEC79'
+[02:06:28.413] Melon Assembly loaded: '.\UserLibs\XUnity.AutoTranslator.Plugin.ExtProtocol.dll'
+[02:06:28.416] SHA256 Hash: '15DC19FB833E55A7628023BB0BFFC18DFB94CB6CA5F6DBA4F171F3A3585A4FF3'
+[02:06:28.419] Melon Assembly loaded: '.\UserLibs\XUnity.Common.dll'
+[02:06:28.419] SHA256 Hash: '0313777972941AB61806649A74770EA79201E0E4063ADF4E24155976B3AC0D10'
+[02:06:28.424] Melon Assembly loaded: '.\UserLibs\XUnity.ResourceRedirector.dll'
+[02:06:28.425] SHA256 Hash: 'F65C057681063A60D3DB039427A4667FF473B71DEFB324BF9F7E9D99FA7BC571'
+
+[02:06:28.435] Loading Plugins from 'D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\Plugins'...
+[02:06:28.442] 0 Plugins loaded.
+[02:06:28.881] Loading Il2CppAssemblyGenerator...
+[02:06:28.926] [Il2CppAssemblyGenerator] Contacting RemoteAPI...
+[02:06:29.646] [Il2CppAssemblyGenerator] Game Not Found on RemoteAPI Host (https://api.melonloader.com/api/v1/game/plantsvszombiesrh)
+[02:06:29.646] [Il2CppAssemblyGenerator] RemoteAPI.DumperVersion = null
+[02:06:29.648] [Il2CppAssemblyGenerator] RemoteAPI.ObfuscationRegex = null
+[02:06:29.654] [Il2CppAssemblyGenerator] RemoteAPI.MappingURL = null
+[02:06:29.654] [Il2CppAssemblyGenerator] RemoteAPI.MappingFileSHA512 = null
+[02:06:29.663] [Il2CppAssemblyGenerator] Using Cpp2IL Version: 2022.1.0-pre-release.18
+[02:06:29.664] [Il2CppAssemblyGenerator] Using Il2CppInterop Version = 1.4.6-ci.545+3da49636029e18c88fe93901a893499a2d779805
+[02:06:29.664] [Il2CppAssemblyGenerator] Using Unity Dependencies Version = 2022.3.20
+[02:06:29.669] [Il2CppAssemblyGenerator] Using Deobfuscation Regex = null
+[02:06:29.670] [Il2CppAssemblyGenerator] Cpp2IL is up to date.
+[02:06:29.670] [Il2CppAssemblyGenerator] UnityDependencies is up to date.
+[02:06:29.671] [Il2CppAssemblyGenerator] Checking GameAssembly...
+[02:06:29.771] [Il2CppAssemblyGenerator] Assembly is up to date. No Generation Needed.
+
+[02:06:29.774] Loading Mods from 'D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\Mods'...
+[02:06:29.774] ------------------------------
+[02:06:29.778] Melon Assembly loaded: '.\Mods\PVZ_Hyper_Fusion.dll'
+[02:06:29.779] SHA256 Hash: 'F3FBF70A9060BF4C62F3974F9FD8F7C29F58EC6C111EE93FC1E6B29FCD80E6D0'
+[02:06:29.782] Melon Assembly loaded: '.\Mods\XUnity.AutoTranslator.Plugin.MelonMod.dll'
+[02:06:29.782] SHA256 Hash: '9DBC7E5B0E3F854FFED9BCD39E10C6D7D1D68A45B9B739B3B9A63089697DC0D0'
+
+[02:06:29.946] ------------------------------
+[02:06:29.947] PVZ Hyper Fusion v0.0.1
+[02:06:29.947] by arifrios1st
+[02:06:29.948] Assembly: PVZ_Hyper_Fusion.dll
+[02:06:29.954] ------------------------------
+[02:06:29.957] ------------------------------
+[02:06:29.959] XUnity Auto Translator v5.4.0
+[02:06:29.959] by gravydevsupreme
+[02:06:29.959] Assembly: XUnity.AutoTranslator.Plugin.MelonMod.dll
+[02:06:29.962] ------------------------------
+[02:06:29.963] ------------------------------
+[02:06:29.971] 2 Mods loaded.
+
+[02:06:32.707] [Il2CppInterop] Class::Init signatures have been exhausted, using a substitute!
+[02:06:32.851] [Il2CppInterop] Registered mono type Il2CppInterop.Runtime.DelegateSupport+Il2CppToMonoDelegateReference in il2cpp domain
+[02:06:32.959] [Il2CppInterop] Registered mono type MelonLoader.Support.MonoEnumeratorWrapper in il2cpp domain
+[02:06:33.010] [Il2CppInterop] Registered mono type MelonLoader.Support.SM_Component in il2cpp domain
+[02:06:33.027] Support Module Loaded: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Dependencies\SupportModules\Il2Cpp.dll
+[02:06:34.268] [PVZ_Hyper_Fusion] Textures loaded successfully.
+[02:06:34.288] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:06:40.141] [PVZ_Hyper_Fusion] OK! Replaced Texture Sproing
+[02:06:40.153] [PVZ_Hyper_Fusion] OK! Replaced Texture Doom
+[02:06:40.161] [PVZ_Hyper_Fusion] OK! Replaced Texture ExplosionPowie
+[02:06:40.165] [PVZ_Hyper_Fusion] OK! Replaced Texture ExplosionSpudow
+[02:06:40.169] [PVZ_Hyper_Fusion] OK! Replaced Texture guang
+[02:06:40.235] [Il2CppInterop] Registered mono type XUnity.AutoTranslator.Plugin.Core.PluginLoader+AutoTranslatorProxyBehaviour in il2cpp domain
+[02:06:40.562] Screen resolution determine to be: 1366x768
+[02:06:40.567] Force loading ALL proxy assemblies.
+[02:06:40.572] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll
+[02:06:40.573] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Il2CppMono.Security.dll
+[02:06:40.573] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll
+[02:06:40.574] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Il2CppSystem.Configuration.dll
+[02:06:40.575] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Il2CppSystem.Core.dll
+[02:06:40.575] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Il2CppSystem.dll
+[02:06:40.576] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Il2CppSystem.Xml.dll
+[02:06:40.576] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Il2Cpp__Generated.dll
+[02:06:40.577] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.2D.Animation.Runtime.dll
+[02:06:40.578] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.Burst.dll
+[02:06:40.580] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.Burst.Unsafe.dll
+[02:06:40.581] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.Collections.dll
+[02:06:40.588] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.Collections.LowLevel.ILSupport.dll
+[02:06:40.588] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.InternalAPIEngineBridge.001.dll
+[02:06:40.589] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.Mathematics.dll
+[02:06:40.590] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+[02:06:40.591] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+[02:06:40.591] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+[02:06:40.592] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.TextMeshPro.dll
+[02:06:40.592] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\Unity.VisualScripting.Core.dll
+[02:06:40.593] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.AccessibilityModule.dll
+[02:06:40.596] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.AIModule.dll
+[02:06:40.603] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.AndroidJNIModule.dll
+[02:06:40.605] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.AnimationModule.dll
+[02:06:40.606] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.ARModule.dll
+[02:06:40.608] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.AssetBundleModule.dll
+[02:06:40.609] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.AudioModule.dll
+[02:06:40.611] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.ClothModule.dll
+[02:06:40.613] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.ClusterInputModule.dll
+[02:06:40.616] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.ClusterRendererModule.dll
+[02:06:40.619] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.ContentLoadModule.dll
+[02:06:40.620] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll
+[02:06:40.621] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.CrashReportingModule.dll
+[02:06:40.622] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.DirectorModule.dll
+[02:06:40.622] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.dll
+[02:06:40.623] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.DSPGraphModule.dll
+[02:06:40.624] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.GameCenterModule.dll
+[02:06:40.624] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.GIModule.dll
+[02:06:40.625] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.GridModule.dll
+[02:06:40.626] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.HotReloadModule.dll
+[02:06:40.628] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.ImageConversionModule.dll
+[02:06:40.629] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.IMGUIModule.dll
+[02:06:40.630] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.InputLegacyModule.dll
+[02:06:40.631] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.InputModule.dll
+[02:06:40.633] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.JSONSerializeModule.dll
+[02:06:40.640] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.LocalizationModule.dll
+[02:06:40.640] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.NVIDIAModule.dll
+[02:06:40.641] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.ParticleSystemModule.dll
+[02:06:40.641] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.PerformanceReportingModule.dll
+[02:06:40.644] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.Physics2DModule.dll
+[02:06:40.645] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.PhysicsModule.dll
+[02:06:40.645] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.ProfilerModule.dll
+[02:06:40.646] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.PropertiesModule.dll
+[02:06:40.646] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+[02:06:40.648] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.ScreenCaptureModule.dll
+[02:06:40.655] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.SharedInternalsModule.dll
+[02:06:40.655] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.SpriteMaskModule.dll
+[02:06:40.656] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.SpriteShapeModule.dll
+[02:06:40.656] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.StreamingModule.dll
+[02:06:40.658] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.SubstanceModule.dll
+[02:06:40.661] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.SubsystemsModule.dll
+[02:06:40.661] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.TerrainModule.dll
+[02:06:40.663] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.TerrainPhysicsModule.dll
+[02:06:40.665] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.TextCoreFontEngineModule.dll
+[02:06:40.666] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.TextCoreTextEngineModule.dll
+[02:06:40.671] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.TextRenderingModule.dll
+[02:06:40.672] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.TilemapModule.dll
+[02:06:40.673] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.TLSModule.dll
+[02:06:40.673] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll
+[02:06:40.676] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UIElementsModule.dll
+[02:06:40.676] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UIModule.dll
+[02:06:40.677] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UmbraModule.dll
+[02:06:40.678] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UnityAnalyticsCommonModule.dll
+[02:06:40.678] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UnityAnalyticsModule.dll
+[02:06:40.679] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UnityConnectModule.dll
+[02:06:40.679] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UnityCurlModule.dll
+[02:06:40.680] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UnityTestProtocolModule.dll
+[02:06:40.683] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestAssetBundleModule.dll
+[02:06:40.686] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestAudioModule.dll
+[02:06:40.687] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestModule.dll
+[02:06:40.689] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestTextureModule.dll
+[02:06:40.690] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestWWWModule.dll
+[02:06:40.693] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.VehiclesModule.dll
+[02:06:40.693] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.VFXModule.dll
+[02:06:40.694] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.VideoModule.dll
+[02:06:40.694] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.VirtualTexturingModule.dll
+[02:06:40.695] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.VRModule.dll
+[02:06:40.696] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.WindModule.dll
+[02:06:40.697] Force loading assembly: D:\Games\[Series] PvZ Mods\PvZ Fusion English 2.1.3\MelonLoader\Il2CppAssemblies\UnityEngine.XRModule.dll
+[02:06:40.732] An error occurred while resolving type: UnityEngine.TextMesh
+System.ArgumentException: TextMesh does not have a corresponding IL2CPP class pointer
+   at Il2CppInterop.Runtime.Il2CppType.TypeFromPointerInternal(IntPtr classPointer, String typeName, Boolean throwOnFailure) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppType.cs:line 19
+   at XUnity.Common.Constants.UnityTypes.FindType(String name)
+[02:06:40.741] An error occurred while resolving type: UnityEngine.WWW
+System.ArgumentException: WWW does not have a corresponding IL2CPP class pointer
+   at Il2CppInterop.Runtime.Il2CppType.TypeFromPointerInternal(IntPtr classPointer, String typeName, Boolean throwOnFailure) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppType.cs:line 19
+   at XUnity.Common.Constants.UnityTypes.FindType(String name)
+[02:06:40.746] [Il2CppInterop] Nested type ToolbarButtonSize on GUI not found!
+[02:06:40.747] An error occurred while resolving type: UnityEngine.GUI+ToolbarButtonSize
+System.ArgumentException: ToolbarButtonSize does not have a corresponding IL2CPP class pointer
+   at Il2CppInterop.Runtime.Il2CppType.TypeFromPointerInternal(IntPtr classPointer, String typeName, Boolean throwOnFailure) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppType.cs:line 19
+   at XUnity.Common.Constants.UnityTypes.FindType(String name)
+[02:06:40.752] An error occurred while resolving type: UnityEngine.ImageConversion
+System.ArgumentException: ImageConversion does not have a corresponding IL2CPP class pointer
+   at Il2CppInterop.Runtime.Il2CppType.TypeFromPointerInternal(IntPtr classPointer, String typeName, Boolean throwOnFailure) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppType.cs:line 19
+   at XUnity.Common.Constants.UnityTypes.FindType(String name)
+[02:06:40.761] An error occurred while resolving type: UnityEngine.AssetBundle
+System.ArgumentException: AssetBundle does not have a corresponding IL2CPP class pointer
+   at Il2CppInterop.Runtime.Il2CppType.TypeFromPointerInternal(IntPtr classPointer, String typeName, Boolean throwOnFailure) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppType.cs:line 19
+   at XUnity.Common.Constants.UnityTypes.FindType(String name)
+[02:06:40.895] Hooked UnityEngine.UI.Text.set_text through Harmony hooks.
+[02:06:40.927] Hooked UnityEngine.UI.Text.OnEnable through Harmony hooks.
+[02:06:41.010] Disabling certificate checks for endpoints because of configuration.
+[02:06:41.012] Probing whether OnLevelWasLoaded or SceneManager is supported in this version of Unity. Any warnings related to OnLevelWasLoaded coming from Unity can safely be ignored.
+[02:06:41.014] An error occurred while settings up scene-load scans.
+System.NotSupportedException: Method unstripping failed
+   at lambda_method2(Closure , UnityAction`2 )
+   at XUnity.AutoTranslator.Plugin.Utilities.TranslationScopeHelper.RegisterSceneLoadCallback(Action`1 sceneLoaded)
+   at XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin.EnableSceneLoadScan()
+[02:06:41.020] Loaded resize command text files.
+[02:06:41.043] --- Loading Global Translations ---
+[02:06:41.052] Loaded translation text files (took 0.01 seconds)
+[02:06:41.053] Created variation translations (took -0 seconds)
+[02:06:41.054] Created token translations (took -0 seconds)
+[02:06:41.060] Loaded XUnity.AutoTranslator into Unity [2022.3.20f1c1] game.
+[02:06:41.134] [Il2CppInterop] Registered mono type XUnity.AutoTranslator.Plugin.Core.Il2CppManagedEnumerator in il2cpp domain
+[02:06:41.319] Skipping plugin scan because no plugin-specific translations has been registered.
+[02:06:41.404] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Adventure_button
+[02:06:41.405] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Adventure_highlight
+[02:06:41.407] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Almanac
+[02:06:41.408] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_AlmanacHighlight
+[02:06:41.409] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Challenge_button
+[02:06:41.411] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Challenge_highlight
+[02:06:41.412] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Challenges_button
+[02:06:41.414] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Challenges_highlight
+[02:06:41.426] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Help1
+[02:06:41.427] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Help2
+[02:06:41.428] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Options1
+[02:06:41.429] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Options2
+[02:06:41.430] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Quit1
+[02:06:41.430] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Quit2
+[02:06:41.431] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Store
+[02:06:41.432] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_StoreHighlight
+[02:06:41.432] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_Vasebreaker_button
+[02:06:41.434] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_vasebreaker_highlight
+[02:06:41.436] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_WoodSign1
+[02:06:41.437] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_WoodSign2
+[02:06:41.441] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_WoodSign2_press
+[02:06:41.444] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_ZenGarden
+[02:06:41.445] [PVZ_Hyper_Fusion] OK! Replaced Texture SelectorScreen_ZenGardenHighlight
+[02:08:11.684] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:08:25.666] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:09:25.926] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:09:49.743] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:11:41.233] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:12:47.719] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:13:07.154] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:13:52.611] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:15:41.207] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:17:31.208] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:18:37.052] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:18:45.468] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:18:47.374] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:19:16.075] [PVZ_Hyper_Fusion] Strings loaded successfully.
+[02:25:14.772] Preferences Saved!
