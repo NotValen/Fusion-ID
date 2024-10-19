@@ -14,7 +14,7 @@
 ```
 KAMU BUTUH GAME NYA SEBELUM INSTALL
 (PC ONLY)
-Musti!!
+Musti install untuk versi china!!
 - Install [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe) Kegame
 
 Harap pastikan Anda menginstal .NET 6.0 x64.
