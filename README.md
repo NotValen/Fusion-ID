@@ -17,6 +17,9 @@ KAMU BUTUH GAME NYA SEBELUM INSTALL
 Musti install untuk versi china!!
 - Install [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe) Kegame
 
+KALAU MAU LEBIH MUDAH CARI VERSI FAN ENGLISH
+https://rentry.co/playfusion
+
 Harap pastikan Anda menginstal .NET 6.0 x64.
 https://dotnet.microsoft.com/id-id/download/dotnet/6.0
 
