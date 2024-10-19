@@ -15,6 +15,9 @@
 KAMU BUTUH GAME NYA SEBELUM INSTALL
 (PC ONLY)
 
+Harap pastikan Anda menginstal .NET 6.0 x64.
+https://dotnet.microsoft.com/id-id/download/dotnet/6.0
+
 Terjemahan: nama tanaman, dan nama zombie tidak resmi. Hal ini tidak didukung oleh tim pengembang resmi dengan cara atau apa pun. Semua yang disajikan di sini, selain tanaman dan zombie yang berasal dari game aslinya, adalah buatan penggemar.
 
 Terjemahan diperoleh dengan campuran Google Terjemahan dan masukan dari sesama anggota komunitas, dan banyak pendapat pribadi. Ambillah ini dengan hati-hati. Selain itu mohon maaf jika ada kesalahan dalam translasi karena saya juga manusia.
