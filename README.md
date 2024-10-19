@@ -15,7 +15,8 @@
 KAMU BUTUH GAME NYA SEBELUM INSTALL
 
 Pastikan Kamu punya folder game dan mod nya:
-![alt text](https://media.discordapp.net/attachments/1031504257742012469/1297085558136504401/image.png?ex=6714a48f&is=6713530f&hm=4ab7e624cdccf1073c6f91bcca90eb333c8d30613ff06de2ba94e210debcc086&=&format=webp&quality=lossless&width=263&height=497)
+
+![image](https://media.discordapp.net/attachments/1031504257742012469/1297085558136504401/image.png?ex=6714a48f&is=6713530f&hm=4ab7e624cdccf1073c6f91bcca90eb333c8d30613ff06de2ba94e210debcc086&=&format=webp&quality=lossless&width=263&height=497)
 
 Copy Isi Folder dari mod nya:
 ![image](https://github.com/user-attachments/assets/3c33996a-8300-47db-8fec-14799ffbc18e)
