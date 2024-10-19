@@ -13,6 +13,7 @@
                                            Diterjemahkan oleh: Valen & Angga
 ```
 KAMU BUTUH GAME NYA SEBELUM INSTALL
+![alt text](https://cdn.discordapp.com/attachments/1031504257742012469/1297084762896470069/image.png?ex=6714a3d2&is=67135252&hm=4584c208dcd1d469244f7264470d41d53904b5a57f40a4a73d58a6f36625c80a&)
 (PC ONLY)
 
 Harap pastikan Anda menginstal .NET 6.0 x64.
