@@ -15,13 +15,19 @@
 KAMU BUTUH GAME NYA SEBELUM INSTALL
 (PC ONLY)
 Musti install untuk versi china!!
+
 - Install [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe) Kegame
 
+
 KALAU MAU LEBIH MUDAH CARI VERSI FAN ENGLISH
+
 https://rentry.co/playfusion
+
 
 Harap pastikan Anda menginstal .NET 6.0 x64.
 https://dotnet.microsoft.com/id-id/download/dotnet/6.0
+
+JIKA ADA TERJEMAHAN DENGAN ISI YG BISA DIBILANG SAMA, KAMI NYATAKAN MALING WKWKWK MALU GAPUNYA HARGA DIRI
 
 Terjemahan: nama tanaman, dan nama zombie tidak resmi. Hal ini tidak didukung oleh tim pengembang resmi dengan cara atau apa pun. Semua yang disajikan di sini, selain tanaman dan zombie yang berasal dari game aslinya, adalah buatan penggemar.
 
