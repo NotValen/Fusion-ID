@@ -13,7 +13,16 @@
                                            Diterjemahkan oleh: Valen & Angga
 ```
 KAMU BUTUH GAME NYA SEBELUM INSTALL
-![alt text](https://cdn.discordapp.com/attachments/1031504257742012469/1297084762896470069/image.png?ex=6714a3d2&is=67135252&hm=4584c208dcd1d469244f7264470d41d53904b5a57f40a4a73d58a6f36625c80a&)
+
+Pastikan Kamu punya folder game dan mod nya:
+![alt text](https://media.discordapp.net/attachments/1031504257742012469/1297085558136504401/image.png?ex=6714a48f&is=6713530f&hm=4ab7e624cdccf1073c6f91bcca90eb333c8d30613ff06de2ba94e210debcc086&=&format=webp&quality=lossless&width=263&height=497)
+
+Copy Isi Folder dari mod nya:
+![image](https://github.com/user-attachments/assets/3c33996a-8300-47db-8fec-14799ffbc18e)
+
+Paste Mod ke Folder Game:
+![image](https://github.com/user-attachments/assets/5b3af434-1063-4bba-aa47-7e6dfa724df1)
+
 (PC ONLY)
 
 Harap pastikan Anda menginstal .NET 6.0 x64.
