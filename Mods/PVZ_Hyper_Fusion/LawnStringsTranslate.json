@@ -4,20 +4,20 @@
       "seedType": 0,
       "name": "Kipli",
       "introduce": "<size=24><color=#3D1400>一Bagaimana sebuah tanaman dapat tumbuh dan mengeluarkan begitu banyak kacang dengan cepat? Kipli berkata, \u0022Kerja keras, komitmen, dan sarapan sehat yang seimbang dari sinar matahari dan karbon dioksida berserat tinggi membuat semua ini mungkin.\u0022</color></size>",
-      "info": "<size=24>Kiplis adalah garis pertahanan pertama Anda. Mereka menembakkan kacang ke zombie yang menyerang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
+      "info": "<size=24>Kipli adalah garis pertahanan pertama Anda. Mereka menembakkan kacang ke zombie yang menyerang.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
       "cost": "<size=24>Harga: <color=red>100</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
     },
     {
       "seedType": 1,
       "name": "Dewi",
       "introduce": "<size=24><color=#3D1400>Dewi tidak bisa menahan diri untuk melompat mengikuti irama. Irama apa itu? Tentu saja, irama jazzy yang memberikan kehidupan dari Bumi itu sendiri, berdetak pada frekuensi yang hanya bisa didengar oleh Dewi.</color></size>",
-      "info": "<size=24>Dewis sangat penting bagi Anda untuk menghasilkan sinar matahari tambahan. Cobalah untuk menanam sebanyak mungkin!\n\n<color=#3D1400>Produksi Sinar Matahari: </color><color=red>25/25 Detik</color></size>",
+      "info": "<size=24>Dewi sangat penting bagi Anda untuk menghasilkan sinar matahari tambahan. Cobalah untuk menanam sebanyak mungkin!\n\n<color=#3D1400>Produksi Sinar Matahari: </color><color=red>25/25 Detik</color></size>",
       "cost": "<size=24>Harga: <color=red>50</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
     },
     {
       "seedType": 2,
       "name": "Bisma",
-      "introduce": "<size=24><color=#3D1400>\u0022Aku ingin meledak,\u0022 kata Cherry #1. \u0022Tidak, mari kita detonasikan saja!\u0022 kata saudaranya, Cherry #2. Setelah konsultasi intens, mereka sepakat untuk meledonasikan.</color></size>",
+      "introduce": "<size=24><color=#3D1400>\u0022Aku ingin meledak,\u0022 kata Bisma #1. \u0022Tidak, mari kita detonasikan saja!\u0022 kata saudaranya, Bisma #2. Setelah konsultasi intens, mereka sepakat untuk meledonasikan.</color></size>",
       "info": "<size=24>Bismas dapat meledakkan semua zombie di area. Mereka memiliki sumbu yang pendek, jadi tanam mereka dekat zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color></size>",
       "cost": "<size=24>Harga: <color=red>150</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
     },
@@ -25,69 +25,69 @@
         "seedType": 3,
         "name": "Ikhsan",
         "introduce": "<size=24><color=#3D1400>\u0022Orang-orang bertanya-tanya bagaimana perasaanku tentang terus menerus dikunyah oleh zombie,\u0022 kata Ikhsan. \u0022Apa yang mereka tidak sadari adalah bahwa dengan indra yang terbatas, yang bisa aku rasakan hanyalah semacam kesemutan, seperti pijatan punggung yang menenangkan.\u0022</color></size>",
-        "info": "<size=24>Ikhsans memiliki cangkang keras yang dapat kamu gunakan untuk melindungi tanamanmu yang lain.\n\n<color=#3D1400>Kekuatan: </color><color=red>4000</color></size>",
+        "info": "<size=24>Ikhsan memiliki cangkang keras yang dapat kamu gunakan untuk melindungi tanamanmu yang lain.\n\n<color=#3D1400>Kekuatan: </color><color=red>4000</color></size>",
         "cost": "<size=24>Harga: <color=red>50</color>\nIsi Ulang: <color=red>30 Detik</color></size>"
       },
       {
         "seedType": 4,
         "name": "Riski",
         "introduce": "<size=24><color=#3D1400>Beberapa orang mengatakan Riski malas, bahwa dia meninggalkan segalanya sampai menit terakhir. Riski tidak berkata apa-apa. Dia terlalu sibuk memikirkan strategi investasinya.</color></size>",
-        "info": "<size=24>Riskis memiliki kekuatan serangan yang besar, tetapi mereka membutuhkan waktu untuk mempersiapkan diri. Sebaiknya tanam mereka sebelum zombie datang. Mereka akan meledak saat bersentuhan.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color></size>",
+        "info": "<size=24>Riski memiliki kekuatan serangan yang besar, tetapi mereka membutuhkan waktu untuk mempersiapkan diri. Sebaiknya tanam mereka sebelum zombie datang. Mereka akan meledak saat bersentuhan.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800</color></size>",
         "cost": "<size=24>Harga: <color=red>25</color>\nIsi Ulang: <color=red>30 Detik</color></size>"
       },
       {
         "seedType": 5,
         "name": "Dimas",
         "introduce": "<size=24><color=#3D1400>Dimas hampir mendapatkan pekerjaan melakukan aksi untuk The Little Shop of Horrors, tetapi itu gagal karena agennya meminta terlalu banyak di muka. Dimas tidak merasa kecewa, meskipun. Dia bilang itu hanya bagian dari bisnis.</color></size>",
-        "info": "<size=24>Dimass dapat melahap zombie secara utuh, tetapi mereka rentan saat mengunyah.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuhan Instan</color></size>",
+        "info": "<size=24>Dimas dapat melahap zombie secara utuh, tetapi mereka rentan saat mengunyah.\n\n<color=#3D1400>Kerusakan: </color><color=red> Pembunuhan Instan</color></size>",
         "cost": "<size=24>Harga: <color=red>150</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
       },
       {
         "seedType": 6,
         "name": "Ucup",
         "introduce": "<size=24><color=#3D1400>\u0022Aku baru-baru ini menyadari adanya zombie,\u0022 kata Ucup. \u0022Seperti banyak jamur, aku hanya menganggap mereka adalah dongeng atau monster film. Seluruh pengalaman ini telah menjadi pencerahan besar bagiku.\u0022</color></size>",
-        "info": "<size=24>Ucups murah, tetapi hanya bisa menembak jarak pendek.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat ditumpuk hingga tiga kali.</color></size>",
+        "info": "<size=24>Ucup murah, tetapi hanya bisa menembak jarak pendek.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat ditumpuk hingga tiga kali.</color></size>",
         "cost": "<size=24>Harga: <color=red>0</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
       },
     {
       "seedType": 7,
       "name": "Yusuf",
       "introduce": "<size=24><color=#3D1400>\u0022Aku terjebak dalam pekerjaan yang tidak ada harapan memproduksi spora ragi untuk sebuah toko roti,\u0022 kata Yusuf. \u0022Kemudian Ucup, semoga dia diberkati, memberitahuku tentang kesempatan hebat meledakkan zombie. Sekarang aku benar-benar merasa membuat perbedaan.\u0022</color></size>",
-      "info": "<size=24>Yusufs menembakkan asap yang dapat melewati pintu layar.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat menembus.</color></size>",
+      "info": "<size=24>Yusuf menembakkan asap yang dapat melewati pintu layar.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat menembus.</color></size>",
       "cost": "<size=24>Harga: <color=red>75</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
         },
     {
       "seedType": 8,
       "name": "Hani",
       "introduce": "<size=24><color=#3D1400>\u0022Zombie adalah teman kita,\u0022 tegas Hani. \u0022Mereka adalah makhluk yang sangat disalahpahami dan memainkan peran berharga dalam ekologi kita. Kita bisa dan seharusnya melakukan lebih banyak untuk membawa mereka ke cara berpikir kita.\u0022</color></size>",
-      "info": "<size=24>Ketika dimakan, Hanis akan membuat zombie berbalik dan bertarung untukmu.\n\n<color=#3D1400>Khusus: </color><color=red>Membuat satu zombie bertarung untukmu.</color></size>",
+      "info": "<size=24>Ketika dimakan, Hani akan membuat zombie berbalik dan bertarung untukmu.\n\n<color=#3D1400>Khusus: </color><color=red>Membuat satu zombie bertarung untukmu.</color></size>",
       "cost": "<size=24>Harga: <color=red>75</color>\nIsi Ulang: <color=red>30 Detik</color></size>"
         },
     {
       "seedType": 9,
       "name": "Saripudin",
       "introduce": "<size=24><color=#3D1400>\u0022Siapa di sana?\u0022 bisik Saripudin, suaranya hampir tidak terdengar. \u0022Pergi saja. Aku tidak ingin melihat siapa pun. Kecuali itu orang dari sirkus.\u0022</color></size>",
-      "info": "<size=24>Saripudins adalah penembak jarak jauh yang bersembunyi saat musuh mendekat.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
+      "info": "<size=24>Saripudin adalah penembak jarak jauh yang bersembunyi saat musuh mendekat.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
       "cost": "<size=24>Harga: <color=red>25</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
         },
     {
       "seedType": 10,
       "name": "Isda",
       "introduce": "<size=24><color=#3D1400>Isda cemberut, bukan karena dia tidak bahagia atau tidak setuju, tetapi karena cedera masa kecil yang membuat saraf wajahnya lumpuh.</color></size>",
-      "info": "<size=24>Isdas sementara akan melumpuhkan semua zombie di layar.\n\n<color=#3D1400>Kerusakan: </color><color=red>20</color>\n<color=#3D1400>Khusus: </color><color=red>Membekukan semua zombie di tempat.</color></size>",
+      "info": "<size=24>Isda sementara akan melumpuhkan semua zombie di layar.\n\n<color=#3D1400>Kerusakan: </color><color=red>20</color>\n<color=#3D1400>Khusus: </color><color=red>Membekukan semua zombie di tempat.</color></size>",
       "cost": "<size=24>Harga: <color=red>75</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
         },
     {
       "seedType": 11,
       "name": "Dedi",
       "introduce": "<size=24><color=#3D1400>\u0022Kau beruntung aku ada di pihakmu,\u0022 kata Dedi. \u0022Aku bisa menghancurkan segalanya yang kau cintai. Itu tidak akan sulit.\u0022</color></size>",
-      "info": "<size=24>Dedis menghancurkan segalanya di area besar dan meninggalkan kawah yang tidak dapat ditanami.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color>\n<color=#3D1400>Khusus: </color><color=red>Meninggalkan kawah.</color></size>",
+      "info": "<size=24>Dedi menghancurkan segalanya di area besar dan meninggalkan kawah yang tidak dapat ditanami.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color>\n<color=#3D1400>Khusus: </color><color=red>Meninggalkan kawah.</color></size>",
       "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>50 Detik</color></size>"    },
     {
       "seedType": 12,
       "name": "Ayu",
       "introduce": "<size=24><color=#3D1400>Ayu tidak pernah mengeluh. Ayu tidak ingin tahu apa yang sedang terjadi. Taruh tanaman di atas Ayu, dia tidak akan berkata apa-apa. Apakah dia memiliki pendapat yang mengejutkan atau rahasia yang mengejutkan? Tidak ada yang tahu. Ayu menyimpan semuanya di dalam.</color></size>",
-      "info": "<size=24>Ayus membiarkanmu menanam tanaman non-aquatik di atasnya.\n\n<color=#3D1400>Khusus: </color><color=red>Tanaman non-aquatik dapat ditanam di atasnya. Mengubah penampilan, tetapi tidak memberikan atribut tambahan.</color></size>",
+      "info": "<size=24>Ayu membiarkanmu menanam tanaman non-aquatik di atasnya.\n\n<color=#3D1400>Khusus: </color><color=red>Tanaman non-aquatik dapat ditanam di atasnya. Mengubah penampilan, tetapi tidak memberikan atribut tambahan.</color></size>",
       "cost": "<size=24>Harga: <color=red>25</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
   },
   {
@@ -101,7 +101,7 @@
       "seedType": 14,
       "name": "Kipli Bersaudara",
       "introduce": "<size=24><color=#3D1400>Kipli Bersaudara suka membaca, bermain backgammon, dan berlama-lama tidak bergerak di taman. Kipli Bersaudara menikmati pergi ke pertunjukan, terutama jazz modern. \u0022Aku hanya mencari seseorang yang istimewa,\u0022 katanya. Nomor favorit Kipli Bersaudara adalah 5.</color></size>",
-      "info": "<size=24>Kipli Bersaudaras menembakkan kacang di tiga jalur.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Detik</color></size>",
+      "info": "<size=24>Kipli Bersaudara menembakkan kacang di tiga jalur.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*3/1.5 Detik</color></size>",
       "cost": "<size=24>Harga: <color=red>275</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
   },
   {
@@ -115,70 +115,70 @@
       "seedType": 16,
       "name": "Sugeng",
       "introduce": "<size=24><color=#3D1400>\u0022NNNNNGGGGG....\u0022 kata Sugeng. Dia tidak akan meledak, tidak kali ini. Tapi segera. Oh, sangat segera. Itu dekat. Dia tahu itu; dia bisa merasakannya; seluruh hidupnya telah mengarah pada momen ini.</color></size>",
-      "info": "<size=24>Sugengs menghancurkan seluruh baris zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color></size>",
+      "info": "<size=24>Sugeng menghancurkan seluruh baris zombie.\n\n<color=#3D1400>Kerusakan: </color><color=red>1800 (Abu)</color></size>",
       "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>50 Detik</color></size>"
     },
     {
       "seedType": 17,
       "name": "Agus",
       "introduce": "<size=24><color=#3D1400>Hockey is Agus's obsession. He's got box seat season tickets. He keeps close track of his favorite players. And he consistently cleans up in the office hockey pool. Just one problem: he's terrified of pucks.</color></size>",
-      "info": "<size=24>Aguss pop tires and hurt any zombies that step on them\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1 Detik</color>\n<color=#3D1400>Special: </color><color=red>Instakill Vehicle Zombies</color></size>",
+      "info": "<size=24>Agus pop tires and hurt any zombies that step on them\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1 Detik</color>\n<color=#3D1400>Special: </color><color=red>Instakill Vehicle Zombies</color></size>",
       "cost": "<size=24>Harga: <color=red>100</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
     },
     {
       "seedType": 18,
       "name": "Jarwo",
       "introduce": "<size=24><color=#3D1400>Semua orang suka dan menghormati Jarwo. Mereka menyukainya karena integritasnya, persahabatannya yang setia, dan kemampuannya untuk sangat memaksimalkan kerusakan kacang. Tapi Jarwo punya rahasia: Dia tidak bisa membaca.</color></size>",
-      "info": "<size=24>Jarwos mengubah kacang yang melewatinya menjadi bola api yang memberikan kerusakan dua kali lipat.\n\n<color=#3D1400>Khusus: </color><color=red>Menyulut kacang yang melewatinya, meningkatkan kerusakan mereka.</color></size>",
+      "info": "<size=24>Jarwo mengubah kacang yang melewatinya menjadi bola api yang memberikan kerusakan dua kali lipat.\n\n<color=#3D1400>Khusus: </color><color=red>Menyulut kacang yang melewatinya, meningkatkan kerusakan mereka.</color></size>",
       "cost": "<size=24>Harga: <color=red>175</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
   },
   {
       "seedType": 19,
       "name": "Denis",
       "introduce": "<size=24><color=#3D1400>Denis belum pernah melihat laut. Namanya memang berhubungan dengan laut, dia sering mendengarnya, tetapi dia belum pernah menemukan waktunya. Suatu hari, pasti akan terjadi.</color></size>",
-      "info": "<size=24>Deniss adalah tanaman air yang menembakkan spora jarak pendek.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
+      "info": "<size=24>Denis adalah tanaman air yang menembakkan spora jarak pendek.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color></size>",
       "cost": "<size=24>Harga: <color=red>0</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
   },
   {
       "seedType": 20,
       "name": "Purwono",
       "introduce": "<size=24><color=#3D1400>Purwono menentang sains. Dia benar-benar begitu. Tanaman lain memakan cahaya dan mengeluarkan oksigen; Purwono memakan kegelapan dan mengeluarkan cahaya. Purwono tidak mau menjelaskan caranya. \u0022Aku tidak akan mengatakan 'ilmu hitam', aku juga tidak akan menggunakan istilah 'kekuatan gelap', aku hanya... sepertinya aku sudah bicara terlalu banyak.\u0022</color></size>",
-      "info": "<size=24>Purwonos menerangi area untuk membantumu melihat melalui kabut, dan memberikan tingkat cahaya kepada tanaman.\n\n<color=#3D1400>Khusus: </color><color=red>Mengusir kabut dengan cahaya.</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Menyediakan 1 Tingkat Lumos dalam Grid 3x3, yang dapat ditumpuk untuk memberikan kekuatan pada tanaman cahaya lainnya. Lihat fusi untuk daftar tanaman yang terpengaruh.</color></size>",
+      "info": "<size=24>Purwono menerangi area untuk membantumu melihat melalui kabut, dan memberikan tingkat cahaya kepada tanaman.\n\n<color=#3D1400>Khusus: </color><color=red>Mengusir kabut dengan cahaya.</color>\n<color=#3D1400>Sistem Lumos: </color><color=red>Menyediakan 1 Tingkat Lumos dalam Grid 3x3, yang dapat ditumpuk untuk memberikan kekuatan pada tanaman cahaya lainnya. Lihat fusi untuk daftar tanaman yang terpengaruh.</color></size>",
       "cost": "<size=24>Harga: <color=red>25</color>\nIsi Ulang: <color=red>15 Detik</color></size>"
   },
   {
       "seedType": 21,
       "name": "Dominic",
       "introduce": "<size=24><color=#3D1400>Dia berduri, tentu saja, tetapi duri Dominic menyembunyikan hati yang lembut, penuh cinta dan niat baik. Dia hanya ingin memeluk dan dipeluk. Kebanyakan orang tidak bisa menerimanya, tetapi Dominic tidak keberatan. Dia telah berkencan dengan armadillo selama beberapa waktu dan hubungan mereka tampaknya berjalan baik.</color></size>",
-      "info": "<size=24>Dominices menembakkan duri yang dapat menghantam target darat dan udara.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat menyerang zombie terbang.</color></size>",
+      "info": "<size=24>Dominic menembakkan duri yang dapat menghantam target darat dan udara.\n\n<color=#3D1400>Kerusakan: </color><color=red>20/1.5 Detik</color>\n<color=#3D1400>Khusus: </color><color=red>Dapat menyerang zombie terbang.</color></size>",
       "cost": "<size=24>Harga: <color=red>100</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
   },
   {
       "seedType": 22,
       "name": "Tiara",
       "introduce": "<size=24><color=#3D1400>Saat Tiara berusia lima tahun, dia mendapatkan kue ulang tahun baru yang mengkilap. Tiara membuat keinginannya, meniup lilin, tetapi hanya berhasil memadamkan 60% lilin. Alih-alih menyerah, dia menggunakan kekalahan awal itu sebagai katalis untuk mendorong dirinya lebih keras sejak saat itu.</color></size>",
-      "info": "<size=24>Tiaras meniupkan semua zombie balon dan kabut, kecuali Zombie Bucket-copter dan Zomppelins.\n\n<color=#3D1400>Khusus: </color><color=red>Meniup kabut dan Zombie Balon. Mendorong mundur Zomppelin sedikit.</color></size>",
+      "info": "<size=24>Tiara meniupkan semua zombie balon dan kabut, kecuali Zombie Bucket-copter dan Zomppelins.\n\n<color=#3D1400>Khusus: </color><color=red>Meniup kabut dan Zombie Balon. Mendorong mundur Zomppelin sedikit.</color></size>",
       "cost": "<size=24>Harga: <color=red>100</color>\nIsi Ulang: <color=red>15 Detik</color></size>"
   },
   {
       "seedType": 23,
       "name": "Zainal",
       "introduce": "<size=24><color=#3D1400>\u0022Aw, man,\u0022 kata Zainal. \u0022Aku pergi ke dokter gigi kemarin, dan dia bilang aku punya empat lubang gigi. Aku punya—coba hitung—SATU gigi! Empat lubang di satu gigi? Bagaimana ini bisa terjadi?\u0022</color></size>",
-      "info": "<size=24>Zainals menembakkan bintang ke 5 arah.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5/1.5 Detik</color></size>",
+      "info": "<size=24>Zainal menembakkan bintang ke 5 arah.\n\n<color=#3D1400>Kerusakan: </color><color=red>20*5/1.5 Detik</color></size>",
       "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
   },
   {
       "seedType": 24,
       "name": "Bung Lasmana",
       "introduce": "<size=24><color=#3D1400>Bung Lasmana baru saja menyelesaikan pekerjaannya paruh waktu. \u0022Sejujurnya, itu pengalaman yang cukup menyenangkan,\u0022 dia tertawa. \u0022Tapi bisakah seseorang menjelaskan mengapa mereka terus memasukkan permen dan lilin ke dalam diriku?\u0022</color></size>",
-      "info": "<size=24>Bung Lasmanas melindungi tanaman yang berada di dalam cangkangnya.\n\n<color=#3D1400>Kekerasan: </color><color=red>4000</color>\n<color=#3D1400>Prioritas Fusi: </color><color=red>Paling Rendah</color></size>",
+      "info": "<size=24>Bung Lasmana melindungi tanaman yang berada di dalam cangkangnya.\n\n<color=#3D1400>Kekerasan: </color><color=red>4000</color>\n<color=#3D1400>Prioritas Fusi: </color><color=red>Paling Rendah</color></size>",
       "cost": "<size=24>Harga: <color=red>125</color>\nIsi Ulang: <color=red>30 Detik</color></size>"
   },
   {
       "seedType": 25,
       "name": "Fitri",
       "introduce": "<size=24><color=#3D1400>Semua orang bertanya-tanya mengapa Fitri selalu memerlukan waktu lama untuk \u0022mencerna\u0022 besi yang diserapnya, bahkan setelah itu sudah diambil untuk fusi. Frustrasi, dia berkata, \u0022Aku tidak malas! Aku hanya tersungkur karena besi terbang!\u0022</color></size>",
-      "info": "<size=24>Fitris dapat menyerap benda logam.\n\n<color=#3D1400>Khusus: </color><color=red>Dapat menarik benda logam.</color>\nJika ada tanaman magnet di area 8 arah dari tanaman magnet lain, mereka akan terhubung melalui Sistem Magnetik. Sistem Magnetik tidak memiliki batasan jumlah koneksi, dan akan meningkatkan kekuatan beberapa tanaman magnetik berdasarkan jumlah koneksi. Lihat fusi untuk daftar tanaman yang terpengaruh.</size>",
+      "info": "<size=24>Fitri dapat menyerap benda logam.\n\n<color=#3D1400>Khusus: </color><color=red>Dapat menarik benda logam.</color>\nJika ada tanaman magnet di area 8 arah dari tanaman magnet lain, mereka akan terhubung melalui Sistem Magnetik. Sistem Magnetik tidak memiliki batasan jumlah koneksi, dan akan meningkatkan kekuatan beberapa tanaman magnetik berdasarkan jumlah koneksi. Lihat fusi untuk daftar tanaman yang terpengaruh.</size>",
       "cost": "<size=24>Harga: <color=red>100</color>\nIsi Ulang: <color=red>7.5 Detik</color></size>"
     },
     {
