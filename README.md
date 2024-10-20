@@ -26,10 +26,8 @@ KALAU MAU LEBIH MUDAH DOWNLOAD VERSI FAN ENGLISH
 
 Harap pastikan Anda menginstal [.NET DESKTOP 6.0 x64](https://dotnet.microsoft.com/id-id/download/dotnet/6.0).
 
+JIKA MENEMUKAN TRANSLATE YG SAMA NAMUN TIDAK DARI SINI MOHON CEPAT HAPUS. karena virus.
 
-
-JIKA ADA TERJEMAHAN DENGAN ISI YG BISA DIBILANG SAMA, KAMI NYATAKAN MALING WKWKWK MALU GAPUNYA HARGA DIRI DEMI VIEW
-TRANSLATE UNTUK KOMUNITAS DI MONETISASI WKWKW
 
 Terjemahan: nama tanaman, dan nama zombie tidak resmi. Hal ini tidak didukung oleh tim pengembang resmi dengan cara atau apa pun. Semua yang disajikan di sini, selain tanaman dan zombie yang berasal dari game aslinya, adalah buatan penggemar.
 
