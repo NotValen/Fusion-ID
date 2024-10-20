@@ -21,11 +21,12 @@ Musti install untuk versi china!!
 
 KALAU MAU LEBIH MUDAH CARI VERSI FAN ENGLISH
 
-https://rentry.co/playfusion
+[KLIK UNTUK BAHASA INGGRIS](https://rentry.co/playfusion)
 
 
-Harap pastikan Anda menginstal .NET DESKTOP 6.0 x64.
-https://dotnet.microsoft.com/id-id/download/dotnet/6.0
+Harap pastikan Anda menginstal [.NET DESKTOP 6.0 x64](https://dotnet.microsoft.com/id-id/download/dotnet/6.0).
+
+
 
 JIKA ADA TERJEMAHAN DENGAN ISI YG BISA DIBILANG SAMA, KAMI NYATAKAN MALING WKWKWK MALU GAPUNYA HARGA DIRI DEMI VIEW
 TRANSLATE UNTUK KOMUNITAS DI MONETISASI WKWKW
