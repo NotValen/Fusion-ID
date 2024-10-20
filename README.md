@@ -65,6 +65,7 @@ Lokasi Save an | C:\Users\[Your Username]\AppData\LocalLow\LanPiaoPiao\PlantsVsZ
 
 Cara Instalasi (Versi CHINA):
 
+* GANTI NAMA FOLDER CHINA JADI TERSERAH
 
 * Harap pastikan Anda menginstal [.NET DESKTOP 6.0 x64](https://dotnet.microsoft.com/id-id/download/dotnet/6.0).
 
