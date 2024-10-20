@@ -19,9 +19,9 @@ Musti install untuk versi china!!
 - Install [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe) Kegame
 
 
-KALAU MAU LEBIH MUDAH CARI VERSI FAN ENGLISH
+KALAU MAU LEBIH MUDAH DOWNLOAD VERSI FAN ENGLISH
 
-[KLIK UNTUK DOWNLOAD PVZ FUSION](https://rentry.co/playfusion)
+[KLIK UNTUK DOWNLOAD PVZ FUSION CHINA/ENGLISH](https://rentry.co/playfusion)
 
 
 Harap pastikan Anda menginstal [.NET DESKTOP 6.0 x64](https://dotnet.microsoft.com/id-id/download/dotnet/6.0).
