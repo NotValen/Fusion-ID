@@ -58,7 +58,29 @@ Kredit:
 
 Lokasi Save an | C:\Users\[Your Username]\AppData\LocalLow\LanPiaoPiao\PlantsVsZombiesRH
 
-Cara Instalasi :
 
-- Taruh semua file di atas ke Folder Game Kamu
+Cara Instalasi (Versi CHINA):
+
+
+* Harap pastikan Anda menginstal [.NET DESKTOP 6.0 x64](https://dotnet.microsoft.com/id-id/download/dotnet/6.0).
+
+
+* Download Plants VS Zombies Fusion di link yang sudah tersedia (CTRL + klik foto untuk ke link download)
+[![image](https://github.com/user-attachments/assets/5b898157-3244-4cdc-8d53-b0391f57124d)](https://rentry.co/playfusion)
+
+
+* Extract Folder Game PVZ Fusion di tempat yang di inginkan
+
+
+* Install Melon Loader ke game `PlantsVSZombiesRH.exe`
+<p><a href="https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe"><img src="https://github.com/user-attachments/assets/6d7dda7d-9a0c-4499-8786-13a30616e4ef" style="width:500px;height:500px;"></a></p>
+
+
+* Extract File [Fusion-ID](https://github.com/NotValen/Fusion-ID) Kedalam Folder game
+
+* Lalu silahkan `Copy` dan `Paste` Isi Folder `Fusion-ID-main` Ke folder game.
+
+* Selamat Bermain :D
+
+
 
