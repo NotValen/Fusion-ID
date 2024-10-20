@@ -3,296 +3,294 @@
     [
         {
             "theZombieType": 0,
-            "name": "<size=30>Zombie",
-            "introduce": "<size=24><color=#3D1400>Zombie hates how his name makes him seem like an ordinary, well, zombie. He doesn't think of himself as some unnamed enemy or just another common corpse. He's an individual, damn it! And he's going to do something extraordinary, even if it kills you.</color>",
-            "info": "<size=24>Regular Garden-variety zombie.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
+            "name": "<size=25>Zombie",
+            "introduce": "<size=24><color=#3D1400>Zombie benci bagaimana namanya membuatnya terdengar seperti zombie biasa. Dia tidak menganggap dirinya sebagai musuh tanpa nama atau sekadar mayat biasa. Dia individu, sialan! Dan dia akan melakukan sesuatu yang luar biasa, bahkan jika itu membunuhmu.</color>",
+            "info": "<size=24>Zombi biasa seperti kebanyakan.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270</color>"
         },
         {
             "theZombieType": 2,
-            "name": "<size=30>Conehead Zombie",
-            "introduce": "<size=24><color=#3D1400>The Conehead Zombie has no clue what a traffic cone is. To it, it looks like an ice cream cone, and when it finds out it can't eat it, it just sticks it on its head.</color>",
-            "info": "<size=24>His traffic cone headpiece makes him twice as tough as normal zombies.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+370</color>"
+            "name": "<size=25>Zombie Kepala Kerucut",
+            "introduce": "<size=24><color=#3D1400>Zombie Kepala Kerucut tidak tahu apa itu kerucut lalu lintas. Baginya, itu terlihat seperti kerucut es krim, dan ketika dia tahu dia tidak bisa memakannya, dia hanya menempelkannya di kepalanya.</color>",
+            "info": "<size=24>Kepala kerucut lalu lintasnya membuatnya dua kali lebih kuat daripada zombie biasa.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+370</color>"
         },
         {
             "theZombieType": 3,
-            "name": "<size=30>Pole Vaulting Zombie",
-            "introduce": "<size=24><color=#3D1400>Once the best high jumper in his town, Pole Vaulting Zombie's career took a turn the day he forgot to set up the cushions behind the high jump stand.</color>",
-            "info": "<size=24>Pole Vaulting Zombie vaults with a pole.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Jumps over the first plant he runs into.</color>"
+            "name": "<size=25>Zombie Lompat Galah",
+            "introduce": "<size=24><color=#3D1400>Dia pernah menjadi pelompat tinggi terbaik di kotanya, tetapi kariernya berakhir saat dia lupa memasang bantal di belakang tiang lompat.</color>",
+            "info": "<size=24>Zombie Lompat Galah melompati tanaman dengan galah.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>720</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Melompat melewati tanaman pertama yang ditemuinya.</color>"
         },
         {
             "theZombieType": 4,
-            "name": "<size=30>Buckethead Zombie",
-            "introduce": "<size=24><color=#3D1400>Once upon a time, Buckethead Zombie, who was merely a painter, was hailed as a genius among zombies for his creative use of a bucket. Years have passed, and now the zombies wonder if he still has some secret killer tricks up his sleeve. Is he running out of ideas, or is he hiding something? Who knows?</color>",
-            "info": "<size=24>His bucket hat makes him extremely resistant to damage.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1100</color>"
+            "name": "<size=25>Zombie Kepala Ember",
+            "introduce": "<size=24><color=#3D1400>Dulu, Zombie Kepala Ember yang dulunya hanya seorang pelukis, dipuji sebagai jenius di kalangan zombie karena penggunaan ember yang kreatif. Bertahun-tahun telah berlalu, dan sekarang para zombie bertanya-tanya apakah dia masih menyimpan trik rahasia yang mematikan. Apakah dia kehabisan ide, atau menyembunyikan sesuatu? Siapa yang tahu?</color>",
+            "info": "<size=24>Topi embernya membuatnya sangat tahan terhadap kerusakan.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+1100</color>"
         },
         {
             "theZombieType": 5,
-            "name": "<size=30>Newspaper Zombie",
-            "introduce": "<size=24><color=#3D1400>\u0022You can't fault him for being frustrated; he was just about to finish the crossword puzzle (vertical word number 23 is 'Brains'), which explains why he was holding the paper upside down.\u0022</color>",
-            "info": "<size=24>His newspaper provides limited defense.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+200</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Travels normally at first, but speeds up after losing his newspaper.</color>"
+            "name": "<size=25>Zombie Koran",
+            "introduce": "<size=24><color=#3D1400>\"Kamu tidak bisa menyalahkannya karena frustrasi; dia hampir menyelesaikan teka-teki silang (kata vertikal nomor 23 adalah 'Otak'), itulah sebabnya dia memegang koran terbalik.\"</color>",
+            "info": "<size=24>Korannya memberikan pertahanan terbatas.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+200</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Berjalan normal pada awalnya, tetapi mempercepat setelah kehilangan Korannya.</color>"
         },
         {
             "theZombieType": 6,
-            "name": "<size=30>Dancing Zombie",
-            "introduce": "<size=24><color=#3D1400>Dancing Zombie's athletic skills are average by zombie standards. On the advice of the Backup Dancers, he decided to pursue the idol path. Now, his pop song \u0022Just Brains,\u0022 a collaboration with Michael Jackson, is becoming a hit.</color>",
-            "info": "<size=24>After vaulting over, summons his backup dancers.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Summons 4 Backup Dancers.</color>"
+            "name": "<size=25>Zombie Penari",
+            "introduce": "<size=24><color=#3D1400>Keterampilan atletik Zombie Penari rata-rata menurut standar zombie. Atas saran dari Penari Pendukung, ia memutuskan untuk mengejar jalur idola. Sekarang, lagu popnya \"Hanya Otak,\" sebuah kolaborasi dengan Michael Jackson, mulai menjadi hit.</color>",
+            "info": "<size=24>Setelah melompati tanaman, dia memanggil penari pendukungnya.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>720</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Memanggil 4 Penari Pendukung.</color>"
         },
         {
             "theZombieType": 7,
-            "name": "<size=30>Backup Dancer",
-            "introduce": "<size=24><color=#3D1400>The four brothers, once troubled orphans, developed twisted personalities and bullied others at the Zombie Academy. One day, they saw Dancing Zombie performing joyfully on stage, and it changed them. From that moment, they joined him in performing on stage together.</color>",
-            "info": "<size=24>Climb over a plant.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
+            "name": "<size=25>Penari Pendukung",
+            "introduce": "<size=24><color=#3D1400>Empat bersaudara, yang dulunya yatim piatu bermasalah, mengembangkan kepribadian yang bengkok dan suka mengganggu orang lain di Akademi Zombie. Suatu hari, mereka melihat Zombie Penari dengan penuh sukacita di atas panggung, dan itu mengubah mereka. Sejak saat itu, mereka bergabung dengannya di atas panggung untuk tampil bersama.</color>",
+            "info": "<size=24>Memanjat tanaman.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270</color>"
         },
         {
             "theZombieType": 8,
-            "name": "<size=30>Screen Door Zombie",
-            "introduce": "<size=24><color=#3D1400>Screen Door Zombie, once an FBI task force member with a bad temper but a righteous heart, never negotiated with robbers—he'd just break down doors to save hostages. After becoming a zombie, his kind heart stayed the same. When he saw zombies kidnapping a little ghost zombie, he tried to break in, but they coated the door with glue, trapping his hand.</color>",
-            "info": "<size=24>Can block bullets coming from the front.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1100</color>"
-        },         
+            "name": "<size=25>Zombie Pintu Layar",
+            "introduce": "<size=24><color=#3D1400>Zombie Pintu Layar, dulunya anggota satuan tugas FBI dengan temperamen buruk tetapi hati yang benar, tidak pernah bernegosiasi dengan perampok—dia hanya menerobos pintu untuk menyelamatkan sandera. Setelah menjadi zombie, hati baiknya tetap sama. Ketika dia melihat zombie menculik zombie hantu kecil, dia mencoba untuk masuk, tetapi mereka melapisi pintu dengan lem, menjebak tangannya.</color>",
+            "info": "<size=24>Dapat memblokir peluru yang datang dari depan.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+1100</color>"
+        },
         {
             "theZombieType": 9,
-            "name": "<size=30>Football Zombie",
-            "introduce": "<size=24><color=#3D1400>Football Zombie is a sports star among zombies, admired by many for his heroic presence on the field. Many companies want to hire him, but his salary demands are steep—an annual pay of 10,000 brains.</color>",
-            "info": "<size=24>Runs super fast.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1400</color>"
+            "name": "<size=25>Zombie Sepakbola",
+            "introduce": "<size=24><color=#3D1400>Zombie Sepakbola adalah bintang olahraga di kalangan zombie, dikagumi banyak orang karena kehadirannya yang heroik di lapangan. Banyak perusahaan ingin mempekerjakannya, tetapi tuntutan gajinya sangat tinggi—gaji tahunan sebesar 10.000 otak.</color>",
+            "info": "<size=24>Berlari sangat cepat.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+1400</color>"
         },
         {
             "theZombieType": 10,
-            "name": "<size=30>Michael Zombie",
-            "introduce": "<size=24><color=#3D1400>Black suit, black hat—he's not here for a funeral. He's just a dancer, and you can call him Michael Zombie.</color>",
-            "info": "<size=24>Leads the charge with his ultimate dance moves.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Summons 4 Dancing Zombies at a time.</color>"
+            "name": "<size=25>Zombie Michael",
+            "introduce": "<size=24><color=#3D1400>Setelan hitam, topi hitam—dia bukan di sini untuk pemakaman. Dia hanya seorang penari, dan kamu bisa memanggilnya Zombie Michael.</color>",
+            "info": "<size=24>Memimpin serangan dengan gerakan tari andalannya.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>720</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Memanggil 4 Zombie Penari sekaligus.</color>"
         },
         {
             "theZombieType": 11,
-            "name": "Duck Zombie NOT IN GAME",
-            "introduce": "<size=24><color=#3D1400>只有特定的僵尸才能成为鸭子救生圈僵尸，不是每只僵尸都能胜任。有些救生圈有点漏气，他们却处理不了，脱身后永远放弃了对脑子的渴求。</color>",
-            "info": "<size=24>可以在水里移动。\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
-        },
-        {
+            "name": "Zombie Bebek (TIDAK ADA DI GAME)",
+            "introduce": "<size=24><color=#3D1400>Hanya zombie tertentu yang bisa menjadi Zombie Bebek pelampung, tidak semua zombie mampu melakukannya. Beberapa pelampung bocor, dan mereka tidak bisa mengatasinya, setelah melepaskan diri, mereka selamanya meninggalkan keinginan untuk otak.</color>",
+            "info": "<size=24>Dapat bergerak di air.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270</color>"
+        },        {
             "theZombieType": 12,
-            "name": "Coneduck Zombie NOT IN GAME",
-            "introduce": "<size=24><color=#3D1400>都说差生文具多，但是路障鸭子并不这么认为，毕竟他不想承认他是个差生。</color>",
-            "info": "<size=24>可以在水里移动。\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
+            "name": "Zombie Bebek Kepala Kerucut (TIDAK ADA DI GAME)",
+            "introduce": "<size=24><color=#3D1400>Mereka bilang pelajar yang buruk memiliki banyak alat tulis, tapi Zombie Bebek Kepala Kerucut tidak setuju, lagipula dia tidak ingin mengakui bahwa dia adalah pelajar yang buruk.</color>",
+            "info": "<size=24>Dapat bergerak di air.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270</color>"
         },
         {
             "theZombieType": 13,
-            "name": "Bucketduck Zombie NOT IN GAME",
-            "introduce": "<size=24><color=#3D1400>铁桶鸭子本不想带上那个漏气的游泳圈的，但是没办法，谁叫他戴着那个容易生锈的铁桶呢。</color>",
-            "info": "<size=24>可以在水里移动。\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
+            "name": "Zombie Bebek Kepala Ember (TIDAK ADA DI GAME)",
+            "introduce": "<size=24><color=#3D1400>Zombie Bebek Kepala Ember awalnya tidak ingin memakai pelampung yang bocor itu, tetapi dia tidak punya pilihan, siapa yang menyuruhnya memakai ember yang mudah berkarat itu.</color>",
+            "info": "<size=24>Dapat bergerak di air.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270</color>"
         },
         {
             "theZombieType": 14,
-            "name": "<size=30>Zombarine",
-            "introduce": "<size=24><color=#3D1400>The formidable Zombarine, designed based on bionic principles, is both majestic and intimidating—a coveted war weapon for zombies. \u0022Now we just need to tackle the issue of seaweed getting tangled in the propeller,\u0022 said Dr. Edgar.</color>",
-            "info": "<size=24>The zombies' premier vehicle against water plants.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>1350</color>"
+            "name": "<size=25>Zombarine",
+            "introduce": "<size=24><color=#3D1400>Zombarine yang tangguh, dirancang berdasarkan prinsip bionik, tampak megah dan menakutkan—senjata perang yang diinginkan oleh zombie. \"Sekarang kita hanya perlu menangani masalah rumput laut yang tersangkut di baling-baling,\" kata Dr. Edgar.</color>",
+            "info": "<size=24>Kendaraan utama zombie untuk melawan tanaman air.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>1350</color>"
         },
         {
             "theZombieType": 15,
-            "name": "<size=30>Scholar Zombie",
-            "introduce": "<size=24><color=#3D1400>As a leading authority in the academic realm, Scholar Zombie is frequently seen in the library. His passion for reading runs deep, and disturbing him while he reads can spark his fury. This old gentleman will make sure you understand the true meaning of \u0022knowledge is power.\u0022</color>",
-            "info": "<size=24>Deals huge damage alongside his sturdy books.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>400</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>720+1100</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Short-term invincibility and increased movement speed after the book is broken.</color>"
+            "name": "<size=25>Zombie Cendekiawan",
+            "introduce": "<size=24><color=#3D1400>Sebagai otoritas terkemuka di bidang akademik, Zombie Cendekiawan sering terlihat di perpustakaan. Hasratnya terhadap membaca sangat besar, dan mengganggunya saat membaca bisa memicu kemarahannya. Lelaki tua ini akan memastikan kamu memahami arti sebenarnya dari \"pengetahuan adalah kekuatan.\"</color>",
+            "info": "<size=24>Memberikan kerusakan besar dengan buku tebalnya.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>400</color>\n<color=#3D1400>Kekerasan: </color><color=#4B0082>720+1100</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Kekebalan sementara dan kecepatan gerakan meningkat setelah bukunya hancur.</color>"
         },
         {
             "theZombieType": 16,
-            "name": "<size=30>Zomboni",
-            "introduce": "<size=24><color=#3D1400>The zombie driving is an excellent driver, especially considering that few zombies can navigate from the ice rink to the grass field. Now, he must go pay the fine. The ice machine he operates isn't a Zamboni; it's a Zomboni produced by Company B.</color>",
-            "info": "<size=24>The Zomboni applies ice, steam and pressure to your plants.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>1350</color>"
+            "name": "<size=25>Zomboni",
+            "introduce": "<size=24><color=#3D1400>Zombie pengemudi ini adalah pengemudi yang sangat baik, terutama karena sedikit sekali zombie yang dapat mengemudi dari arena es ke lapangan rumput. Sekarang, dia harus pergi membayar denda. Mesin es yang dioperasikannya bukan Zamboni; itu adalah Zomboni yang diproduksi oleh Perusahaan B.</color>",
+            "info": "<size=24>Zomboni menerapkan es, uap, dan tekanan pada tanamanmu.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>1350</color>"
         },
         {
             "theZombieType": 17,
-            "name": "<size=30>Snorkel Zombie",
-            "introduce": "<size=24><color=#3D1400>Snorkel Zombie may have a broken mask, but that doesn't hinder his ability to dive and float in the water. His so-called \u0022sinking\u0022 isn't due to his diving skills; he simply doesn't require air to breathe.</color>",
-            "info": "<size=24>Snorkel Zombie can swim underwater.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Submerges to avoid projectile attacks.</color>"
+            "name": "<size=25>Zombie Snorkel",
+            "introduce": "<size=24><color=#3D1400>Masker Snorkel Zombie mungkin rusak, tapi itu tidak menghalangi kemampuannya untuk menyelam dan mengapung di air. Yang disebut \"tenggelam\" bukan karena keterampilan menyelamnya; dia hanya tidak memerlukan udara untuk bernapas.</color>",
+            "info": "<size=24>Zombie Snorkel dapat berenang di bawah air.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Menyelam untuk menghindari serangan proyektil.</color>"
         },
         {
             "theZombieType": 18,
-            "name": "<size=30>Bobsled Zombie",
-            "introduce": "<size=24><color=#3D1400>This car, designed by ski enthusiasts, drives smoothly on snow and ice, even achieving higher speeds than on grass. Unfortunately, it has a flaw: it can only be started on icy surfaces.</color>",
-            "info": "<size=24>Only appears when there's ice on the field.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>2700</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Moves very fast when on top of ice.</color>"
+            "name": "<size=25>Zombie Bobsled",
+            "introduce": "<size=24><color=#3D1400>Mobil ini, dirancang oleh penggemar ski, melaju dengan mulus di salju dan es, bahkan mencapai kecepatan lebih tinggi daripada di rumput. Sayangnya, ada kekurangan: mobil ini hanya bisa melaju di permukaan es.</color>",
+            "info": "<size=24>Hanya muncul ketika ada es di lapangan.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>2700</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Melaju sangat cepat di atas es.</color>"
         },
         {
             "theZombieType": 19,
-            "name": "<size=30>Dolphin Rider Zombie",
-            "introduce": "<size=24><color=#3D1400>Dolphin Rider Zombie is a part-time performer and dolphin keeper at an aquarium. The dolphin he rides is a zombie, but unlike typical zombies, this \u0022zombie dolphin\u0022 has no desire for brains.</color>",
-            "info": "<size=24>Dolphin Rider Zombies use dolphins to bypass your defense.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Jumps over the first plant he runs into.</color>"
+            "name": "<size=18>Zombie Penunggang Lumba-lumba",
+            "introduce": "<size=24><color=#3D1400>Zombie Penunggang Lumba-lumba adalah pemain sirkus paruh waktu dan penjaga lumba-lumba di akuarium. Lumba-lumba yang dikendarainya adalah zombie, tetapi berbeda dengan zombie biasanya, \"zombie lumba-lumba\" ini tidak menginginkan otak.</color>",
+            "info": "<size=24>Zombie Penunggang Lumba-lumba menggunakan lumba-lumba untuk melewati pertahananmu.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>720</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Melompat melewati tanaman pertama yang ditemuinya.</color>"
         },
         {
             "theZombieType": 20,
-            "name": "<size=30>Trident Zombie",
-            "introduce": "<size=24><color=#3D1400>Trident Zombie was originally just a regular javelin thrower who became a fisherman after retiring. However, when he went to the river to fish, he sank because he couldn't swim. When he came ashore, he realized he had become what he is now.</color>",
-            "info": "<size=24>Throws a trident to attack your plants.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Throws a trident, causing damage to plants equal to 20% (minimum of 20) of their current toughness.</color>\n<color=#3D1400>Search Range: </color><color=#4B0082>3.5 Tiles in Front</color>"
+            "name": "<size=25>Zombie Trisula",
+            "introduce": "<size=24><color=#3D1400>Zombie Trisula awalnya hanya seorang atlet lempar lembing biasa yang menjadi nelayan setelah pensiun. Namun, saat dia pergi ke sungai untuk memancing, dia tenggelam karena tidak bisa berenang. Ketika dia naik ke darat, dia menyadari bahwa dia telah menjadi seperti sekarang ini.</color>",
+            "info": "<size=24>Melempar trisula untuk menyerang tanamanmu.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>720</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Melempar trisula, menyebabkan kerusakan pada tanaman sebesar 20% (minimal 20) dari kekuatan tanaman saat ini.</color>\n<color=#3D1400>Jarak Serang: </color><color=#4B0082>3,5 ubin di depan</color>"
         },
         {
             "theZombieType": 21,
-            "name": "<size=30>Diamond-box Zombie",
-            "introduce": "<size=24><color=#3D1400>Tonight, Diamond-box Zombies will unveil their dazzling silver world. Their eyes shine like the brightest stars in the night sky, and the golden light appears to flow like a river through time, illuminating the uncertain path ahead. Each time the lid of the box is gently opened, it feels like unlocking a mysterious door to another realm.</color>",
-            "info": "<size=24>Is this.. a Conehead Zombie? \n\n<color=#3D1400>Toughness: </color><color=#4B0082>4400</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Turns into a Gold-box Zombie upon dying.</color>"
+            "name": "<size=25>Zombie Kotak Berlian",
+            "introduce": "<size=24><color=#3D1400>Malam ini, Zombie Kotak Berlian akan membuka dunia perak yang mempesona. Matanya bersinar seperti bintang paling terang di langit malam, dan cahaya emas tampak mengalir seperti sungai melalui waktu, menerangi jalan yang tidak pasti di depan. Setiap kali tutup kotak itu dibuka perlahan, rasanya seperti membuka pintu misterius ke dunia lain.</color>",
+            "info": "<size=24>Apakah ini.. Zombie Kepala Kerucut? \n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>4400</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Berubah menjadi Zombie Kotak Emas saat mati.</color>"
         },
         {
             "theZombieType": 22,
-            "name": "<size=30>Gold-box Zombie",
-            "introduce": "<size=24><color=#3D1400>\u0022Underneath the golden box, other boxes in different colors await. Can you guess what the box inside is made from?\u0022</color>",
-            "info": "<size=24>Is this.. a Conehead Zombie? \n\n<color=#3D1400>Toughness: </color><color=#4B0082>2200</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Turns into a Silver-box Zombie upon dying.</color>"
+            "name": "<size=25>Zombie Kotak Emas",
+            "introduce": "<size=24><color=#3D1400>\"Di bawah kotak emas, ada kotak lain dengan warna berbeda yang menunggu. Bisakah kamu menebak dari apa kotak di dalamnya terbuat?\"</color>",
+            "info": "<size=24>Apakah ini.. Zombie Kepala Kerucut? \n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>2200</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Berubah menjadi Zombie Kotak Perak saat mati.</color>"
         },
         {
             "theZombieType": 23,
-            "name": "<size=30>Silver-box Zombie",
-            "introduce": "<size=24><color=#3D1400>Silver-box Zombie thinks of the box on his head as a pot, so it must be one. Given his mindset, why don't you grasp his perspective? And you do see the exclamation mark on his box, right?</color>",
-            "info": "<size=24>Is this.. a Conehead Zombie? \n\n<color=#3D1400>Toughness: </color><color=#4B0082>1100</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Turns into a Conehead Zombie upon dying.</color>"
+            "name": "<size=25>Zombie Kotak Perak",
+            "introduce": "<size=24><color=#3D1400>Zombie Kotak Perak menganggap kotak di kepalanya sebagai pot, jadi itu pasti pot. Mengingat pola pikirnya, mengapa kamu tidak mencoba memahami sudut pandangnya? Dan kamu melihat tanda seru di kotaknya, kan?</color>",
+            "info": "<size=24>Apakah ini.. Zombie Kepala Kerucut? \n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>1100</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Berubah menjadi Zombie Kepala Kerucut saat mati.</color>"
         },
         {
             "theZombieType": 24,
-            "name": "<size=26>Jack-in-the-Box Zombie",
-            "introduce": "<size=24><color=#3D1400>Although Jack-in-the-Box Zombie is a mental patient, the circus welcomed his application. Be wary of what's in his toy box; it's sure to scare you.</color>",
-            "info": "<size=24>This zombie carries an explosive surprise.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Will sometimes explode and insta-kill surrounding plants.</color>"
+            "name": "<size=26>Zombie Jack-in-the-Box",
+            "introduce": "<size=24><color=#3D1400>Meskipun Zombie Jack-in-the-Box adalah pasien mental, sirkus dengan senang hati menerima lamarannya. Waspadai apa yang ada di kotak mainannya; itu pasti akan membuatmu takut.</color>",
+            "info": "<size=24>Zombie ini membawa kejutan yang meledak.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>720</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Terkadang meledak dan membunuh tanaman di sekitarnya secara instan.</color>"
         },
         {
             "theZombieType": 25,
-            "name": "<size=30>Balloon Zombie",
-            "introduce": "<size=24><color=#3D1400>Balloon Zombie, one of the Zomppelin creators, frequently gets asked why he's tied balloons to himself. His usual reply is, \u0022That was my concAyuon.\u0022 However, the truth is that the balloons simply got tangled by chance.</color>",
-            "info": "<size=24>Balloon Zombie floats above the fray, immune to most attacks.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+20</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Cannot be damaged by most plants while flying.</color>"
+            "name": "<size=25>Zombie Balon",
+            "introduce": "<size=24><color=#3D1400>Zombie Balon, salah satu pencipta Zomppelin, sering ditanya mengapa dia mengikat balon pada dirinya. Jawabannya yang biasa adalah, \"Itu keputusan saya.\" Namun, kenyataannya adalah balon-balon itu hanya tersangkut secara kebetulan.</color>",
+            "info": "<size=24>Zombie Balon melayang di atas keributan, kebal terhadap sebagian besar serangan.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+20</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Tidak bisa diserang oleh sebagian besar tanaman saat terbang.</color>"
         },
         {
             "theZombieType": 26,
-            "name": "<size=30>Zomppelin",
-            "introduce": "<size=24><color=#3D1400>The Zomppelin, Dr. Edgar's latest creation, is quickly becoming the zombies' trusted ally. Speculation abounds about who will pilot this powerful weapon—perhaps the imp or even the airship itself? \u0022It’s just a balloon,\u0022 Dr. Edgar remarked. \u0022Zombies need to keep up with the times. I’m even considering turning it into a drone to avoid embarrassment when defeated by plants.\u0022</color>",
-            "info": "<size=24>Will drop deadly bombs as it flies over your plants.\n\n<color=#3D1400>Bomb Kerusakan: </color><color=#4B0082>1000</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>1350</color>"
+            "name": "<size=25>Zomppelin",
+            "introduce": "<size=24><color=#3D1400>Zomppelin, ciptaan terbaru Dr. Edgar, dengan cepat menjadi sekutu terpercaya zombie. Spekulasi berkembang tentang siapa yang akan mengemudikan senjata kuat ini—mungkin imp atau bahkan kapal udara itu sendiri? \"Itu hanya balon,\" kata Dr. Edgar. \"Zombie perlu mengikuti perkembangan zaman. Saya bahkan berpikir untuk mengubahnya menjadi drone agar tidak malu saat dikalahkan oleh tanaman.\"</color>",
+            "info": "<size=24>Akan menjatuhkan bom mematikan saat terbang di atas tanamanmu.\n\n<color=#3D1400>Kerusakan Bom: </color><color=#4B0082>1000</color>\n<color=#3D1400>Kekerasan: </color><color=#4B0082>1350</color>"
         },
-        {
-            "theZombieType": 27,
-            "name": "<size=30>Whale Rider Yeti",
-            "introduce": "<size=24><color=#3D1400>The white whale that Yeti Zombie rides has impressive jumping skills. Dolphin Rider Zombie is quite envious and has always wanted to borrow it for a ride, but Yeti Zombie refuses each time. \u0022Yeti Zombie has no control over his white whale,\u0022 Dr. Edgar said. \u0022He always wants to hide behind me, but the white whale ends up going the other way.\u0022</color>",
-            "info": "<size=24>Jumps forward three tiles and turns back, attacking your plants from behind.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Cannot be blocked by Bapak Ikhsans.</color>"
-        },
-        {
-            "theZombieType": 28,
-            "name": "<size=30>Digger Zombie",
-            "introduce": "<size=24><color=#3D1400>A long time ago, Digger Zombies despised Fitris for constantly confiscating their tools. Now, they hate Bung Penambangs even more. \u0022My head keeps getting hit, which makes me feel even worse,\u0022 he laments.</color>",
-            "info": "<size=24>This zombie digs to bypass your defenses.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Tunnels underground and appears on the left side of the lawn. Vulnerable to Fitris.</color>"
-        },
-        {
-            "theZombieType": 29,
-            "name": "<size=28>Bucket-copter Zombie",
-            "introduce": "<size=24><color=#3D1400>\u0022Friends, did you know about the Berlin airship? It inspired my design…\u0022 All the zombies want to hide from Bucket-copter Zombie, not only because he talks too much about the airship, but also because the noise from his balloon's propeller is unbearable.</color>",
-            "info": "<size=24>Bucket-copter Zombie is not afraid of Tiara!\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+2200+500</color>\n<color=#3D1400>Traits: </color><color=#4B0082>The propeller on the top can offset Tiara's winds.</color>"
-        },
-        {
-            "theZombieType": 30,
-            "name": "<size=20>King Clown-in-the-Box Zombie",
-            "introduce": "<size=24><color=#3D1400>For every clown zombie, self-destruction is the highest form of art, and King Clown excels above all. \u0022King Clown will never take off his mask or let go of the gift box in his hand!\u0022</color>",
-            "info": "<size=24>King Clown may also explode after his death!\n\n<color=#3D1400>Toughness: </color><color=#4B0082>720+370</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Becomes violent after exploding, doubling his speed. Also has a chance to self-destruct and transform into a Jack-in-the-Box Zombie. The faster it explodes, the higher chance it dies.</color>"
-        },
-        {
-            "theZombieType": 100,
-            "name": "<size=30>Kipli Zombie",
-            "introduce": "<size=24><color=#3D1400>The ability of Kipli Zombie to engage from a distance often frightens the plants. However, the real panic lies with the zombies, who fear that those fighting in front of him will be targeted from behind.</color>",
-            "info": "<size=24>Shoots peas to attack your plants.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>20</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>270</color>"
-        },
-        {
-            "theZombieType": 101,
-            "name": "<size=29>Kipli Ceri Zombie",
-            "introduce": "<size=24><color=#3D1400>Kipli Ceri Zombie is a 17-year-old high school student with a plant head growing from his neck. His favorite fruit is cherries, and due to his papal family background, the zombies affectionately refer to him as the \u0022Leaf King.\u0022</color>",
-            "info": "<size=24>Shoots cherry bullets to attack your plants.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>60</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>500</color>"
-        },
-        {
-            "theZombieType": 102,
-            "name": "<size=27>Kipli Meledak Zombie",
-            "introduce": "<size=24><color=#3D1400>Kipli Meledak Zombie loves listening to \u0022Bisma\u0022 by The Runaways, which might explain his fiery passion. However, no one knows how he learned to ignite fireworks with his mouth.</color>",
-            "info": "<size=24>Shoots explosive cherries to attack your plants.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>1000</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>500</color>"
-        },
-        {
-            "theZombieType": 103,
-            "name": "<size=30>Ikhsan Zombie",
-            "introduce": "<size=24><color=#3D1400>Following an assault by the plants, Ikhsan Zombie displayed bite marks on his head instead of bullet holes. When interviewed, he said, \u0022Perhaps my comrades were simply hungry.\u0022</color>",
-            "info": "<size=24>It's a moving nut.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1100</color>"
-        },
-        {
-            "theZombieType": 104,
-            "name": "<size=20>Kipli Ceri Newspaper Zombie",
-            "introduce": "<size=24><color=#3D1400>This zombie's favorite fruit is cherries, and even his newspaper is cherry-flavored. The newspaper he holds is the only thing that can temper his rage.</color>",
-            "info": "<size=24>Goes into an explosive cherry barrage when his newspaper is broken.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>1500+720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Becomes temporarily invincible after its newspaper's broken, then proceeds to shoot explosive cherries every 0.75 seconds after the newspaper's broken.</color>\n<color=#3D1400>Explosion Range: </color><color=#4B0082>Cross Splash, can be absorbed by nuts.</color>"
-        },
-        {
-            "theZombieType": 105,
-            "name": "<size=30>Mystery-box Zombie",
-            "introduce": "<size=24><color=#3D1400>？？？</color>",
-            "info": "<size=24>No one knows what's hiding inside the box.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+370</color>\n<color=#3D1400>Traits: </color><color=#4B0082>After the box falls off, spawns a random zombie with 20%/40%/60%/80%/100% of the original zombie's Toughness.</color>"
-        },
-        {
-            "theZombieType": 106,
-            "name": "<size=30>Bucket-nut Zombie",
-            "introduce": "<size=24><color=#3D1400>Why is Bucket-nut Zombie's head made of iron? It's because everyone said that eating walnuts nourishes the brain, but he didn't realize that the walnuts he consumed were packed with too much iron. However, it might not be so bad—at least now he has developed an iron head.</color>",
-            "info": "<size=24>It's a moving bucket-nut.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+2200</color>\n<color=#3D1400>Traits: </color><color=#4B0082>An Iron will drop when killed by bullets.</color>"
-        },
-        {
+                {
+                    "theZombieType": 27,
+                    "name": "<size=25>Yeti Penunggang Paus",
+                    "introduce": "<size=24><color=#3D1400>Paus putih yang dikendarai Zombie Yeti memiliki keterampilan melompat yang mengesankan. Zombie Penunggang Lumba-lumba sangat iri dan selalu ingin meminjamnya untuk berkendara, tetapi Zombie Yeti selalu menolak. \"Zombie Yeti tidak bisa mengendalikan paus putihnya,\" kata Dr. Edgar. \"Dia selalu ingin bersembunyi di belakangku, tetapi paus putih itu selalu pergi ke arah lain.\"</color>",
+                    "info": "<size=24>Melompat ke depan tiga ubin dan kembali, menyerang tanamanmu dari belakang.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>720</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Tidak bisa dihentikan oleh Bapak Ikhsans.</color>"
+                },
+                {
+                    "theZombieType": 28,
+                    "name": "<size=25>Zombie Penggali",
+                    "introduce": "<size=24><color=#3D1400>Suatu waktu dulu, Zombie Penggali membenci Fitris karena terus-menerus menyita alat mereka. Sekarang, mereka lebih membenci Bung Penambang. \"Kepalaku terus dipukul, membuatku merasa semakin buruk,\" keluhnya.</color>",
+                    "info": "<size=24>Zombie ini menggali untuk melewati pertahananmu.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>720</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Bergerak di bawah tanah dan muncul di sisi kiri halaman. Rentan terhadap Fitris.</color>"
+                },
+                {
+                    "theZombieType": 29,
+                    "name": "<size=28>Zombie Bucket-copter",
+                    "introduce": "<size=24><color=#3D1400>\"Teman-teman, apakah kalian tahu tentang kapal udara Berlin? Itu menginspirasi desainku...\" Semua zombie ingin bersembunyi dari Zombie Bucket-copter, bukan hanya karena dia terlalu banyak bicara tentang kapal udara, tetapi juga karena kebisingan dari baling-baling balonnya tak tertahankan.</color>",
+                    "info": "<size=24>Zombie Bucket-copter tidak takut pada Tiara!\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+2200+500</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Baling-baling di atasnya dapat menahan angin Tiara.</color>"
+                },
+                {
+                    "theZombieType": 30,
+                    "name": "<size=20>Zombie Raja Badut-in-the-Box",
+                    "introduce": "<size=24><color=#3D1400>Bagi setiap zombie badut, penghancuran diri adalah bentuk seni tertinggi, dan Raja Badut unggul di atas semuanya. \"Raja Badut tidak akan pernah melepas topengnya atau melepaskan kotak hadiah di tangannya!\"</color>",
+                    "info": "<size=24>Raja Badut mungkin juga meledak setelah kematiannya!\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>720+370</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Menjadi ganas setelah meledak, menggandakan kecepatannya. Juga memiliki kemungkinan untuk meledak sendiri dan berubah menjadi Zombie Jack-in-the-Box. Semakin cepat meledak, semakin besar kemungkinan ia mati.</color>"
+                },
+                {
+                    "theZombieType": 100,
+                    "name": "<size=25>Zombie Kipli",
+                    "introduce": "<size=24><color=#3D1400>Kemampuan Zombie Kipli untuk menyerang dari jarak jauh sering menakuti tanaman. Namun, kepanikan yang sebenarnya ada di pihak zombie, yang takut bahwa mereka yang bertarung di depannya akan menjadi sasaran dari belakang.</color>",
+                    "info": "<size=24>Menembakkan kacang untuk menyerang tanamanmu.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>20</color>\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270</color>"
+                },
+                {
+                    "theZombieType": 101,
+                    "name": "<size=29>Zombie Kipli Ceri",
+                    "introduce": "<size=24><color=#3D1400>Zombie Kipli Ceri adalah siswa sekolah menengah berusia 17 tahun dengan kepala tanaman yang tumbuh dari lehernya. Buah favoritnya adalah ceri, dan karena latar belakang keluarganya yang kepausan, para zombie dengan penuh kasih menyebutnya \"Raja Daun.\"</color>",
+                    "info": "<size=24>Menembakkan peluru ceri untuk menyerang tanamanmu.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>60</color>\n<color=#3D1400>Kekerasan: </color><color=#4B0082>500</color>"
+                },
+                {
+                    "theZombieType": 102,
+                    "name": "<size=27>Zombie Kipli Meledak",
+                    "introduce": "<size=24><color=#3D1400>Zombie Kipli Meledak suka mendengarkan \"Bisma\" oleh The Runaways, yang mungkin menjelaskan hasratnya yang membara. Namun, tidak ada yang tahu bagaimana dia belajar menyalakan kembang api dengan mulutnya.</color>",
+                    "info": "<size=24>Menembakkan ceri peledak untuk menyerang tanamanmu.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>1000</color>\n<color=#3D1400>Kekerasan: </color><color=#4B0082>500</color>"
+                },
+                {
+                    "theZombieType": 103,
+                    "name": "<size=25>Zombie Ikhsan",
+                    "introduce": "<size=24><color=#3D1400>Setelah diserang oleh tanaman, Zombie Ikhsan menunjukkan bekas gigitan di kepalanya, bukan bekas peluru. Saat diwawancarai, dia berkata, \"Mungkin teman-temanku hanya lapar.\"</color>",
+                    "info": "<size=24>Ini adalah kacang yang bergerak.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+1100</color>"
+                },
+                {
+                    "theZombieType": 104,
+                    "name": "<size=20>Zombie Kipli Ceri Koran",
+                    "introduce": "<size=24><color=#3D1400>Buah favorit zombie ini adalah ceri, dan bahkan Korannya beraroma ceri. Koran yang dipegangnya adalah satu-satunya hal yang bisa meredakan amarahnya.</color>",
+                    "info": "<size=24>Masuk ke hujan ceri peledak ketika Korannya rusak.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>1500+720</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Menjadi kebal sementara setelah Korannya rusak, kemudian mulai menembakkan ceri peledak setiap 0,75 detik setelah Korannya rusak.</color>\n<color=#3D1400>Jarak Ledakan: </color><color=#4B0082>Percikan Silang, bisa diserap oleh kacang.</color>"
+                },
+                {
+                    "theZombieType": 105,
+                    "name": "<size=25>Zombie Kotak Misteri",
+                    "introduce": "<size=24><color=#3D1400>???</color>",
+                    "info": "<size=24>Tidak ada yang tahu apa yang tersembunyi di dalam kotak.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+370</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Setelah kotaknya jatuh, memunculkan zombie acak dengan 20%/40%/60%/80%/100% dari kekuatan zombie aslinya.</color>"
+                },
+                {
+                    "theZombieType": 106,
+                    "name": "<size=25>Zombie Ikhsan Besi",
+                    "introduce": "<size=24><color=#3D1400>Mengapa kepala Zombie Ikhsan Besi terbuat dari besi? Itu karena semua orang mengatakan bahwa makan kacang kenari baik untuk otak, tetapi dia tidak menyadari bahwa kacang kenari yang dia makan mengandung terlalu banyak besi. Namun, mungkin itu tidak terlalu buruk—setidaknya sekarang dia memiliki kepala besi.</color>",
+                    "info": "<size=24>Ini adalah kacang bergerak dengan ember.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+2200</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Sebuah Besi akan jatuh ketika dibunuh oleh peluru.</color>"
+                },        {
             "theZombieType": 107,
-            "name": "<size=30>Ikhsan Ceri Zombie",
+            "name": "<size=25>Ikhsan Ceri Zombie",
             "introduce": "<size=24><color=#3D1400>Real men never turn around to watch explosions, and Ikhsan Ceri Zombie certainly fits the bill, as he often catches bombs with his face.</color>",
             "info": "<size=24>Has a slight resistance against explosive bullets.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1100</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Takes 150 maximum damage from explosions.</color>"
         },
         {
             "theZombieType": 108,
-            "name": "<size=30>Kipli Besi Zombie",
-            "introduce": "<size=24><color=#3D1400>Last year, Kipli Besi Zombie drew a tarot card that read \u0022The Emperor.\u0022 Since then, he has been able to shoot iron bullets at will.</color>",
-            "info": "<size=24>Fires high-damaging bullets.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>80</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>270+1350</color>\n<color=#3D1400>Traits: </color><color=#4B0082>An Iron will drop when killed by bullets.</color>"
+            "name": "<size=25>Zombie Kipli Besi",
+            "introduce": "<size=24><color=#3D1400>Tahun lalu, Zombie Kipli Besi menarik kartu tarot yang bertuliskan \"Sang Kaisar.\" Sejak saat itu, dia bisa menembakkan peluru besi sesuka hati.</color>",
+            "info": "<size=24>Menembakkan peluru dengan kerusakan tinggi.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>80</color>\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+1350</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Sebuah Besi akan jatuh ketika dibunuh oleh peluru.</color>"
         },
         {
             "theZombieType": 109,
-            "name": "<size=30>Ikhsan Futbol Zombie",
-            "introduce": "<size=24><color=#3D1400>Ikhsan Futbol Zombie was once just an ordinary Football Zombie, until one day he collided with a nut that was spreading fertilizer. \u0022I don't know how this guy ended up on my head; it's suffocating me!\u0022 lamented Ikhsan Futbol Zombie.</color>",
-            "info": "<size=24>High-armor zombie that can also run very fast.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+4400</color>\n<color=#3D1400>Traits: </color><color=#4B0082>A Rugby Helmet will drop when killed by bullets.</color>"
+            "name": "<size=25>Zombie Ikhsan Sepakbola",
+            "introduce": "<size=24><color=#3D1400>Zombie Ikhsan Sepakbola dulunya hanya Zombie Sepakbola biasa, sampai suatu hari dia bertabrakan dengan kacang yang sedang menyebarkan pupuk. \"Aku tidak tahu bagaimana makhluk ini berakhir di kepalaku; itu membuatku sesak!\" keluh Zombie Ikhsan Sepakbola.</color>",
+            "info": "<size=24>Zombie berlapis baja tinggi yang juga bisa berlari sangat cepat.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+4400</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Sebuah Helm Rugby akan jatuh ketika dibunuh oleh peluru.</color>"
         },
         {
             "theZombieType": 110,
-            "name": "<size=22>Golden Mystery-box Zombie",
-            "introduce": "<size=24><color=#3D1400>？？！</color>",
-            "info": "<size=24>A golden one!? I wonder what's inside this Mystery-box...\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+720</color>\n<color=#3D1400>Traits: </color><color=#4B0082>After the box falls off, spawns a random zombie with full Toughness.</color>"
+            "name": "<size=22>Zombie Kotak Misteri Emas",
+            "introduce": "<size=24><color=#3D1400>!!?</color>",
+            "info": "<size=24>Yang emas!? Aku ingin tahu apa yang ada di dalam Kotak Misteri ini...\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+720</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Setelah kotaknya jatuh, memunculkan zombie acak dengan kekuatan penuh.</color>"
         },
         {
             "theZombieType": 111,
-            "name": "<size=30>Bapak Ikhsan Dingin Zombie",
-            "introduce": "<size=24><color=#3D1400>Bapak Ikhsan Dingin Zombie's head has sparked numerous opinions in the zombie world. Some say he aims to distance himself from the cold world, while others suspect it relates to Dr. Edgar's wild experiments. Yet, only he knows that this headgear appeared after he ate a specific blue mushroom.</color>",
-            "info": "<size=24>A sturdy zombie that can also nullify damage from ice projectiles.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+2200</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Immunity to frozen or ice projectiles.</color>"
+            "name": "<size=20>Zombie Bapak Ikhsan Dingin",
+            "introduce": "<size=24><color=#3D1400>Kepala Zombie Bapak Ikhsan Dingin telah memicu banyak opini di dunia zombie. Ada yang bilang dia ingin menjauh dari dunia yang dingin, sementara yang lain menduga itu terkait dengan eksperimen liar Dr. Edgar. Namun, hanya dia yang tahu bahwa helm itu muncul setelah dia memakan jamur biru tertentu.</color>",
+            "info": "<size=24>Zombie tangguh yang juga bisa menetralkan kerusakan dari proyektil es.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+2200</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Kebal terhadap proyektil beku atau es.</color>"
         },
         {
             "theZombieType": 200,
-            "name": "<size=30>Sharkmarine",
-            "introduce": "<size=24><color=#3D1400>\u0022An excellent diver should not only be able to dive but also drive a super submarine!\u0022 declared Sharkmarine Zombie as he increased the submarine's horsepower by one gear.</color>",
-            "info": "<size=24>I heard that this zombie is related to a certain robot fish.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>3000</color>"
+            "name": "<size=25>Sharkmarine",
+            "introduce": "<size=24><color=#3D1400>\"Penyelam yang hebat tidak hanya harus bisa menyelam tetapi juga mengemudikan kapal selam super!\" deklarasi Zombie Sharkmarine saat ia meningkatkan daya kapal selam dengan satu gigi.</color>",
+            "info": "<size=24>Katanya zombie ini terkait dengan ikan robot tertentu.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>3000</color>"
         },
         {
             "theZombieType": 201,
-            "name": "<size=30>Michael Zomboni",
-            "introduce": "<size=24><color=#3D1400>Michael Zomboni is not just one zombie; it's a team effort. Zomboni sets up the venue, Bobsled Zombie provides the visual effects, and Michael Zombie... was compelled to leave the car because it didn't have a driver's license to greet its passionate plant fans, but the peas seemed a little too excited.</color>",
-            "info": "<size=24>Extremely high defense and immunity to slow.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>3000</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Upon death, automatically spawns a Michael Zombie, Zomboni, and Bobsled Zombie. Also innately has a 75% fixed damage reduction.%</color>"
+            "name": "<size=25>Michael Zomboni",
+            "introduce": "<size=24><color=#3D1400>Michael Zomboni bukan hanya satu zombie; ini adalah upaya tim. Zomboni menyiapkan tempat, Zombie Bobsled menyediakan efek visual, dan Zombie Michael... terpaksa keluar dari mobil karena tidak memiliki SIM untuk menyapa para penggemar tanaman yang penuh semangat, tetapi kacang-kacangan tampak terlalu bersemangat.</color>",
+            "info": "<size=24>Pertahanan sangat tinggi dan kebal terhadap pelambatan.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>3000</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Setelah mati, secara otomatis memunculkan Zombie Michael, Zomboni, dan Zombie Bobsled. Juga memiliki pengurangan kerusakan tetap sebesar 75%.</color>"
         },
         {
             "theZombieType": 202,
-            "name": "<size=30>Giga-trident Zombie",
-            "introduce": "<size=24><color=#3D1400>\u0022Giga-trident Zombie is a skilled fisherman known for his exceptional accuracy with the four tridents he throws, earning him the title of the king of fishermen.\u0022 \u0022In fact, I used to be a part-time javelin thrower...\u0022 Giga-trident Zombie admitted.</color>",
-            "info": "<size=24>Throws a large number of tridents at your plants at once.\n\n<color=#3D1400>Toughness: </color><color=#4B0082>270+7500</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Throws 4 tridents, each causing damage to plants equal to 20% (minimum of 20) of their current toughness.</color>"
+            "name": "<size=25>Zombie Giga-trisula",
+            "introduce": "<size=24><color=#3D1400>\"Zombie Giga-trisula adalah nelayan ulung yang dikenal karena akurasi luar biasa dengan empat trisula yang dilemparkannya, memberinya gelar raja para nelayan.\" \"Sebenarnya, aku dulu adalah atlet lempar lembing paruh waktu...\" Zombie Giga-trisula mengaku.</color>",
+            "info": "<size=24>Melempar sejumlah besar trisula ke tanamanmu sekaligus.\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>270+7500</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Melempar 4 trisula, masing-masing menyebabkan kerusakan pada tanaman sebesar 20% (minimal 20) dari kekuatan tanaman saat ini.</color>"
         },
         {
             "theZombieType": 203,
-            "name": "<size=20>Tentara Kipli Ceri Newspaper Zombie",
-            "introduce": "<size=24><color=#3D1400>\u0022I'm getting old...\u0022 Tentara Kipli Ceri Newspaper Zombie lamented while walking through the street. Despite containing his pressure, it was enough to keep both plants and zombies down. \u0022Only that guy can still inspire me to fight...\u0022 he muttered as he put away the newspaper and ambled on.</color>",
-            "info": "<size=24>Deals immense damage.\n\n<color=#3D1400>Kerusakan:</color><color=#4B0082>400 → 1000 (Enraged)</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>1500+1500</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Becomes temporarily invincible after its newspaper's broken, proceeding to shoot explosive cherries every 0.125 seconds.</color>"
+            "name": "<size=20>Zombie Tentara Kipli Ceri Koran",
+            "introduce": "<size=24><color=#3D1400>\"Aku mulai tua...\" Zombie Tentara Kipli Ceri Koran meratap saat berjalan di jalan. Meskipun menahan tekanannya, itu sudah cukup untuk menjatuhkan tanaman dan zombie. \"Hanya orang itu yang masih bisa menginspirasiku untuk bertarung...\" gumamnya sambil menyimpan Koran dan berjalan perlahan.</color>",
+            "info": "<size=24>Memberikan kerusakan besar.\n\n<color=#3D1400>Kerusakan:</color><color=#4B0082>400 → 1000 (Saat Marah)</color>\n<color=#3D1400>Kekerasan: </color><color=#4B0082>1500+1500</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Menjadi kebal sementara setelah Korannya rusak, kemudian menembakkan ceri peledak setiap 0,125 detik.</color>"
         },
         {
             "theZombieType": 204,
-            "name": "<size=28>GigaIkhsan Futbol Zombie",
-            "introduce": "<size=24><color=#3D1400>Stepping out of the shadows, the GigaIkhsan Futbol Zombie radiates power, coldness, and a sinister vibe. He adamantly keeps the secret of his strength to himself, asserting that only the darkest darkness can create a being as formidable as he. \u0022Where is my paint?\u0022 Dr. Edgar asked, looking perplexed in his laboratory.</color>",
-            "info": "<size=24>An old friend? Maybe, perhaps we have met him before.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>100</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>3000+12000</color>"
+            "name": "<size=20>Zombie GigaIkhsan Sepakbola",
+            "introduce": "<size=24><color=#3D1400>Muncul dari bayang-bayang, Zombie GigaIkhsan Sepakbola memancarkan kekuatan, dingin, dan aura menyeramkan. Dia dengan tegas menyimpan rahasia kekuatannya untuk dirinya sendiri, menegaskan bahwa hanya kegelapan terdalam yang dapat menciptakan makhluk sehebat dia. \"Di mana catku?\" tanya Dr. Edgar dengan bingung di laboratoriumnya.</color>",
+            "info": "<size=24>Teman lama? Mungkin, mungkin kita pernah bertemu dengannya sebelumnya.\n\n<color=#3D1400>Kerusakan: </color><color=#4B0082>100</color>\n<color=#3D1400>Kekerasan: </color><color=#4B0082>3000+12000</color>"
         },
         {
             "theZombieType": 205,
-            "name": "<size=30>Kirov Zompplin",
-            "introduce": "<size=24><color=#3D1400>Was that a huge flying object? No, it was actually a gigantic airship, featuring a sturdy shell and the ability to release a squadron of fighters. Even when destroyed, the airship could still wreak havoc on surrounding creatures, causing other zombies to keep their distance, fearing that a crash might send them to their demise.</color>",
-            "info": "<size=24>Kirov Reporting!\n\n<color=#3D1400>Toughness: </color><color=#4B0082>3000</color>\n<color=#3D1400>Traits: </color><color=#4B0082>Summons a mini Kirov into action every second. Crashlands upon death, dealing immense damage to plants on impact.</color>"
+            "name": "<size=25>Zompplin Kirov",
+            "introduce": "<size=24><color=#3D1400>Apakah itu objek besar yang terbang? Tidak, sebenarnya itu adalah kapal udara raksasa, dengan cangkang yang kokoh dan kemampuan untuk melepaskan skuadron pesawat tempur. Bahkan ketika hancur, kapal udara itu masih dapat menyebabkan malapetaka pada makhluk di sekitarnya, membuat zombie lainnya menjaga jarak, takut jatuh bisa mengirim mereka ke kematian.</color>",
+            "info": "<size=24>Kirov Melapor!\n\n<color=#3D1400>Kekerasan: </color><color=#4B0082>3000</color>\n<color=#3D1400>Ciri-ciri: </color><color=#4B0082>Memanggil mini Kirov ke dalam pertempuran setiap detik. Jatuh saat mati, menyebabkan kerusakan besar pada tanaman saat tumbukan.</color>"
         },
         {
             "theZombieType": 206,
-            "name": "<size=30>Kirov Drone",
-            "introduce": "<size=24><color=#3D1400>This is no ordinary aircraft; it is a special plane that has been compressed through water pressure. While the exact method of compression remains a mystery, its battlefield strength rivals that of conventional bombers.</color>",
-            "info": "<size=24>Kirov drones fly faster, releasing bombs over the plants they fly over.\n\n<color=#3D1400>Bomb Kerusakan: </color><color=#4B0082>1000</color>\n<color=#3D1400>Toughness: </color><color=#4B0082>200</color>"
+            "name": "<size=25>Drone Kirov",
+            "introduce": "<size=24><color=#3D1400>Ini bukan pesawat biasa; ini adalah pesawat khusus yang dikompresi melalui tekanan air. Meskipun metode kompresinya tetap menjadi misteri, kekuatan tempurnya menyaingi pembom konvensional.</color>",
+            "info": "<size=24>Drone Kirov terbang lebih cepat, melepaskan bom di atas tanaman yang mereka lewati.\n\n<color=#3D1400>Kerusakan Bom: </color><color=#4B0082>1000</color>\n<color=#3D1400>Kekerasan: </color><color=#4B0082>200</color>"
         }
 ]}      
