@@ -60,29 +60,3 @@ Cara Instalasi :
 
 - Taruh semua file di atas ke Folder Game Kamu
 
-Basic Troubleshooting:
-
-- Game ini tidak akan berjalan pada sistem 32-bit.
-- Terjemahan ini hanya tersedia di PC.
-
-T: Bagaimana cara menjalankan gamenya?
-A: Klik dua kali `PlantsVsZombiesRH.exe`.
-
-T: Saya mendapatkan Kesalahan 0xc00000005.
-J: Sistem Anda 32-bit. Game ini hanya akan berjalan pada sistem 64-bit. (Fully Download VCRedist, if still presist. IDK)
-
-T: Ada kesalahan seperti "Mencoba membaca atau menulis memori yang dilindungi...", apa yang harus saya lakukan?
-A: Pindahkan folder game ke lokasi lain yaitu **BUKAN** C:\ *atau* Desktop.
-
-T: Kesalahan VCRUNTIME140.dll, apa yang harus saya lakukan?
-J: Instal VC-Redist-x64.exe dari .\_Redist
-
-T: Gagal menginisialisasi MelonLoader: Gagal memuat perpustakaan! Apa yang harus dilakukan?
-J: Instal WindowsDesktop-Runtime-6.0.18-WIN-x64.exe dari .\_Redist
-A: Alternatifnya, Anda dapat mencoba mengganti nama folder game menjadi PVZRH atau yang lainnya.
-
-T: Saya mendapatkan kesalahan berikut:
- * Harap pastikan Anda menginstal .NET 6.0.
- * Tidak mungkin menemukan versi kerangka kerja yang kompatibel.
-J: Instal WindowsDesktop-Runtime-6.0.18-WIN-x64.exe dari .\_Redist
-
