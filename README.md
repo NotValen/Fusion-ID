@@ -59,6 +59,10 @@ Kredit:
 Lokasi Save an | C:\Users\[Your Username]\AppData\LocalLow\LanPiaoPiao\PlantsVsZombiesRH
 
 
+
+
+
+
 Cara Instalasi (Versi CHINA):
 
 
