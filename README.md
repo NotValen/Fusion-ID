@@ -37,7 +37,9 @@ Terjemahan diperoleh dengan campuran Google Terjemahan dan masukan dari sesama a
 
 Jika Kamu Punya saran atau keluhan apa pun, silakan menghubungi komunitas Discord.
 
-Discord Link | https://discord.gg/FTfz45NGxh
+Discord Link
+[![image](https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png)](https://discord.gg/pdy3faNu5S)
+
 Discord Tag  | valenferbyan
 
 Catatan: Kalau kamu dapatkan terjemahan ini *DIMANA PUN* seperti Plants Hybrid dan superhybrid.online, mereka mencurinya. Kunjungi komunitas untuk pembaruan di masa mendatang.
