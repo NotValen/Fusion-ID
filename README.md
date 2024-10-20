@@ -51,7 +51,8 @@ Terima kasih.
 Kredit: 
 
 LanPiaoPiao ↔︎ Pengembang asli game ini.
-NaKune → Membuat plugin yang memungkinkan terjemahan. MAKASIH BANG ARIF!
+
+NaKune → Membuat plugin yang memungkinkan terjemahan. [MAKASIH BANG ARIF!](https://github.com/ArifRios1st/PVZ-Hyper-Fusion-Mod)
 
 Lokasi Save an | C:\Users\[Your Username]\AppData\LocalLow\LanPiaoPiao\PlantsVsZombiesRH
 
