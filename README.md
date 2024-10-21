@@ -10,7 +10,9 @@
    / / / _ \| '_ ` _ \| '_ \| |/ _ \/ __|
   / /_| (_) | | | | | | |_) | |  __/\__ \
  /_____\___/|_| |_| |_|_.__/|_|\___||___/  Fusion
-                                               Oleh: FUSION-ID ```
+                                                Di Terjemahkan oleh: FUSION-ID TEAM
+ ```
+
 
 KAMU BUTUH GAME NYA SEBELUM INSTALL
 (PC ONLY)
