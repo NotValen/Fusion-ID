@@ -10,7 +10,8 @@
    / / / _ \| '_ ` _ \| '_ \| |/ _ \/ __|
   / /_| (_) | | | | | | |_) | |  __/\__ \
  /_____\___/|_| |_| |_|_.__/|_|\___||___/  Fusion
-                                               Oleh: FUSION-ID```
+                                               Oleh: FUSION-ID ```
+
 KAMU BUTUH GAME NYA SEBELUM INSTALL
 (PC ONLY)
 Musti install untuk versi china!!
