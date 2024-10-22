@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Fusion-ID"
-#define MyAppVersion "Beta 0.3c"
+#define MyAppVersion "Beta 0.3"
 #define MyAppPublisher "Fusion-ID Dev Team"
 #define MyAppURL "https://github.com/NotValen/Fusion-ID"
 #define MyAppExeName "Fusion-ID-Installer.exe"
@@ -10,7 +10,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{75B0311D-424A-4163-87AB-C0E69E9B9C7D}
+AppId={{DB33067A-DE78-436A-8619-03D65F359FED}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
@@ -23,7 +23,7 @@ LicenseFile=..\LICENSE
 InfoBeforeFile=..\README.txt
 UninstallDisplayName={#MyAppName} {#MyAppVersion}
 
-OutputBaseFilename=Fusion-ID-Installer-Mod-Only
+OutputBaseFilename=Fusion-ID-Installer-With-Dotnet-And-Melon
 
 DisableFinishedPage=no
 DisableWelcomePage=yes
@@ -42,12 +42,16 @@ WizardStyle=modern
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
+Source: "dotnet-runtime.exe"; DestDir: "{tmp}"; Flags: ignoreversion; AfterInstall: RunOtherInstaller
 Source: "..\Mods\PVZ_Hyper_Fusion\LawnStringsTranslate.json"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\"; Flags: ignoreversion
 Source: "..\Mods\PVZ_Hyper_Fusion\ZombieStringsTranslate.json"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\"; Flags: ignoreversion
 Source: "..\Mods\PVZ_Hyper_Fusion.dll"; DestDir: "{app}\Mods\"; Flags: ignoreversion
 Source: "..\Mods\PVZ_Hyper_Fusion\Textures\*"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\Textures\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "..\Mods\PVZ_Hyper_Fusion\Strings\*"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\Strings\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "..\Mods\PVZ_Hyper_Fusion\Dumps\*"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\Dumps\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\MelonLoader\*"; DestDir: "{app}\MelonLoader"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\dobby.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\version.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Code]
@@ -79,4 +83,15 @@ begin
   Page.Description := 'To continue the installation, select the folder with the game.'
 	
 	Page.OnNextButtonClick := @NextCheck;
+end;
+
+procedure RunOtherInstaller;
+var
+  ResultCode: Integer;
+begin
+  if not Exec(ExpandConstant('{tmp}\dotnet-runtime.exe'), '', '', SW_SHOWNORMAL,
+    ewWaitUntilTerminated, ResultCode)
+  then
+    MsgBox('Other installer failed to run!' + #13#10 +
+      SysErrorMessage(ResultCode), mbError, MB_OK);
 end;

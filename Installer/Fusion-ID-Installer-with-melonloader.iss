@@ -10,7 +10,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{75B0311D-424A-4163-87AB-C0E69E9B9C7D}
+AppId={{31453C21-2FCC-406D-889B-694D7D2C88E1}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
@@ -23,7 +23,7 @@ LicenseFile=..\LICENSE
 InfoBeforeFile=..\README.txt
 UninstallDisplayName={#MyAppName} {#MyAppVersion}
 
-OutputBaseFilename=Fusion-ID-Installer-Mod-Only
+OutputBaseFilename=Fusion-ID-Installer-With-Melon
 
 DisableFinishedPage=no
 DisableWelcomePage=yes
@@ -48,6 +48,9 @@ Source: "..\Mods\PVZ_Hyper_Fusion.dll"; DestDir: "{app}\Mods\"; Flags: ignorever
 Source: "..\Mods\PVZ_Hyper_Fusion\Textures\*"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\Textures\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "..\Mods\PVZ_Hyper_Fusion\Strings\*"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\Strings\"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "..\Mods\PVZ_Hyper_Fusion\Dumps\*"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\Dumps\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\MelonLoader\*"; DestDir: "{app}\MelonLoader"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\dobby.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\version.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Code]
