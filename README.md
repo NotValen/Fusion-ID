@@ -10,8 +10,10 @@
    / / / _ \| '_ ` _ \| '_ \| |/ _ \/ __|
   / /_| (_) | | | | | | |_) | |  __/\__ \
  /_____\___/|_| |_| |_|_.__/|_|\___||___/  Fusion
-                                           Diterjemahkan oleh: Valen & Angga
-```
+                                             Diterjemahkan oleh: FUSION-ID TEAM
+ ```
+
+
 KAMU BUTUH GAME NYA SEBELUM INSTALL
 (PC ONLY)
 Musti install untuk versi china!!
