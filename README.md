@@ -38,7 +38,7 @@ Terjemahan diperoleh dengan campuran Google Terjemahan dan masukan dari sesama a
 Jika Kamu Punya saran atau keluhan apa pun, silakan menghubungi komunitas Discord.
 
 Discord Link:
-<p><a href="https://discord.gg/pdy3faNu5S/"><img src="https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png" style="width:50px;height:50px;"></a></p>
+<p><a href="https://discord.gg/T9xeTh9Vdj"><img src="https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png" style="width:50px;height:50px;"></a></p>
 
 Discord Tag  | valenferbyan
 
