@@ -12,6 +12,12 @@ PlantsVsZombiesRH_Data/*
 *.log
 unins000.dat
 unins000.exe
+unins001.dat
+unins001.exe
+unins002.dat
+unins002.exe
+unins003.dat
+unins003.exe
 
 # DEV Tools
 PVZ_Hyper_Fusion_Dev_Tools.exe
@@ -19,7 +25,8 @@ PVZ_Hyper_Fusion_Dev_Tools.exe.config
 translation_strings.json.bak
 translation_strings.json.x
 Installer/Output/*
-dotnet-runtime.exe
+Installer/Certs/*
+Installer/*.exe
 
 # Melon Loader File
 AutoTranslator

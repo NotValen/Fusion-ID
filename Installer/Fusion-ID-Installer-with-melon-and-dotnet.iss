@@ -42,6 +42,7 @@ WizardStyle=modern
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
+Source: "VC_redist.x64.exe"; DestDir: "{tmp}"; Flags: ignoreversion; AfterInstall: RunVCRedistIntaller
 Source: "dotnet-runtime.exe"; DestDir: "{tmp}"; Flags: ignoreversion; AfterInstall: RunOtherInstaller
 Source: "..\Mods\PVZ_Hyper_Fusion\LawnStringsTranslate.json"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\"; Flags: ignoreversion
 Source: "..\Mods\PVZ_Hyper_Fusion\ZombieStringsTranslate.json"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\"; Flags: ignoreversion
@@ -90,6 +91,17 @@ var
   ResultCode: Integer;
 begin
   if not Exec(ExpandConstant('{tmp}\dotnet-runtime.exe'), '', '', SW_SHOWNORMAL,
+    ewWaitUntilTerminated, ResultCode)
+  then
+    MsgBox('Other installer failed to run!' + #13#10 +
+      SysErrorMessage(ResultCode), mbError, MB_OK);
+end;
+
+procedure RunVCRedistIntaller;
+var
+  ResultCode: Integer;
+begin
+  if not Exec(ExpandConstant('{tmp}\VC_redist.x64.exe'), '', '', SW_SHOWNORMAL,
     ewWaitUntilTerminated, ResultCode)
   then
     MsgBox('Other installer failed to run!' + #13#10 +
