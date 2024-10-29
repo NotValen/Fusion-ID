@@ -58,6 +58,6 @@ Lokasi Save an | C:\Users\[Your Username]\AppData\LocalLow\LanPiaoPiao\PlantsVsZ
 
 Cara Instalasi (Versi CHINA):
 
-* [KLIK UDAH ADA INSTALLER NYA](https://github.com/NotValen/Fusion-ID/releases/tag/beta-0.4)
+* [KLIK UDAH ADA INSTALLER NYA PILIH YANG DOTNET DAN MELONLOADER INSTALLER](https://github.com/NotValen/Fusion-ID/releases/tag/beta-0.4)
 
 * HAPUS FILE BERBAHASA CHINA DAN GANTI NAMA FOLDER BERBAHASA CHINA MENJADI "PVZrh"
