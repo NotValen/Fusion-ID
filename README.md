@@ -16,7 +16,7 @@
 
 KALAU MAU LEBIH MUDAH DOWNLOAD VERSI FAN ENGLISH
 
-[KLIK UNTUK DOWNLOAD PVZ FUSION CHINA/ENGLISH](https://rentry.co/playfusion)
+[KLIK UNTUK DOWNLOAD PVZ FUSION CHINA/ENGLISH](https://rentry.co/fusion-id)
 
 
 Harap pastikan Anda menginstal [.NET DESKTOP 6.0 x64](https://dotnet.microsoft.com/id-id/download/dotnet/6.0).
