@@ -56,7 +56,7 @@ Lokasi Save an | C:\Users\[Your Username]\AppData\LocalLow\LanPiaoPiao\PlantsVsZ
 
 
 
-Cara Instalasi (Versi CHINA):
+Cara Instalasi (Versi CHINA/EN):
 
 * [KLIK UDAH ADA INSTALLER NYA PILIH YANG DOTNET DAN MELONLOADER INSTALLER](https://github.com/NotValen/Fusion-ID/releases/tag/beta-0.4)
 
