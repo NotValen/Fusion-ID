@@ -27,8 +27,10 @@ jobs:
         with:
           path: Installer/Fusion-ID-Installer.iss
           options: /O+
-      - name: Upload SA
-        uses: actions/upload-artifact@v4
+      - name: Upload Release
+        uses: ncipollo/release-action@v1.12.0
         with:
-          name: "Installer"
-          path: Installer/Output/Fusion-ID-Installer.exe
+          allowUpdates: "true"
+          omitBody: true
+          artifacts: "Installer/Output/Fusion-ID-Installer.exe"
+          token: ${{ secrets.GITHUB_TOKEN }}
