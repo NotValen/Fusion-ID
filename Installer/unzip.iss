@@ -112,7 +112,7 @@ begin
     targetdir := ExpandConstant(targetdir);
 
     // prepare 7zip execution
-    unzipTool := ExpandConstant('{tmp}\7zr.exe');
+    unzipTool := ExpandConstant('{tmp}\7za.exe');
     unzipParams := ' x "' + source + '" -o"' + targetdir + '" -y';
 
     // prepare information about the application being executed by ShellExecuteEx()
