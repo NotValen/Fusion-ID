@@ -2,15 +2,20 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Fusion-ID"
-#define MyAppVersion "Beta 0.4"
+#define MyAppVersion "Beta 0.5"
 #define MyAppPublisher "Fusion-ID Dev Team"
 #define MyAppURL "https://github.com/NotValen/Fusion-ID"
-#define MyAppExeName "Fusion-ID-Installer.exe"
+#define MyAppExeName "Fusion-ID"
+
+#define public Dependency_Path_NetCoreCheck "dependencies\"
+
+#include "CodeDependencies.iss"
+#include "unzip.iss"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{75B0311D-424A-4163-87AB-C0E69E9B9C7D}
+AppId={{DB33067A-DE78-436A-8619-03D65F359FED}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
@@ -23,7 +28,7 @@ LicenseFile=..\LICENSE
 InfoBeforeFile=..\README.txt
 UninstallDisplayName={#MyAppName} {#MyAppVersion}
 
-OutputBaseFilename=Fusion-ID-Installer-Mod-Only
+OutputBaseFilename=Fusion-ID-Installer
 
 DisableFinishedPage=no
 DisableWelcomePage=yes
@@ -37,12 +42,12 @@ Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
 
-
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "VC_redist.x64.exe"; DestDir: "{tmp}"; Flags: ignoreversion; AfterInstall: RunVCRedistIntaller
+//Source: "VC_redist.x64.exe"; DestDir: "{tmp}"; Flags: ignoreversion; AfterInstall: RunVCRedistIntaller
+Source: "7za.exe"; DestDir: "{tmp}"; Flags: deleteafterinstall dontcopy;
 Source: "..\Mods\PVZ_Hyper_Fusion\LawnStringsTranslate.json"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\"; Flags: ignoreversion
 Source: "..\Mods\PVZ_Hyper_Fusion\ZombieStringsTranslate.json"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\"; Flags: ignoreversion
 Source: "..\Mods\PVZ_Hyper_Fusion.dll"; DestDir: "{app}\Mods\"; Flags: ignoreversion
@@ -51,9 +56,60 @@ Source: "..\Mods\PVZ_Hyper_Fusion\Strings\*"; DestDir: "{app}\Mods\PVZ_Hyper_Fus
 Source: "..\Mods\PVZ_Hyper_Fusion\Dumps\*"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\Dumps\"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
+[UninstallDelete]
+Type: filesandordirs; Name: "{app}\MelonLoader";
+Type: filesandordirs; Name: "{app}\version.dll";
+Type: filesandordirs; Name: "{app}\dobby.dll";
+Type: filesandordirs; Name: "{app}\NOTICE.txt";
+
 [Code]
 
+var Page : TOutputProgressWizardPage;
+
+function OnDownloadProgress(const Url, Filename: string; const Progress, ProgressMax: Int64): Boolean;
+begin
+  if ProgressMax <> 0 then
+  begin
+    Page.ProgressBar.Position := Page.ProgressBar.Position + (1);
+    Page.Msg1Label.Caption := Format('Downloading Melon Loader .... %d of %d bytes done.', [Progress, ProgressMax])
+  end
+  else
+  begin
+    Page.ProgressBar.Position := Page.ProgressBar.Position + (1);
+    Page.Msg1Label.Caption := Format('Downloading Melon Loader .... %d bytes done.', [Progress]);
+  end;
+  Result := True;
+end;
+
+var
+  LastStep: TSetupStep;
+
+procedure CurStepChanged(CurStep: TSetupStep);
+begin
+  Log(Format('Step: %d', [CurStep]));
+  LastStep := CurStep;
+end;
+
+procedure DeinitializeSetup();
+begin
+  { Installation started, but never finished => It must have been cancelled. } 
+  if LastStep = ssInstall then
+  begin
+    DelTree(WizardDirValue() + '\MelonLoader', True, True, True);
+    DeleteFile(WizardDirValue() + '\version.dll');
+    DeleteFile(WizardDirValue() + '\dobby.dll');
+    DeleteFile(WizardDirValue() + '\NOTICE.txt');
+    MsgBox('The installation was successfully aborted.', mbInformation, MB_OK);
+  end;
+end;
+
+const
+  SHCONTCH_NOPROGRESSBOX = 4;
+  SHCONTCH_RESPONDYESTOALL = 16;
+
 function NextCheck(Sender: TWizardPage): Boolean;
+var
+  ZipPath: String;
 begin
 	if not FileExists((WizardDirValue() + '\PlantsVsZombiesRH.exe'))
 	then
@@ -62,12 +118,53 @@ begin
 			result := False
 		end
 	else
-		result := True;
+    if not DirExists((WizardDirValue() + '\MelonLoader')) and not FileExists((WizardDirValue() + '\dobby.dll')) and not FileExists((WizardDirValue() + '\version.dll'))
+    then
+      begin
+        MsgBox('This Game Doesn`t Has Melon Loader... So We Download it Automaticly', mbInformation, MB_OK)
+        Page := CreateOutputProgressPage('Preparing melon loader installations', '');
+        Page.Show();
+        Page.SetProgress(10, 100);
+        try
+          Page.Msg1Label.Caption := 'Downloading Melon Loader ....';
+          DownloadTemporaryFile('https://github.com/LavaGang/MelonLoader/releases/download/v0.6.5/MelonLoader.x64.zip', 'melonloader.zip', '', @OnDownloadProgress);
+          Page.SetProgress(50, 100);
+          Page.Msg1Label.Caption := 'Extracting ....';
+          ZipPath := ExpandConstant('{tmp}\' + 'melonloader.zip');
+          Unzip(ZipPath, WizardDirValue());
+          Page.SetProgress(100, 100);
+          MsgBox('Melon loader installed successfully', mbInformation, MB_OK)
+          Result := True;
+        except
+          MsgBox('Melon loader failed to install', mbInformation, MB_OK)
+          Log(GetExceptionMessage);
+          Result := False;
+        finally
+          Page.Hide();
+        end;
+      end
+    else
+      result := True
+end;
+
+procedure CreateCheckVCPage;
+var
+  Page: TWizardPage;
+begin
+  Page := CreateCustomPage(wpSelectDir, 'Test', 'Test');
 end;
 
 procedure CancelButtonClick(CurPageID: Integer; var Cancel, Confirm: Boolean);
 begin
 	Confirm := False;
+end;
+
+function InitializeSetup: Boolean;
+begin
+  Dependency_AddDotNet60;
+  Dependency_AddVC2015To2022
+  ExtractTemporaryFile('7za.exe');
+  Result:= True;
 end;
 
 procedure InitializeWizard();
@@ -82,13 +179,3 @@ begin
 	Page.OnNextButtonClick := @NextCheck;
 end;
 
-procedure RunVCRedistIntaller;
-var
-  ResultCode: Integer;
-begin
-  if not Exec(ExpandConstant('{tmp}\VC_redist.x64.exe'), '', '', SW_SHOWNORMAL,
-    ewWaitUntilTerminated, ResultCode)
-  then
-    MsgBox('Other installer failed to run!' + #13#10 +
-      SysErrorMessage(ResultCode), mbError, MB_OK);
-end;
