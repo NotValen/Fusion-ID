@@ -7,6 +7,11 @@
 #define MyAppURL "https://github.com/NotValen/Fusion-ID"
 #define MyAppExeName "Fusion-ID-Installer.exe"
 
+#define public Dependency_Path_NetCoreCheck "dependencies\"
+
+#include "CodeDependencies.iss"
+#include "unzip.iss"
+
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
@@ -42,7 +47,8 @@ WizardStyle=modern
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "VC_redist.x64.exe"; DestDir: "{tmp}"; Flags: ignoreversion; AfterInstall: RunVCRedistIntaller
+//Source: "VC_redist.x64.exe"; DestDir: "{tmp}"; Flags: ignoreversion; AfterInstall: RunVCRedistIntaller
+Source: "7zr.exe"; DestDir: "{tmp}"; Flags: dontcopy;
 Source: "..\Mods\PVZ_Hyper_Fusion\LawnStringsTranslate.json"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\"; Flags: ignoreversion
 Source: "..\Mods\PVZ_Hyper_Fusion\ZombieStringsTranslate.json"; DestDir: "{app}\Mods\PVZ_Hyper_Fusion\"; Flags: ignoreversion
 Source: "..\Mods\PVZ_Hyper_Fusion.dll"; DestDir: "{app}\Mods\"; Flags: ignoreversion
@@ -53,7 +59,27 @@ Source: "..\Mods\PVZ_Hyper_Fusion\Dumps\*"; DestDir: "{app}\Mods\PVZ_Hyper_Fusio
 
 [Code]
 
+var Page : TOutputProgressWizardPage;
+
+function OnDownloadProgress(const Url, Filename: string; const Progress, ProgressMax: Int64): Boolean;
+var InnoString, InnoString2 : String;
+    InnoInt, InnoInt2 : Integer;
+begin
+  if ProgressMax <> 0 then
+    Page.Msg1Label.Caption := Format('Downloading Melon Loader .... %d of %d bytes done.', [Progress, ProgressMax])
+  else
+    Page.Msg1Label.Caption := Format('Downloading Melon Loader .... %d bytes done.', [Progress]);
+  Result := True;
+end;
+
+const
+  SHCONTCH_NOPROGRESSBOX = 4;
+  SHCONTCH_RESPONDYESTOALL = 16;
+
 function NextCheck(Sender: TWizardPage): Boolean;
+var
+  Shell, ZipFolder, TargetFolder: Variant;
+  ZipPath, TargetPath: String;
 begin
 	if not FileExists((WizardDirValue() + '\PlantsVsZombiesRH.exe'))
 	then
@@ -62,12 +88,51 @@ begin
 			result := False
 		end
 	else
-		result := True;
+    if not DirExists((WizardDirValue() + 'MelonLoader'))
+    then
+      begin
+        MsgBox('Melon Loader Not Added', mbInformation, MB_OK)
+        Page := CreateOutputProgressPage('Preparing melon loader installations', '');
+        Page.Show();
+        Page.SetProgress(10, 100);
+        try
+          Page.Msg1Label.Caption := 'Downloading Melon Loader ....';
+          DownloadTemporaryFile('https://github.com/LavaGang/MelonLoader/releases/download/v0.6.5/MelonLoader.x64.zip', 'melonloader.zip', '', @OnDownloadProgress);
+          Page.SetProgress(50, 100);
+          Page.Msg1Label.Caption := 'Extracting ....';
+          ZipPath := ExpandConstant('{tmp}\' + 'melonloader.zip');
+          Unzip(ZipPath, ExpandConstant('{app}'));
+          Page.SetProgress(100, 100);
+          Result := True;
+        except
+          Log(GetExceptionMessage);
+          Result := False;
+        finally
+          Page.Hide();
+        end;
+      end
+    else
+      result := True
+end;
+
+procedure CreateCheckVCPage;
+var
+  Page: TWizardPage;
+begin
+  Page := CreateCustomPage(wpSelectDir, 'Test', 'Test');
 end;
 
 procedure CancelButtonClick(CurPageID: Integer; var Cancel, Confirm: Boolean);
 begin
 	Confirm := False;
+end;
+
+function InitializeSetup: Boolean;
+begin
+  Dependency_AddDotNet60;
+  Dependency_AddVC2015To2022
+  ExtractTemporaryFile('7zr.exe');
+  Result:= True;
 end;
 
 procedure InitializeWizard();
@@ -82,13 +147,3 @@ begin
 	Page.OnNextButtonClick := @NextCheck;
 end;
 
-procedure RunVCRedistIntaller;
-var
-  ResultCode: Integer;
-begin
-  if not Exec(ExpandConstant('{tmp}\VC_redist.x64.exe'), '', '', SW_SHOWNORMAL,
-    ewWaitUntilTerminated, ResultCode)
-  then
-    MsgBox('Other installer failed to run!' + #13#10 +
-      SysErrorMessage(ResultCode), mbError, MB_OK);
-end;
